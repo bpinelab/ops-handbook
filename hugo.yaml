@@ -48,7 +48,7 @@ languages:
   # en:
   #   languageName: English
   #   contentDir: content/en
-  #   title: The Docsy-base Handbook
+  #   title: Ops Handbook
   #   params:
   #     description: The DocBase Handbook site
   # # cSpell:disable

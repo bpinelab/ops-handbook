@@ -8,53 +8,53 @@
       url: service/price
     - name: Onboarding
       url: service/onboarding
-# - name: IT Service Management Framework
-#   icon: fas fa-sitemap
-#   url: technology
-#   links:
-#     - name: Operations Structure
-#       url: itsm/operation
-#     - name: Operations Platform Architecture
-#       url: itsm/operation
-#     - name: Key Success Indicators 
-#       url: itsm/operation
-# - name: Operational Procedures
-#   icon: fas fa-gear
-#   url: https://about.gitlab.com
-#   links:
-#     - name: Operations Platform Architecture
-#       url: sop/manuals
-#     - name: Operations Platform High-Level Design
-#       url: sop/manuals
-#     - name: Key Success Indicators
-#       url: sop/manuals
-# - name: Managed System Architecture
-#   icon: fas fa-diagram-project
-#   url: https://about.gitlab.com
-#   links:
-#     - name: System Architecture Diagram
-#       url: technology
-#     - name: High-Level Design Document
-#       url: knowledge
-#     - name: KPI
-#       url: knowledge
-# - name: Automation & Autonomy
-#   icon: fas fa-robot
-#   url: https://about.gitlab.com
-#   links:
-#     - name: Automation Strategy
-#       url: technology
-#     - name: Autonomy Roadmap
-#       url: knowledge
-#     - name: Changelog
-#       url: knowledge
-# - name: Knowledge Management
-#   icon: fas fa-book
-#   url: https://about.gitlab.com
-#   links:
-#     - name: Knowledge Base Operations Policy
-#       url: technology
-#     - name: Job Family
-#       url: knowledge
-#     - name: Changelog
-#       url: knowledge
+- name: Framework
+  icon: fas fa-sitemap
+  url: framework
+  links:
+    - name: Team Structure
+      url: framework/team
+    - name: Tasks
+      url: framework/task
+    - name: Key Performance Indicators 
+      url: framework/kpi
+- name: Architecture
+  icon: fas fa-diagram-project
+  url: arch
+  links:
+    - name: Architecture Diagram
+      url: arch/diagram
+    - name: High-Level Design
+      url: arch/hld
+    - name: Low-Level Design
+      url: arch/lld
+- name: Policy
+  icon: fas fa-robot
+  url: policy
+  links:
+    - name: IT Governance Control
+      url: policy/governance
+    - name: Document Management
+      url: policy/document
+    - name: Automation Strategy
+      url: policy/automation
+- name: Procedures
+  icon: fas fa-gear
+  url: procedure
+  links:
+    - name: Schedule
+      url: procedure/schedule
+    - name: Routine
+      url: procedure/routine
+    - name: Ad-hoc
+      url: procedure/adhoc
+- name: Knowledge
+  icon: fas fa-book
+  url: knowledge
+  links:
+    - name: Markdown
+      url: knowledge/markdown
+    - name: Short-cut
+      url: knowledge/shortcut
+    - name: Prompt
+      url: knowledge/prompt

@@ -1,7 +1,7 @@
 services:
 
   site:
-    image: docsy/docsy-example
+    image: docsy/ops-handbook
     build:
       context: .
     command: server
