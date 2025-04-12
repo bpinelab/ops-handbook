@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Policies on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/policy/</link><description>Recent content in Policies on Ops Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/ops-handbook/policy/index.xml" rel="self" type="application/rss+xml"/><item><title>統制ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/governance/</guid><description>&lt;h2 id="全体システム構成図">全体システム構成図&lt;a class="td-heading-self-link" href="#%e5%85%a8%e4%bd%93%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90%e5%9b%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>物理/論理構成の全体像&lt;/li>
+&lt;li>主要コンポーネント間の関係性&lt;/li>
+&lt;li>ネットワークセグメント構成&lt;/li>
+&lt;li>外部接続ポイント&lt;/li>
+&lt;li>冗長化/クラスタ構成&lt;/li>
+&lt;/ul>
+&lt;h2 id="サーバー構成一覧">サーバー構成一覧&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e6%a7%8b%e6%88%90%e4%b8%80%e8%a6%a7" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ホスト名/IPアドレス&lt;/li>
+&lt;li>OS/バージョン情報&lt;/li>
+&lt;li>役割/機能&lt;/li>
+&lt;li>スペック（CPU/メモリ/ディスク）&lt;/li>
+&lt;li>配置場所（データセンター/ラック位置）&lt;/li>
+&lt;li>仮想/物理の区別&lt;/li>
+&lt;li>クラウドリソース情報（インスタンスタイプ等）&lt;/li>
+&lt;/ul>
+&lt;h2 id="アプリケーション構成">アプリケーション構成&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>搭載アプリケーション一覧&lt;/li>
+&lt;li>バージョン情報&lt;/li>
+&lt;li>依存関係&lt;/li>
+&lt;li>アプリケーション間連携図&lt;/li>
+&lt;li>デプロイ情報&lt;/li>
+&lt;li>アプリケーション設定概要&lt;/li>
+&lt;/ul>
+&lt;h2 id="データベース構成">データベース構成&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>データベース種類/バージョン&lt;/li>
+&lt;li>インスタンス構成&lt;/li>
+&lt;li>レプリケーション/クラスタ構成&lt;/li>
+&lt;li>バックアップ設定&lt;/li>
+&lt;li>ストレージ構成&lt;/li>
+&lt;li>パフォーマンス設定情報&lt;/li>
+&lt;/ul>
+&lt;h2 id="ネットワーク構成">ネットワーク構成&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ネットワークアドレス体系&lt;/li>
+&lt;li>VLAN/サブネット構成&lt;/li>
+&lt;li>ルーティング設定&lt;/li>
+&lt;li>ファイアウォール/セキュリティグループ設定&lt;/li>
+&lt;li>ロードバランサー構成&lt;/li>
+&lt;li>DNSサーバー設定&lt;/li>
+&lt;li>帯域設定&lt;/li>
+&lt;/ul>
+&lt;h2 id="ストレージ構成">ストレージ構成&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%83%88%e3%83%ac%e3%83%bc%e3%82%b8%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ストレージ種別（SAN/NAS/DAS/クラウドストレージ）&lt;/li>
+&lt;li>ボリューム/共有情報&lt;/li>
+&lt;li>RAID構成&lt;/li>
+&lt;li>容量と拡張性&lt;/li>
+&lt;li>パフォーマンス特性&lt;/li>
+&lt;li>バックアップターゲット構成&lt;/li>
+&lt;/ul>
+&lt;h2 id="セキュリティ設備">セキュリティ設備&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ファイアウォール配置&lt;/li>
+&lt;li>IDS/IPS設置状況&lt;/li>
+&lt;li>WAF配置&lt;/li>
+&lt;li>アンチウイルス導入状況&lt;/li>
+&lt;li>SIEM構成&lt;/li>
+&lt;li>認証基盤構成&lt;/li>
+&lt;/ul>
+&lt;h2 id="監視システム構成">監視システム構成&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>監視サーバー配置&lt;/li>
+&lt;li>エージェント配置&lt;/li>
+&lt;li>監視項目一覧&lt;/li>
+&lt;li>アラート設定&lt;/li>
+&lt;li>監視データ保存期間&lt;/li>
+&lt;li>ダッシュボード構成&lt;/li>
+&lt;/ul>
+&lt;h2 id="バックアップリカバリシステム">バックアップ/リカバリシステム&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>バックアップサーバー/ストレージ&lt;/li>
+&lt;li>バックアップ経路&lt;/li>
+&lt;li>バックアップスケジュール&lt;/li>
+&lt;li>世代管理設定&lt;/li>
+&lt;li>オフサイト保管構成&lt;/li>
+&lt;li>テープライブラリ構成（使用している場合）&lt;/li>
+&lt;/ul>
+&lt;h2 id="災害対策dr構成">災害対策（DR）構成&lt;a class="td-heading-self-link" href="#%e7%81%bd%e5%ae%b3%e5%af%be%e7%ad%96dr%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>DR拠点詳細&lt;/li>
+&lt;li>レプリケーション構成&lt;/li>
+&lt;li>フェイルオーバー設定&lt;/li>
+&lt;li>RTO/RPO達成のための構成&lt;/li>
+&lt;li>復旧手順概要&lt;/li>
+&lt;/ul>
+&lt;h2 id="運用管理ツール構成">運用管理ツール構成&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e7%ae%a1%e7%90%86%e3%83%84%e3%83%bc%e3%83%ab%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>資産管理ツール&lt;/li>
+&lt;li>構成管理ツール&lt;/li>
+&lt;li>変更管理システム&lt;/li>
+&lt;li>チケット管理システム&lt;/li>
+&lt;li>ログ管理システム&lt;/li>
+&lt;li>自動化ツール&lt;/li>
+&lt;/ul>
+&lt;h2 id="クラウドサービス構成該当する場合">クラウドサービス構成（該当する場合）&lt;a class="td-heading-self-link" href="#%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a7%8b%e6%88%90%e8%a9%b2%e5%bd%93%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>利用クラウドサービス一覧&lt;/li>
+&lt;li>リージョン/アベイラビリティゾーン構成&lt;/li>
+&lt;li>クラウドリソース詳細&lt;/li>
+&lt;li>ハイブリッド接続構成&lt;/li>
+&lt;li>クラウド管理/統合ツール&lt;/li>
+&lt;/ul>
+&lt;h2 id="ライセンス情報">ライセンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ソフトウェアライセンス一覧&lt;/li>
+&lt;li>ライセンス数/使用数&lt;/li>
+&lt;li>ライセンス期限&lt;/li>
+&lt;li>サポート契約状況&lt;/li>
+&lt;/ul>
+&lt;h2 id="キャパシティ情報">キャパシティ情報&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>現在のリソース使用率&lt;/li>
+&lt;li>成長予測&lt;/li>
+&lt;li>拡張計画&lt;/li>
+&lt;li>スケーリングポリシー&lt;/li>
+&lt;/ul>
+&lt;h2 id="メンテナンス情報">メンテナンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>定期メンテナンス対象/スケジュール&lt;/li>
+&lt;li>パッチ適用計画&lt;/li>
+&lt;li>サポート期限情報&lt;/li>
+&lt;/ul></description></item><item><title>ドキュメント管理ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/document/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/document/</guid><description>&lt;h2 id="システム概要">システム概要&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>目的と範囲&lt;/li>
+&lt;li>システム全体のコンセプト&lt;/li>
+&lt;li>主要機能の概要&lt;/li>
+&lt;li>対象とするユーザー/運用者&lt;/li>
+&lt;/ul>
+&lt;h2 id="システムアーキテクチャ">システムアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>論理アーキテクチャ図&lt;/li>
+&lt;li>主要コンポーネントとその関係性&lt;/li>
+&lt;li>階層構造（N層アーキテクチャ）&lt;/li>
+&lt;li>マイクロサービス構成（該当する場合）&lt;/li>
+&lt;li>採用するアーキテクチャパターン&lt;/li>
+&lt;/ul>
+&lt;h2 id="技術スタック">技術スタック&lt;a class="td-heading-self-link" href="#%e6%8a%80%e8%a1%93%e3%82%b9%e3%82%bf%e3%83%83%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>使用するプラットフォーム&lt;/li>
+&lt;li>主要言語/フレームワーク&lt;/li>
+&lt;li>ミドルウェア選定&lt;/li>
+&lt;li>データベース技術&lt;/li>
+&lt;li>インフラ技術（仮想化/コンテナ化等）&lt;/li>
+&lt;/ul>
+&lt;h2 id="デプロイメントアーキテクチャ">デプロイメントアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>インフラ配置図&lt;/li>
+&lt;li>オンプレミス/クラウド構成&lt;/li>
+&lt;li>地理的分散/リージョン構成&lt;/li>
+&lt;li>環境分離（本番/検証/開発）&lt;/li>
+&lt;li>デプロイメント方式&lt;/li>
+&lt;/ul>
+&lt;h2 id="データアーキテクチャ">データアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>データモデル概要&lt;/li>
+&lt;li>主要エンティティと関係性&lt;/li>
+&lt;li>データフロー図&lt;/li>
+&lt;li>マスターデータ管理方針&lt;/li>
+&lt;li>データ保持・アーカイブ戦略&lt;/li>
+&lt;/ul>
+&lt;h2 id="インテグレーションポイント">インテグレーションポイント&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%86%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>外部システム連携図&lt;/li>
+&lt;li>API設計概要&lt;/li>
+&lt;li>データ連携方式&lt;/li>
+&lt;li>メッセージングパターン&lt;/li>
+&lt;li>ETL処理概要&lt;/li>
+&lt;/ul>
+&lt;h2 id="セキュリティアーキテクチャ">セキュリティアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>認証・認可方式&lt;/li>
+&lt;li>ネットワークセキュリティ設計&lt;/li>
+&lt;li>データ保護方針&lt;/li>
+&lt;li>セキュリティ監視アーキテクチャ&lt;/li>
+&lt;li>コンプライアンス対応設計&lt;/li>
+&lt;/ul>
+&lt;h2 id="可用性冗長性設計">可用性・冗長性設計&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e5%86%97%e9%95%b7%e6%80%a7%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>高可用性アーキテクチャ&lt;/li>
+&lt;li>障害対策設計&lt;/li>
+&lt;li>バックアップ/リカバリ方針&lt;/li>
+&lt;li>DR（災害対策）設計&lt;/li>
+&lt;li>SLA達成のための設計&lt;/li>
+&lt;/ul>
+&lt;h2 id="スケーラビリティ設計">スケーラビリティ設計&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>スケールアウト/スケールアップ戦略&lt;/li>
+&lt;li>負荷分散設計&lt;/li>
+&lt;li>キャパシティプランニング方針&lt;/li>
+&lt;li>性能要件と対応設計&lt;/li>
+&lt;/ul>
+&lt;h2 id="監視運用アーキテクチャ">監視・運用アーキテクチャ&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e9%81%8b%e7%94%a8%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>監視設計（メトリクス/ログ/トレース）&lt;/li>
+&lt;li>アラート設計&lt;/li>
+&lt;li>運用ダッシュボード概要&lt;/li>
+&lt;li>自動化・オーケストレーション設計&lt;/li>
+&lt;li>イベント管理フロー&lt;/li>
+&lt;/ul>
+&lt;h2 id="非機能要件対応">非機能要件対応&lt;a class="td-heading-self-link" href="#%e9%9d%9e%e6%a9%9f%e8%83%bd%e8%a6%81%e4%bb%b6%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>パフォーマンス設計の考え方&lt;/li>
+&lt;li>セキュリティ設計の考え方&lt;/li>
+&lt;li>運用性への配慮&lt;/li>
+&lt;li>メンテナンス性への対応&lt;/li>
+&lt;li>拡張性確保の方針&lt;/li>
+&lt;/ul>
+&lt;h2 id="アーキテクチャ上の主要決定事項">アーキテクチャ上の主要決定事項&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e4%b8%8a%e3%81%ae%e4%b8%bb%e8%a6%81%e6%b1%ba%e5%ae%9a%e4%ba%8b%e9%a0%85" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>技術選定理由&lt;/li>
+&lt;li>トレードオフの検討&lt;/li>
+&lt;li>代替案の評価&lt;/li>
+&lt;li>アーキテクチャ上のリスクと対策&lt;/li>
+&lt;/ul>
+&lt;h2 id="実装ガイドライン">実装ガイドライン&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e8%a3%85%e3%82%ac%e3%82%a4%e3%83%89%e3%83%a9%e3%82%a4%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>開発標準の概要&lt;/li>
+&lt;li>コーディング規約の考え方&lt;/li>
+&lt;li>命名規則の基本方針&lt;/li>
+&lt;li>実装パターン&lt;/li>
+&lt;/ul>
+&lt;h2 id="移行戦略概要">移行戦略概要&lt;a class="td-heading-self-link" href="#%e7%a7%bb%e8%a1%8c%e6%88%a6%e7%95%a5%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>既存システムからの移行アプローチ&lt;/li>
+&lt;li>段階的実装計画&lt;/li>
+&lt;li>移行におけるリスクと対策&lt;/li>
+&lt;/ul>
+&lt;h2 id="ロードマップ">ロードマップ&lt;a class="td-heading-self-link" href="#%e3%83%ad%e3%83%bc%e3%83%89%e3%83%9e%e3%83%83%e3%83%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>開発・展開フェーズ&lt;/li>
+&lt;li>主要マイルストーン&lt;/li>
+&lt;li>将来的な拡張計画&lt;/li>
+&lt;/ul></description></item><item><title>自動化ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/automation/</guid><description>&lt;h2 id="詳細コンポーネント設計">詳細コンポーネント設計&lt;a class="td-heading-self-link" href="#%e8%a9%b3%e7%b4%b0%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>各コンポーネントの内部構造&lt;/li>
+&lt;li>モジュール間の依存関係&lt;/li>
+&lt;li>クラス図/コンポーネント図&lt;/li>
+&lt;li>シーケンス図&lt;/li>
+&lt;li>インターフェース定義&lt;/li>
+&lt;/ul>
+&lt;h2 id="データベース詳細設計">データベース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>テーブル定義（全テーブル）&lt;/li>
+&lt;li>カラム定義（名前、型、制約）&lt;/li>
+&lt;li>インデックス情報&lt;/li>
+&lt;li>外部キー関係&lt;/li>
+&lt;li>ストアドプロシージャ/関数一覧&lt;/li>
+&lt;li>トリガー定義&lt;/li>
+&lt;li>パーティション設計&lt;/li>
+&lt;li>クエリ最適化設計&lt;/li>
+&lt;/ul>
+&lt;h2 id="api詳細設計">API詳細設計&lt;a class="td-heading-self-link" href="#api%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>各APIエンドポイント仕様&lt;/li>
+&lt;li>URL構造&lt;/li>
+&lt;li>パラメータ定義&lt;/li>
+&lt;li>リクエスト/レスポンスフォーマット&lt;/li>
+&lt;li>ステータスコード定義&lt;/li>
+&lt;li>API認証・認可設計&lt;/li>
+&lt;li>レート制限設計&lt;/li>
+&lt;li>エラーハンドリング仕様&lt;/li>
+&lt;li>APIバージョニング方式&lt;/li>
+&lt;/ul>
+&lt;h2 id="ユーザーインターフェース詳細設計">ユーザーインターフェース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>画面レイアウト詳細&lt;/li>
+&lt;li>UI要素の仕様&lt;/li>
+&lt;li>画面遷移図&lt;/li>
+&lt;li>入力検証ルール&lt;/li>
+&lt;li>エラーメッセージ定義&lt;/li>
+&lt;li>レスポンシブデザイン仕様&lt;/li>
+&lt;/ul>
+&lt;h2 id="ネットワーク詳細設計">ネットワーク詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>サブネット設計（アドレス範囲）&lt;/li>
+&lt;li>VLANセグメンテーション詳細&lt;/li>
+&lt;li>ファイアウォールルール一覧&lt;/li>
+&lt;li>ルーティングテーブル&lt;/li>
+&lt;li>DNSレコード設定&lt;/li>
+&lt;li>ロードバランサー設定詳細&lt;/li>
+&lt;li>帯域制御設定&lt;/li>
+&lt;/ul>
+&lt;h2 id="セキュリティ詳細設計">セキュリティ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>認証実装詳細&lt;/li>
+&lt;li>アクセス制御マトリクス&lt;/li>
+&lt;li>セキュリティグループ/ACL設定一覧&lt;/li>
+&lt;li>暗号化実装詳細（鍵管理含む）&lt;/li>
+&lt;li>セキュリティ監視ルール&lt;/li>
+&lt;li>脆弱性対策実装方法&lt;/li>
+&lt;/ul>
+&lt;h2 id="監視アラート詳細設計">監視・アラート詳細設計&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>監視対象メトリクス詳細&lt;/li>
+&lt;li>メトリクス名&lt;/li>
+&lt;li>収集間隔&lt;/li>
+&lt;li>保存期間&lt;/li>
+&lt;li>アラートルール詳細&lt;/li>
+&lt;li>閾値設定&lt;/li>
+&lt;li>アラート条件&lt;/li>
+&lt;li>通知先設定&lt;/li>
+&lt;li>ログ収集設定&lt;/li>
+&lt;li>ログ形式&lt;/li>
+&lt;li>ローテーション設定&lt;/li>
+&lt;li>パース/インデックス設定&lt;/li>
+&lt;li>ダッシュボード詳細レイアウト&lt;/li>
+&lt;/ul>
+&lt;h2 id="バックアップリカバリ詳細設計">バックアップ・リカバリ詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>バックアップジョブ詳細設定&lt;/li>
+&lt;li>対象/除外設定&lt;/li>
+&lt;li>スケジュール詳細&lt;/li>
+&lt;li>保持ポリシー&lt;/li>
+&lt;li>リストア手順詳細&lt;/li>
+&lt;li>障害復旧シナリオ詳細&lt;/li>
+&lt;li>テスト手順&lt;/li>
+&lt;/ul>
+&lt;h2 id="インフラストラクチャ詳細設計">インフラストラクチャ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>サーバー構成詳細&lt;/li>
+&lt;li>スペック定義&lt;/li>
+&lt;li>パーティション設計&lt;/li>
+&lt;li>カーネルパラメータ&lt;/li>
+&lt;li>ストレージ詳細構成&lt;/li>
+&lt;li>LUN/ボリューム設計&lt;/li>
+&lt;li>RAID構成詳細&lt;/li>
+&lt;li>ストレージネットワーク設計&lt;/li>
+&lt;li>仮想化/コンテナ設定詳細&lt;/li>
+&lt;li>リソース割り当て&lt;/li>
+&lt;li>ネットワーク設定&lt;/li>
+&lt;li>ストレージマウント設定&lt;/li>
+&lt;/ul>
+&lt;h2 id="自動化デプロイメント詳細設計">自動化・デプロイメント詳細設計&lt;a class="td-heading-self-link" href="#%e8%87%aa%e5%8b%95%e5%8c%96%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>CI/CDパイプライン詳細&lt;/li>
+&lt;li>インフラストラクチャ・コード詳細&lt;/li>
+&lt;li>構成管理ツール設定&lt;/li>
+&lt;li>デプロイスクリプト仕様&lt;/li>
+&lt;li>ロールバック手順&lt;/li>
+&lt;/ul>
+&lt;h2 id="バッチ処理詳細設計">バッチ処理詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%83%81%e5%87%a6%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ジョブ定義&lt;/li>
+&lt;li>ステップ構成&lt;/li>
+&lt;li>パラメータ設定&lt;/li>
+&lt;li>依存関係&lt;/li>
+&lt;li>スケジュール詳細&lt;/li>
+&lt;li>エラーハンドリング&lt;/li>
+&lt;li>リトライ戦略&lt;/li>
+&lt;li>ログ出力仕様&lt;/li>
+&lt;/ul>
+&lt;h2 id="キャパシティ管理詳細設計">キャパシティ管理詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>リソース使用量予測モデル&lt;/li>
+&lt;li>スケーリングポリシー詳細&lt;/li>
+&lt;li>オートスケーリング設定&lt;/li>
+&lt;li>負荷テスト計画&lt;/li>
+&lt;/ul>
+&lt;h2 id="障害対応詳細設計">障害対応詳細設計&lt;a class="td-heading-self-link" href="#%e9%9a%9c%e5%ae%b3%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>障害シナリオ別の復旧手順&lt;/li>
+&lt;li>フェイルオーバー設定詳細&lt;/li>
+&lt;li>サーキットブレーカー実装&lt;/li>
+&lt;li>障害通知フロー詳細&lt;/li>
+&lt;/ul>
+&lt;h2 id="コンプライアンス対応詳細">コンプライアンス対応詳細&lt;a class="td-heading-self-link" href="#%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>監査ログ設定&lt;/li>
+&lt;li>証跡保存設計&lt;/li>
+&lt;li>データ保護実装詳細&lt;/li>
+&lt;li>アクセス履歴管理&lt;/li>
+&lt;/ul>
+&lt;h2 id="テスト仕様">テスト仕様&lt;a class="td-heading-self-link" href="#%e3%83%86%e3%82%b9%e3%83%88%e4%bb%95%e6%a7%98" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>ユニットテスト計画&lt;/li>
+&lt;li>統合テスト仕様&lt;/li>
+&lt;li>性能テスト計画&lt;/li>
+&lt;li>セキュリティテスト仕様&lt;/li>
+&lt;li>DR訓練手順&lt;/li>
+&lt;/ul></description></item></channel></rss>
