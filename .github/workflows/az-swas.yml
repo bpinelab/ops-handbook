@@ -31,7 +31,7 @@ jobs:
         run: sudo apt-get install -y gh
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL=https://black-smoke-0d6fa1b10.6.azurestaticapps.net
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
