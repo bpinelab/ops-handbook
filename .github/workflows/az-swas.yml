@@ -1,0 +1,41 @@
+name: Azure Static Web Apps
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write  # The privilege to push into the branch named gh-pages
+  pages: write     # The privilege to use GitHub Pages
+  id-token: write  # THe privilege to uer OIDC Authentication
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.145.0'
+          extended: true
+
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Install GitHub CLI
+        run: sudo apt-get install -y gh
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # use github_token
+          publish_branch: az-swas  # deploy into the branch named az-swas
+          publish_dir: ./public
