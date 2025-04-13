@@ -11,27 +11,24 @@ on:
 
 jobs:
   build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: Build and Deploy Hugo Site
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
-          lfs: false
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.145.0'  # お使いのHugoバージョンに合わせてください
+          hugo-version: '0.145.0'
           extended: true
 
       - name: Install dependencies
-        run: |
-          npm install
+        run: npm install
 
       - name: Build Hugo Site
-        run: hugo --minify --baseURL=https://happy-moss-0d7cb6910.6.azurestaticapps.net
+        run: hugo --minify --baseURL=https://jolly-ground-06cd36b10.6.azurestaticapps.net
 
       - name: Deploy to Azure Static Web Apps
         id: builddeploy
@@ -40,5 +37,6 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_HAPPY_MOSS_0D7CB6910 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/" # Hugo のルート
-          output_location: "public" # Hugo のビルド出力先
+          app_location: "/" # 任意（実際に参照されない）
+          output_location: "public"
+          skip_app_build: true 
