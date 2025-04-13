@@ -1,133 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Framework on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/framework/</link><description>Recent content in Framework on Ops Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/ops-handbook/framework/index.xml" rel="self" type="application/rss+xml"/><item><title>運用体制・組織構成</title><link>https://bpinelab.github.io/ops-handbook/framework/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/team/</guid><description>&lt;h2 id="1-組織図と役割分担責任マトリクス">1. 組織図と役割分担（責任マトリクス）&lt;a class="td-heading-self-link" href="#1-%e7%b5%84%e7%b9%94%e5%9b%b3%e3%81%a8%e5%bd%b9%e5%89%b2%e5%88%86%e6%8b%85%e8%b2%ac%e4%bb%bb%e3%83%9e%e3%83%88%e3%83%aa%e3%82%af%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="2-各ロールの職務記述書と権限">2. 各ロールの職務記述書と権限&lt;a class="td-heading-self-link" href="#2-%e5%90%84%e3%83%ad%e3%83%bc%e3%83%ab%e3%81%ae%e8%81%b7%e5%8b%99%e8%a8%98%e8%bf%b0%e6%9b%b8%e3%81%a8%e6%a8%a9%e9%99%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="3-エスカレーションパス">3. エスカレーションパス&lt;a class="td-heading-self-link" href="#3-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%91%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="4-サポート時間帯とシフト体制">4. サポート時間帯とシフト体制&lt;a class="td-heading-self-link" href="#4-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e6%99%82%e9%96%93%e5%b8%af%e3%81%a8%e3%82%b7%e3%83%95%e3%83%88%e4%bd%93%e5%88%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="5-外部ベンダー連絡先と契約内容概要">5. 外部ベンダー連絡先と契約内容概要&lt;a class="td-heading-self-link" href="#5-%e5%a4%96%e9%83%a8%e3%83%99%e3%83%b3%e3%83%80%e3%83%bc%e9%80%a3%e7%b5%a1%e5%85%88%e3%81%a8%e5%a5%91%e7%b4%84%e5%86%85%e5%ae%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>業務</title><link>https://bpinelab.github.io/ops-handbook/framework/task/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/task/</guid><description>&lt;h2 id="インシデント管理">インシデント管理&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インシデント分類と優先度定義&lt;/li>
-&lt;li>対応フロー（検知から解決まで）&lt;/li>
-&lt;li>エスカレーション基準&lt;/li>
-&lt;li>インシデント報告テンプレート&lt;/li>
-&lt;li>過去事例とその解決策のナレッジベース&lt;/li>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Framework on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/framework/</link><description>Recent content in Framework on Ops Handbook</description><generator>Hugo</generator><language>en</language><atom:link href="https://bpinelab.github.io/ops-handbook/framework/index.xml" rel="self" type="application/rss+xml"/><item><title>Operation Structure and Organization</title><link>https://bpinelab.github.io/ops-handbook/framework/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/team/</guid><description>&lt;h2 id="organization-chart-and-role-assignment-responsibility-matrix">Organization Chart and Role Assignment (Responsibility Matrix)&lt;a class="td-heading-self-link" href="#organization-chart-and-role-assignment-responsibility-matrix" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="job-descriptions-and-authorities-for-each-role">Job Descriptions and Authorities for Each Role&lt;a class="td-heading-self-link" href="#job-descriptions-and-authorities-for-each-role" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="escalation-path">Escalation Path&lt;a class="td-heading-self-link" href="#escalation-path" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="support-hours-and-shift-system">Support Hours and Shift System&lt;a class="td-heading-self-link" href="#support-hours-and-shift-system" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="external-vendor-contacts-and-contract-overview">External Vendor Contacts and Contract Overview&lt;a class="td-heading-self-link" href="#external-vendor-contacts-and-contract-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Operations</title><link>https://bpinelab.github.io/ops-handbook/framework/task/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/task/</guid><description>&lt;h2 id="incident-management">Incident Management&lt;a class="td-heading-self-link" href="#incident-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Incident classification and priority definition&lt;/li>
+&lt;li>Response flow (from detection to resolution)&lt;/li>
+&lt;li>Escalation criteria&lt;/li>
+&lt;li>Incident report template&lt;/li>
+&lt;li>Knowledge base of past cases and their solutions&lt;/li>
 &lt;/ul>
-&lt;h2 id="変更管理">変更管理&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>変更リクエストの申請・承認フロー&lt;/li>
-&lt;li>リスクアセスメント手法&lt;/li>
-&lt;li>変更実施計画のテンプレート&lt;/li>
-&lt;li>緊急変更の手続き&lt;/li>
-&lt;li>変更後レビュープロセス&lt;/li>
+&lt;h2 id="change-management">Change Management&lt;a class="td-heading-self-link" href="#change-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change request application and approval flow&lt;/li>
+&lt;li>Risk assessment methods&lt;/li>
+&lt;li>Change implementation plan template&lt;/li>
+&lt;li>Emergency change procedures&lt;/li>
+&lt;li>Post-change review process&lt;/li>
 &lt;/ul>
-&lt;h2 id="問題管理">問題管理&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>問題特定と根本原因分析手法&lt;/li>
-&lt;li>既知のエラーデータベース&lt;/li>
-&lt;li>対策立案プロセス&lt;/li>
-&lt;li>再発防止策の実施と評価&lt;/li>
+&lt;h2 id="problem-management">Problem Management&lt;a class="td-heading-self-link" href="#problem-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Problem identification and root cause analysis methods&lt;/li>
+&lt;li>Known error database&lt;/li>
+&lt;li>Countermeasure planning process&lt;/li>
+&lt;li>Implementation and evaluation of recurrence prevention measures&lt;/li>
 &lt;/ul>
-&lt;h2 id="リリース管理">リリース管理&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リリース計画・スケジュール策定プロセス&lt;/li>
-&lt;li>環境別展開手順（開発→テスト→本番）&lt;/li>
-&lt;li>ロールバック手順&lt;/li>
-&lt;li>リリース後の監視体制&lt;/li>
+&lt;h2 id="release-management">Release Management&lt;a class="td-heading-self-link" href="#release-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Release planning and schedule development process&lt;/li>
+&lt;li>Environment-specific deployment procedures (Development→Test→Production)&lt;/li>
+&lt;li>Rollback procedures&lt;/li>
+&lt;li>Post-release monitoring system&lt;/li>
 &lt;/ul>
-&lt;h2 id="可用性管理">可用性管理&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>SLA/SLO定義と測定方法&lt;/li>
-&lt;li>システム監視設定と閾値&lt;/li>
-&lt;li>障害時の復旧手順（DR計画）&lt;/li>
-&lt;li>計画停止の実施プロセス&lt;/li>
+&lt;h2 id="availability-management">Availability Management&lt;a class="td-heading-self-link" href="#availability-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>SLA/SLO definition and measurement methods&lt;/li>
+&lt;li>System monitoring settings and thresholds&lt;/li>
+&lt;li>Recovery procedures during failures (DR plan)&lt;/li>
+&lt;li>Planned maintenance implementation process&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ運用">セキュリティ運用&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e9%81%8b%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>セキュリティポリシーと手順書&lt;/li>
-&lt;li>脆弱性管理プロセス&lt;/li>
-&lt;li>アクセス権限管理手順&lt;/li>
-&lt;li>セキュリティインシデント対応手順&lt;/li>
-&lt;li>セキュリティ監査・点検項目&lt;/li>
+&lt;h2 id="security-operations">Security Operations&lt;a class="td-heading-self-link" href="#security-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Security policies and procedures&lt;/li>
+&lt;li>Vulnerability management process&lt;/li>
+&lt;li>Access rights management procedures&lt;/li>
+&lt;li>Security incident response procedures&lt;/li>
+&lt;li>Security audit and inspection items&lt;/li>
 &lt;/ul>
-&lt;h2 id="バックアップリカバリ">バックアップ・リカバリ&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップスケジュールと方式&lt;/li>
-&lt;li>データ保持ポリシー&lt;/li>
-&lt;li>リストア手順&lt;/li>
-&lt;li>リカバリテスト計画&lt;/li>
+&lt;h2 id="backup-and-recovery">Backup and Recovery&lt;a class="td-heading-self-link" href="#backup-and-recovery" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Backup schedule and methods&lt;/li>
+&lt;li>Data retention policies&lt;/li>
+&lt;li>Restore procedures&lt;/li>
+&lt;li>Recovery test plan&lt;/li>
 &lt;/ul>
-&lt;h2 id="性能キャパシティ管理">性能・キャパシティ管理&lt;a class="td-heading-self-link" href="#%e6%80%a7%e8%83%bd%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リソース監視項目と閾値&lt;/li>
-&lt;li>キャパシティ計画策定プロセス&lt;/li>
-&lt;li>パフォーマンス問題対応手順&lt;/li>
-&lt;li>拡張計画&lt;/li>
+&lt;h2 id="performance-and-capacity-management">Performance and Capacity Management&lt;a class="td-heading-self-link" href="#performance-and-capacity-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Resource monitoring items and thresholds&lt;/li>
+&lt;li>Capacity planning process&lt;/li>
+&lt;li>Performance issue response procedures&lt;/li>
+&lt;li>Expansion plan&lt;/li>
 &lt;/ul>
-&lt;h2 id="構成管理">構成管理&lt;a class="td-heading-self-link" href="#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>構成管理データベース（CMDB）の管理方法&lt;/li>
-&lt;li>資産登録・変更・廃棄手順&lt;/li>
-&lt;li>構成監査プロセス&lt;/li>
+&lt;h2 id="configuration-management">Configuration Management&lt;a class="td-heading-self-link" href="#configuration-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Configuration Management Database (CMDB) management methods&lt;/li>
+&lt;li>Asset registration, change, and disposal procedures&lt;/li>
+&lt;li>Configuration audit process&lt;/li>
 &lt;/ul>
-&lt;h2 id="運用ツール解説">運用ツール解説&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e3%83%84%e3%83%bc%e3%83%ab%e8%a7%a3%e8%aa%ac" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視ツールの利用方法&lt;/li>
-&lt;li>チケット管理システムの操作方法&lt;/li>
-&lt;li>自動化ツールと実行手順&lt;/li>
-&lt;li>報告・分析ツールの使用法&lt;/li>
+&lt;h2 id="operation-tools-guide">Operation Tools Guide&lt;a class="td-heading-self-link" href="#operation-tools-guide" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Monitoring tool usage methods&lt;/li>
+&lt;li>Ticket management system operation procedures&lt;/li>
+&lt;li>Automation tools and execution procedures&lt;/li>
+&lt;li>Reporting and analysis tool usage methods&lt;/li>
 &lt;/ul>
-&lt;h2 id="定例業務">定例業務&lt;a class="td-heading-self-link" href="#%e5%ae%9a%e4%be%8b%e6%a5%ad%e5%8b%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>日次/週次/月次チェック項目&lt;/li>
-&lt;li>定期レポート作成手順と内容&lt;/li>
-&lt;li>定期メンテナンス手順&lt;/li>
-&lt;li>定例会議の目的と進行方法&lt;/li>
+&lt;h2 id="regular-operations">Regular Operations&lt;a class="td-heading-self-link" href="#regular-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Daily/Weekly/Monthly check items&lt;/li>
+&lt;li>Regular report creation procedures and contents&lt;/li>
+&lt;li>Regular maintenance procedures&lt;/li>
+&lt;li>Regular meeting purposes and facilitation methods&lt;/li>
 &lt;/ul>
-&lt;h2 id="トレーニング教育">トレーニング・教育&lt;a class="td-heading-self-link" href="#%e3%83%88%e3%83%ac%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e6%95%99%e8%82%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>新任者向けオンボーディング計画&lt;/li>
-&lt;li>スキルマップと育成計画&lt;/li>
-&lt;li>必須資格・認証リスト&lt;/li>
+&lt;h2 id="training-and-education">Training and Education&lt;a class="td-heading-self-link" href="#training-and-education" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>New employee onboarding plan&lt;/li>
+&lt;li>Skill map and development plan&lt;/li>
+&lt;li>Required qualifications and certifications list&lt;/li>
 &lt;/ul>
-&lt;h2 id="継続的改善">継続的改善&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>KPI・メトリクス定義と測定方法&lt;/li>
-&lt;li>改善提案プロセス&lt;/li>
-&lt;li>サービスレビュー実施手順&lt;/li>
-&lt;/ul></description></item><item><title>KPI</title><link>https://bpinelab.github.io/ops-handbook/framework/kpi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/kpi/</guid><description>&lt;h2 id="可用性信頼性指標">可用性・信頼性指標&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e4%bf%a1%e9%a0%bc%e6%80%a7%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>システム可用性率（Uptime）: システムが稼働している時間の割合（99.9%など）&lt;/li>
-&lt;li>平均故障間隔（MTBF）: 障害発生から次の障害までの平均時間&lt;/li>
-&lt;li>平均復旧時間（MTTR）: 障害発生から復旧までの平均時間&lt;/li>
-&lt;li>計画外ダウンタイム: 予定外のシステム停止時間&lt;/li>
-&lt;li>SLA遵守率: サービスレベル合意の達成率&lt;/li>
+&lt;h2 id="continuous-improvement">Continuous Improvement&lt;a class="td-heading-self-link" href="#continuous-improvement" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>KPI/metrics definition and measurement methods&lt;/li>
+&lt;li>Improvement proposal process&lt;/li>
+&lt;li>Service review implementation procedures&lt;/li>
+&lt;/ul></description></item><item><title>KPI</title><link>https://bpinelab.github.io/ops-handbook/framework/kpi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/kpi/</guid><description>&lt;h2 id="availability-and-reliability-metrics">Availability and Reliability Metrics&lt;a class="td-heading-self-link" href="#availability-and-reliability-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>System Availability Rate (Uptime): Percentage of time the system is operational (e.g., 99.9%)&lt;/li>
+&lt;li>Mean Time Between Failures (MTBF): Average time between failures&lt;/li>
+&lt;li>Mean Time To Recovery (MTTR): Average time to recover from failures&lt;/li>
+&lt;li>Unplanned Downtime: Unscheduled system outage time&lt;/li>
+&lt;li>SLA Compliance Rate: Achievement rate of service level agreements&lt;/li>
 &lt;/ul>
-&lt;h2 id="インシデント問題管理指標">インシデント・問題管理指標&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インシデント解決時間: 優先度別の平均解決時間&lt;/li>
-&lt;li>初回解決率（FCR）: 一次対応で解決されたインシデントの割合&lt;/li>
-&lt;li>再発インシデント率: 同一原因による再発事象の割合&lt;/li>
-&lt;li>バックログ率: 未解決インシデントの蓄積状況&lt;/li>
-&lt;li>エスカレーション率: 上位層にエスカレーションされた案件の割合&lt;/li>
+&lt;h2 id="incident-and-problem-management-metrics">Incident and Problem Management Metrics&lt;a class="td-heading-self-link" href="#incident-and-problem-management-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Incident Resolution Time: Average resolution time by priority&lt;/li>
+&lt;li>First Contact Resolution Rate (FCR): Percentage of incidents resolved at first contact&lt;/li>
+&lt;li>Recurring Incident Rate: Percentage of incidents recurring due to the same cause&lt;/li>
+&lt;li>Backlog Rate: Accumulation status of unresolved incidents&lt;/li>
+&lt;li>Escalation Rate: Percentage of cases escalated to higher levels&lt;/li>
 &lt;/ul>
-&lt;h2 id="変更管理指標">変更管理指標&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>変更成功率: 計画通り完了した変更の割合&lt;/li>
-&lt;li>変更に起因するインシデント数: 変更実施後に発生した問題件数&lt;/li>
-&lt;li>緊急変更の割合: 標準変更プロセス外で実施された変更の割合&lt;/li>
-&lt;li>変更のバックログ: 保留中または遅延している変更の数&lt;/li>
-&lt;li>リリース精度: リリース計画通りに完了した割合&lt;/li>
+&lt;h2 id="change-management-metrics">Change Management Metrics&lt;a class="td-heading-self-link" href="#change-management-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change Success Rate: Percentage of changes completed as planned&lt;/li>
+&lt;li>Incidents Caused by Changes: Number of issues occurring after change implementation&lt;/li>
+&lt;li>Emergency Change Rate: Percentage of changes implemented outside standard process&lt;/li>
+&lt;li>Change Backlog: Number of pending or delayed changes&lt;/li>
+&lt;li>Release Accuracy: Percentage of releases completed as planned&lt;/li>
 &lt;/ul>
-&lt;h2 id="パフォーマンスキャパシティ指標">パフォーマンス・キャパシティ指標&lt;a class="td-heading-self-link" href="#%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>CPU/メモリ/ディスク使用率: リソース使用状況&lt;/li>
-&lt;li>レスポンスタイム: エンドユーザー観点での応答時間&lt;/li>
-&lt;li>スループット: 単位時間あたりの処理量&lt;/li>
-&lt;li>キャパシティ余剰率: ピーク時の余裕度&lt;/li>
-&lt;li>リソース予測精度: 予測と実際の使用量の乖離&lt;/li>
+&lt;h2 id="performance-and-capacity-metrics">Performance and Capacity Metrics&lt;a class="td-heading-self-link" href="#performance-and-capacity-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>CPU/Memory/Disk Usage: Resource utilization status&lt;/li>
+&lt;li>Response Time: End-user perspective response time&lt;/li>
+&lt;li>Throughput: Processing volume per unit time&lt;/li>
+&lt;li>Capacity Surplus Rate: Margin during peak times&lt;/li>
+&lt;li>Resource Prediction Accuracy: Deviation between predicted and actual usage&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ運用指標">セキュリティ運用指標&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e9%81%8b%e7%94%a8%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>セキュリティインシデント発生数: 種類別のセキュリティ事象数&lt;/li>
-&lt;li>脆弱性対応時間: 検出から修正までの平均時間&lt;/li>
-&lt;li>パッチ適用率: 必要なパッチが適用されているシステムの割合&lt;/li>
-&lt;li>セキュリティコンプライアンス準拠率: セキュリティ要件の遵守度&lt;/li>
-&lt;li>不正アクセス検出時間: 不正アクセスの検知までの平均時間&lt;/li>
+&lt;h2 id="security-operations-metrics">Security Operations Metrics&lt;a class="td-heading-self-link" href="#security-operations-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Number of Security Incidents: Number of security events by type&lt;/li>
+&lt;li>Vulnerability Response Time: Average time from detection to remediation&lt;/li>
+&lt;li>Patch Application Rate: Percentage of systems with required patches applied&lt;/li>
+&lt;li>Security Compliance Rate: Adherence to security requirements&lt;/li>
+&lt;li>Unauthorized Access Detection Time: Average time to detect unauthorized access&lt;/li>
 &lt;/ul>
-&lt;h2 id="サービスデスクサポート指標">サービスデスク・サポート指標&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>平均応答時間: ユーザーからの問い合わせへの初期対応時間&lt;/li>
-&lt;li>ユーザー満足度（CSAT）: サポート品質に対する利用者評価&lt;/li>
-&lt;li>チケット解決時間: 種類別の平均解決時間&lt;/li>
-&lt;li>再オープン率: 一度クローズされたが再度開かれたチケットの割合&lt;/li>
-&lt;li>サポート負荷分布: チームメンバー間の作業負荷バランス&lt;/li>
+&lt;h2 id="service-desk-and-support-metrics">Service Desk and Support Metrics&lt;a class="td-heading-self-link" href="#service-desk-and-support-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Average Response Time: Initial response time to user inquiries&lt;/li>
+&lt;li>Customer Satisfaction (CSAT): User evaluation of support quality&lt;/li>
+&lt;li>Ticket Resolution Time: Average resolution time by type&lt;/li>
+&lt;li>Reopening Rate: Percentage of tickets reopened after closure&lt;/li>
+&lt;li>Support Load Distribution: Workload balance among team members&lt;/li>
 &lt;/ul>
-&lt;h2 id="効率性コスト指標">効率性・コスト指標&lt;a class="td-heading-self-link" href="#%e5%8a%b9%e7%8e%87%e6%80%a7%e3%82%b3%e3%82%b9%e3%83%88%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>自動化率: 自動化されたタスクの割合&lt;/li>
-&lt;li>ITコスト対収益比: 収益に対するIT運用コストの割合&lt;/li>
-&lt;li>一人あたり管理サーバー数: 運用担当者一人当たりの管理対象数&lt;/li>
-&lt;li>チケット一件あたりのコスト: 平均対応コスト&lt;/li>
-&lt;li>予防的活動の割合: 事後対応ではなく予防的に実施した活動の割合&lt;/li>
+&lt;h2 id="efficiency-and-cost-metrics">Efficiency and Cost Metrics&lt;a class="td-heading-self-link" href="#efficiency-and-cost-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automation Rate: Percentage of automated tasks&lt;/li>
+&lt;li>IT Cost to Revenue Ratio: IT operations cost as a percentage of revenue&lt;/li>
+&lt;li>Servers per Administrator: Number of managed servers per operator&lt;/li>
+&lt;li>Cost per Ticket: Average handling cost per ticket&lt;/li>
+&lt;li>Preventive Activity Rate: Percentage of activities conducted preventively rather than reactively&lt;/li>
 &lt;/ul>
-&lt;h2 id="継続的改善指標">継続的改善指標&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>プロセス成熟度: 運用プロセスの成熟度評価&lt;/li>
-&lt;li>ナレッジ活用率: ナレッジベース活用によって解決した事案の割合&lt;/li>
-&lt;li>改善施策実施率: 計画された改善施策の実施完了率&lt;/li>
-&lt;li>トレーニング完了率: 必要なトレーニングを完了した担当者の割合&lt;/li>
-&lt;li>顧客フィードバック対応率: 顧客からの改善要望に対応した割合&lt;/li>
+&lt;h2 id="continuous-improvement-metrics">Continuous Improvement Metrics&lt;a class="td-heading-self-link" href="#continuous-improvement-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Process Maturity: Evaluation of operational process maturity&lt;/li>
+&lt;li>Knowledge Utilization Rate: Percentage of cases resolved using knowledge base&lt;/li>
+&lt;li>Improvement Implementation Rate: Completion rate of planned improvement measures&lt;/li>
+&lt;li>Training Completion Rate: Percentage of staff completing required training&lt;/li>
+&lt;li>Customer Feedback Response Rate: Percentage of customer improvement requests addressed&lt;/li>
 &lt;/ul></description></item></channel></rss>

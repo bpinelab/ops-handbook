@@ -1,1567 +1,1543 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Ops Handbook on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/</link><description>Recent content in The Ops Handbook on Ops Handbook</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/ops-handbook/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスカタログ</title><link>https://bpinelab.github.io/ops-handbook/service/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/catalog/</guid><description>&lt;h2 id="1-サービス概要">1. サービス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="11-サービス名称">1.1 サービス名称&lt;a class="td-heading-self-link" href="#11-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e5%90%8d%e7%a7%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;p>&lt;strong>SAP S/4HANA ERP ITサービス運用保守代行&lt;/strong>&lt;/p>
-&lt;h3 id="12-サービス対象">1.2 サービス対象&lt;a class="td-heading-self-link" href="#12-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e5%af%be%e8%b1%a1" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>SAP S/4HANA ERPのサービスオーナー&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>社内およびグループ会社向けにERPを提供する部門&lt;/strong>&lt;/li>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Ops Handbook on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/</link><description>Recent content in The Ops Handbook on Ops Handbook</description><generator>Hugo</generator><language>en</language><atom:link href="https://bpinelab.github.io/ops-handbook/index.xml" rel="self" type="application/rss+xml"/><item><title>Service Catalog</title><link>https://bpinelab.github.io/ops-handbook/service/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/catalog/</guid><description>&lt;h2 id="service-overview">Service Overview&lt;a class="td-heading-self-link" href="#service-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="service-name">Service Name&lt;a class="td-heading-self-link" href="#service-name" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;p>&lt;strong>IT Service Operations and Maintenance Outsourcing&lt;/strong>&lt;/p>
+&lt;h3 id="target-audience">Target Audience&lt;a class="td-heading-self-link" href="#target-audience" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>IT Service Owners&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Departments providing IT services to internal and group companies&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h3 id="13-提供範囲">1.3 提供範囲&lt;a class="td-heading-self-link" href="#13-%e6%8f%90%e4%be%9b%e7%af%84%e5%9b%b2" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;p>本サービスは、SAP S/4HANA ERPの&lt;strong>運用・保守業務の代行&lt;/strong>を行い、サービスオーナーの業務負担を軽減する。&lt;/p>
-&lt;p>提供する業務範囲:&lt;/p>
+&lt;h3 id="scope-of-service">Scope of Service&lt;a class="td-heading-self-link" href="#scope-of-service" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;p>This service provides &lt;strong>outsourcing of IT service operations and maintenance&lt;/strong>, reducing the workload of service owners.&lt;/p>
+&lt;p>Covered areas:&lt;/p>
 &lt;ul>
-&lt;li>インシデント管理 (Incident Management)&lt;/li>
-&lt;li>問題管理 (Problem Management)&lt;/li>
-&lt;li>変更管理 (Change Management)&lt;/li>
-&lt;li>リリース管理 (Release Management)&lt;/li>
-&lt;li>ユーザー管理 (User Management)&lt;/li>
-&lt;li>クラウドインフラ監視・運用 (Azure SAP環境)&lt;/li>
-&lt;li>アプリケーションおよびOSの保守（不具合対応、パッチ適用、予防保守）&lt;/li>
+&lt;li>Incident Management&lt;/li>
+&lt;li>Problem Management&lt;/li>
+&lt;li>Change Management&lt;/li>
+&lt;li>Release Management&lt;/li>
+&lt;li>User Management&lt;/li>
+&lt;li>Infrastructure Monitoring and Operations (On-Premise &amp;amp; Cloud)&lt;/li>
+&lt;li>Application and OS Maintenance (Bug Fixes, Patch Application, Preventive Maintenance)&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="2-サービス仕様">2. サービス仕様&lt;a class="td-heading-self-link" href="#2-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e4%bb%95%e6%a7%98" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="21-サポート業務一覧">2.1 サポート業務一覧&lt;a class="td-heading-self-link" href="#21-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e6%a5%ad%e5%8b%99%e4%b8%80%e8%a6%a7" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="service-specifications">Service Specifications&lt;a class="td-heading-self-link" href="#service-specifications" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="support-activities">Support Activities&lt;a class="td-heading-self-link" href="#support-activities" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>業務領域&lt;/th>
- &lt;th>主な対応内容&lt;/th>
+ &lt;th>Area&lt;/th>
+ &lt;th>Main Tasks&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>インシデント管理&lt;/td>
- &lt;td>ユーザー問い合わせ対応、障害切り分け、初動対応&lt;/td>
+ &lt;td>Incident Management&lt;/td>
+ &lt;td>User inquiries, issue triage, initial response&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>問題管理&lt;/td>
- &lt;td>根本原因分析 (RCA)、再発防止策の策定&lt;/td>
+ &lt;td>Problem Management&lt;/td>
+ &lt;td>Root Cause Analysis (RCA), recurrence prevention&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>変更管理&lt;/td>
- &lt;td>変更リクエスト受付、影響分析、承認ワークフロー管理&lt;/td>
+ &lt;td>Change Management&lt;/td>
+ &lt;td>Handling change requests, impact analysis, approval workflow&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>リリース管理&lt;/td>
- &lt;td>定期/緊急リリースの調整、適用後の確認&lt;/td>
+ &lt;td>Release Management&lt;/td>
+ &lt;td>Coordination and confirmation of scheduled/emergency releases&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ユーザー管理&lt;/td>
- &lt;td>アカウント登録・削除、アクセス権管理&lt;/td>
+ &lt;td>User Management&lt;/td>
+ &lt;td>Account creation/deletion, access rights management&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>クラウド運用&lt;/td>
- &lt;td>Azure環境の監視、バックアップ、パフォーマンス管理&lt;/td>
+ &lt;td>Infrastructure Operations&lt;/td>
+ &lt;td>Server/network monitoring, backups, performance management&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>アプリケーション・OS保守&lt;/td>
- &lt;td>不具合対応、パッチ適用、予防保守&lt;/td>
+ &lt;td>Application &amp;amp; OS Maintenance&lt;/td>
+ &lt;td>Bug fixes, patching, preventive maintenance&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h3 id="22-サポート対象範囲">2.2 サポート対象範囲&lt;a class="td-heading-self-link" href="#22-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e5%af%be%e8%b1%a1%e7%af%84%e5%9b%b2" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>SAP S/4HANA ERPの運用に関する全般的なサポート&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>オンプレミス・クラウド (Azure) のインフラ管理&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>ERPアプリケーションの設定変更・調整&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>OSおよびアプリケーションの定期的な保守・パッチ適用&lt;/strong>&lt;/li>
+&lt;h3 id="support-coverage">Support Coverage&lt;a class="td-heading-self-link" href="#support-coverage" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Comprehensive support for IT service operations&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>On-premise and cloud infrastructure management&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Application configuration and adjustments&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Regular OS and application maintenance and patching&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h3 id="23-監視通知">2.3 監視・通知&lt;a class="td-heading-self-link" href="#23-%e7%9b%a3%e8%a6%96%e9%80%9a%e7%9f%a5" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>24時間365日監視 (オプション対応可)&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>異常検知時の自動アラート発報 (Azure Monitor, SAP Solution Manager利用)&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>レポート提供 (月次・週次対応可)&lt;/strong>&lt;/li>
+&lt;h3 id="monitoring--notifications">Monitoring &amp;amp; Notifications&lt;a class="td-heading-self-link" href="#monitoring--notifications" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>24/7 monitoring (optional)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Automated alerts for anomalies&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Reports available (monthly/weekly options)&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="3-サービス提供時間sla">3. サービス提供時間・SLA&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%8f%90%e4%be%9b%e6%99%82%e9%96%93sla" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="31-運用時間">3.1 運用時間&lt;a class="td-heading-self-link" href="#31-%e9%81%8b%e7%94%a8%e6%99%82%e9%96%93" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="service-hours--sla">Service Hours &amp;amp; SLA&lt;a class="td-heading-self-link" href="#service-hours--sla" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="operation-hours">Operation Hours&lt;a class="td-heading-self-link" href="#operation-hours" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>サービス項目&lt;/th>
- &lt;th>提供時間&lt;/th>
+ &lt;th>Service Item&lt;/th>
+ &lt;th>Availability&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>通常運用&lt;/td>
- &lt;td>24時間365日&lt;/td>
+ &lt;td>Standard Operation&lt;/td>
+ &lt;td>24/7&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>サポート受付&lt;/td>
- &lt;td>平日 09:00 - 18:00&lt;/td>
+ &lt;td>Support Desk&lt;/td>
+ &lt;td>Weekdays 09:00 - 18:00&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>メンテナンス時間&lt;/td>
- &lt;td>毎月第2土曜 02:00 - 06:00&lt;/td>
+ &lt;td>Maintenance Time&lt;/td>
+ &lt;td>2nd Saturday of each month, 02:00 - 06:00&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h3 id="32-sla-service-level-agreement">3.2 SLA (Service Level Agreement)&lt;a class="td-heading-self-link" href="#32-sla-service-level-agreement" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h3 id="sla-service-level-agreement">SLA (Service Level Agreement)&lt;a class="td-heading-self-link" href="#sla-service-level-agreement" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>指標&lt;/th>
- &lt;th>目標値&lt;/th>
+ &lt;th>Metric&lt;/th>
+ &lt;th>Target&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>サービス可用性&lt;/td>
- &lt;td>99.9% / 月&lt;/td>
+ &lt;td>Service Availability&lt;/td>
+ &lt;td>99.9% / month&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>インシデント初動対応時間&lt;/td>
- &lt;td>30分以内 (高優先度)&lt;/td>
+ &lt;td>Initial Incident Response Time&lt;/td>
+ &lt;td>Within 30 minutes (High Priority)&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>問題解決時間&lt;/td>
- &lt;td>4時間以内 (重大障害)&lt;/td>
+ &lt;td>Problem Resolution Time&lt;/td>
+ &lt;td>Within 4 hours (Critical Issues)&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
 &lt;hr>
-&lt;h2 id="4-サポート運用体制">4. サポート・運用体制&lt;a class="td-heading-self-link" href="#4-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e9%81%8b%e7%94%a8%e4%bd%93%e5%88%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="41-問い合わせ窓口">4.1 問い合わせ窓口&lt;a class="td-heading-self-link" href="#41-%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e7%aa%93%e5%8f%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>ヘルプデスク&lt;/strong>: &lt;a href="mailto:support@company.com">support@company.com&lt;/a>&lt;/li>
-&lt;li>&lt;strong>電話サポート&lt;/strong>: 0120-XXX-XXX (平日 09:00 - 18:00)&lt;/li>
+&lt;h2 id="support--operations-framework">Support &amp;amp; Operations Framework&lt;a class="td-heading-self-link" href="#support--operations-framework" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="contact-points">Contact Points&lt;a class="td-heading-self-link" href="#contact-points" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Help Desk&lt;/strong>: &lt;a href="mailto:support@company.com">support@company.com&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Phone Support&lt;/strong>: 0120-XXX-XXX (Weekdays 09:00 - 18:00)&lt;/li>
 &lt;/ul>
-&lt;h3 id="42-インシデント管理フロー">4.2 インシデント管理フロー&lt;a class="td-heading-self-link" href="#42-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ol>
-&lt;li>サービスオーナーからの問い合わせ受付（メール/電話/ポータル）&lt;/li>
-&lt;li>ヘルプデスクが一次対応&lt;/li>
-&lt;li>問題の切り分け
+&lt;h3 id="incident-management-flow">Incident Management Flow&lt;a class="td-heading-self-link" href="#incident-management-flow" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>Inquiry received from service owner (email/phone/portal)&lt;/li>
+&lt;li>Help desk provides first-line response&lt;/li>
+&lt;li>Issue triage
 &lt;ul>
-&lt;li>&lt;strong>アプリケーション障害&lt;/strong>: SAPサポートチームへエスカレーション&lt;/li>
-&lt;li>&lt;strong>インフラ障害&lt;/strong>: クラウド運用チームへエスカレーション&lt;/li>
+&lt;li>&lt;strong>Application Issues&lt;/strong>: Escalated to application support team&lt;/li>
+&lt;li>&lt;strong>Infrastructure Issues&lt;/strong>: Escalated to infrastructure operations team&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>解決後、サービスオーナーへ報告&lt;/li>
-&lt;li>知識ベース (KB) に記録&lt;/li>
+&lt;li>Report back to service owner upon resolution&lt;/li>
+&lt;li>Record in Knowledge Base (KB)&lt;/li>
 &lt;/ol>
-&lt;h3 id="43-変更管理リリース管理">4.3 変更管理・リリース管理&lt;a class="td-heading-self-link" href="#43-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>定期リリース&lt;/strong>: 3ヶ月ごとのバージョンアップ&lt;/li>
-&lt;li>&lt;strong>緊急リリース&lt;/strong>: 重大障害発生時に随時対応&lt;/li>
-&lt;li>&lt;strong>変更リクエスト受付&lt;/strong>: Jira チケットシステムを利用&lt;/li>
+&lt;h3 id="change--release-management">Change &amp;amp; Release Management&lt;a class="td-heading-self-link" href="#change--release-management" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Regular Releases&lt;/strong>: Version upgrades every 3 months&lt;/li>
+&lt;li>&lt;strong>Emergency Releases&lt;/strong>: As needed during critical incidents&lt;/li>
+&lt;li>&lt;strong>Change Request Handling&lt;/strong>: Managed via ticketing system&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="5-利用条件ポリシー">5. 利用条件・ポリシー&lt;a class="td-heading-self-link" href="#5-%e5%88%a9%e7%94%a8%e6%9d%a1%e4%bb%b6%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="51-サービス利用契約">5.1 サービス利用契約&lt;a class="td-heading-self-link" href="#51-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e5%88%a9%e7%94%a8%e5%a5%91%e7%b4%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>契約期間: &lt;strong>最低1年間の利用契約が必要&lt;/strong>&lt;/li>
-&lt;li>契約更新: &lt;strong>3ヶ月前に更新可否の確認&lt;/strong>&lt;/li>
-&lt;li>サービス範囲の変更: &lt;strong>追加要件は別途相談可能&lt;/strong>&lt;/li>
+&lt;h2 id="terms--policies">Terms &amp;amp; Policies&lt;a class="td-heading-self-link" href="#terms--policies" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="service-agreement">Service Agreement&lt;a class="td-heading-self-link" href="#service-agreement" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Contract Period: &lt;strong>Minimum 1-year contract required&lt;/strong>&lt;/li>
+&lt;li>Renewal: &lt;strong>Confirmation required 3 months in advance&lt;/strong>&lt;/li>
+&lt;li>Scope Changes: &lt;strong>Additional requirements to be discussed separately&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h3 id="52-データ管理ポリシー">5.2 データ管理ポリシー&lt;a class="td-heading-self-link" href="#52-%e3%83%87%e3%83%bc%e3%82%bf%e7%ae%a1%e7%90%86%e3%83%9d%e3%83%aa%e3%82%b7%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>データ保持期間&lt;/strong>: 財務データ 10年、ログデータ 2年&lt;/li>
-&lt;li>&lt;strong>削除ポリシー&lt;/strong>: 管理者の承認のもと削除可能&lt;/li>
+&lt;h3 id="data-management-policy">Data Management Policy&lt;a class="td-heading-self-link" href="#data-management-policy" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Data Retention&lt;/strong>: Business data for 10 years, log data for 2 years&lt;/li>
+&lt;li>&lt;strong>Deletion Policy&lt;/strong>: Deletion allowed with administrator approval&lt;/li>
 &lt;/ul>
-&lt;h3 id="53-禁止事項">5.3 禁止事項&lt;a class="td-heading-self-link" href="#53-%e7%a6%81%e6%ad%a2%e4%ba%8b%e9%a0%85" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>未承認の変更作業&lt;/li>
-&lt;li>不正アクセス・情報漏洩&lt;/li>
-&lt;li>事前通知なしのリリース適用&lt;/li>
+&lt;h3 id="prohibited-actions">Prohibited Actions&lt;a class="td-heading-self-link" href="#prohibited-actions" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Unauthorized changes&lt;/li>
+&lt;li>Unauthorized access or data breaches&lt;/li>
+&lt;li>Applying releases without prior notice&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="6-付録参考資料">6. 付録・参考資料&lt;a class="td-heading-self-link" href="#6-%e4%bb%98%e9%8c%b2%e5%8f%82%e8%80%83%e8%b3%87%e6%96%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://help.sap.com/viewer/product/SAP_S4HANA">SAP S/4HANA公式ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/sap/">Azure上のSAP運用ガイド&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Markdown</title><link>https://bpinelab.github.io/ops-handbook/knowledge/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/markdown/</guid><description>&lt;h2 id="1-見出し">1. 見出し&lt;a class="td-heading-self-link" href="#1-%e8%a6%8b%e5%87%ba%e3%81%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>見出しを作成する&lt;/strong>: &lt;code># 見出し1&lt;/code>, &lt;code>## 見出し2&lt;/code>, &lt;code>### 見出し3&lt;/code>&lt;br>
-&lt;code>#&lt;/code> の数に応じて、異なるレベルの見出しを作成できます。&lt;/li>
+&lt;h2 id="appendix--references">Appendix &amp;amp; References&lt;a class="td-heading-self-link" href="#appendix--references" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.axelos.com/">ITIL 4: Service Operation Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/">Cloud Operations Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>IT Service Operation Governance Policy</title><link>https://bpinelab.github.io/ops-handbook/policy/governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/governance/</guid><description>&lt;h2 id="purpose-and-scope">Purpose and Scope&lt;a class="td-heading-self-link" href="#purpose-and-scope" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Purpose and scope of this policy&lt;/li>
+&lt;li>Target IT services&lt;/li>
+&lt;li>Applicable personnel&lt;/li>
+&lt;li>Policy validity period&lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000080;font-weight:bold"># 見出し 1
+&lt;h2 id="organizational-structure-and-responsibilities">Organizational Structure and Responsibilities&lt;a class="td-heading-self-link" href="#organizational-structure-and-responsibilities" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Operation management organization structure&lt;/li>
+&lt;li>Responsibilities and authorities of each role&lt;/li>
+&lt;li>Escalation procedures&lt;/li>
+&lt;li>Communication structure&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-level-management">Service Level Management&lt;a class="td-heading-self-link" href="#service-level-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Service Level Objectives (SLO)&lt;/li>
+&lt;li>Availability objectives&lt;/li>
+&lt;li>Performance objectives&lt;/li>
+&lt;li>Response time objectives&lt;/li>
+&lt;li>Service Level Agreement (SLA) management&lt;/li>
+&lt;/ul>
+&lt;h2 id="incident-management">Incident Management&lt;a class="td-heading-self-link" href="#incident-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Incident definition and classification&lt;/li>
+&lt;li>Incident response procedures&lt;/li>
+&lt;li>Priority and importance determination criteria&lt;/li>
+&lt;li>Escalation criteria&lt;/li>
+&lt;li>Incident report creation and management&lt;/li>
+&lt;/ul>
+&lt;h2 id="problem-management">Problem Management&lt;a class="td-heading-self-link" href="#problem-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Problem definition and classification&lt;/li>
+&lt;li>Problem management process&lt;/li>
+&lt;li>Root Cause Analysis (RCA) methods&lt;/li>
+&lt;li>Known error management&lt;/li>
+&lt;li>Problem resolution tracking and reporting&lt;/li>
+&lt;/ul>
+&lt;h2 id="change-management">Change Management&lt;a class="td-heading-self-link" href="#change-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change definition and classification&lt;/li>
+&lt;li>Change management process&lt;/li>
+&lt;li>Change approval criteria&lt;/li>
+&lt;li>Change planning and implementation procedures&lt;/li>
+&lt;li>Change evaluation and review&lt;/li>
+&lt;/ul>
+&lt;h2 id="release-management">Release Management&lt;a class="td-heading-self-link" href="#release-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Release planning&lt;/li>
+&lt;li>Build management&lt;/li>
+&lt;li>Test management&lt;/li>
+&lt;li>Deployment procedures&lt;/li>
+&lt;li>Rollback procedures&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration-management">Configuration Management&lt;a class="td-heading-self-link" href="#configuration-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Configuration Item (CI) definition&lt;/li>
+&lt;li>Configuration Management Database (CMDB)&lt;/li>
+&lt;li>Configuration management process&lt;/li>
+&lt;li>Change tracking&lt;/li>
+&lt;li>Audit procedures&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-management">Security Management&lt;a class="td-heading-self-link" href="#security-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Access control&lt;/li>
+&lt;li>Authentication and authorization&lt;/li>
+&lt;li>Vulnerability management&lt;/li>
+&lt;li>Security incident response&lt;/li>
+&lt;li>Security audit&lt;/li>
+&lt;/ul>
+&lt;h2 id="capacity-management">Capacity Management&lt;a class="td-heading-self-link" href="#capacity-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Capacity planning&lt;/li>
+&lt;li>Performance monitoring&lt;/li>
+&lt;li>Resource utilization management&lt;/li>
+&lt;li>Scaling criteria&lt;/li>
+&lt;li>Capacity reports&lt;/li>
+&lt;/ul>
+&lt;h2 id="availability-management">Availability Management&lt;a class="td-heading-self-link" href="#availability-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Availability objective setting&lt;/li>
+&lt;li>Redundancy design&lt;/li>
+&lt;li>Failure countermeasures&lt;/li>
+&lt;li>Recovery procedures&lt;/li>
+&lt;li>Availability reports&lt;/li>
+&lt;/ul>
+&lt;h2 id="continuity-management">Continuity Management&lt;a class="td-heading-self-link" href="#continuity-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Business Continuity Plan (BCP)&lt;/li>
+&lt;li>Disaster Recovery Plan (DRP)&lt;/li>
+&lt;li>Backup strategy&lt;/li>
+&lt;li>Recovery procedures&lt;/li>
+&lt;li>Test plan&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-desk">Service Desk&lt;a class="td-heading-self-link" href="#service-desk" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Service desk roles and responsibilities&lt;/li>
+&lt;li>Inquiry response procedures&lt;/li>
+&lt;li>Escalation procedures&lt;/li>
+&lt;li>Customer satisfaction management&lt;/li>
+&lt;li>Service desk evaluation&lt;/li>
+&lt;/ul>
+&lt;h2 id="monitoring-and-reporting">Monitoring and Reporting&lt;a class="td-heading-self-link" href="#monitoring-and-reporting" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Monitoring items and criteria&lt;/li>
+&lt;li>Alert settings&lt;/li>
+&lt;li>Report creation&lt;/li>
+&lt;li>Performance analysis&lt;/li>
+&lt;li>Improvement proposals&lt;/li>
+&lt;/ul>
+&lt;h2 id="compliance">Compliance&lt;a class="td-heading-self-link" href="#compliance" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Compliance with relevant laws and regulations&lt;/li>
+&lt;li>Internal audit&lt;/li>
+&lt;li>External audit response&lt;/li>
+&lt;li>Compliance reports&lt;/li>
+&lt;li>Corrective actions&lt;/li>
+&lt;/ul>
+&lt;h2 id="continuous-improvement">Continuous Improvement&lt;a class="td-heading-self-link" href="#continuous-improvement" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Improvement process&lt;/li>
+&lt;li>Benchmarking&lt;/li>
+&lt;li>Feedback collection&lt;/li>
+&lt;li>Improvement plan&lt;/li>
+&lt;li>Effectiveness measurement&lt;/li>
+&lt;/ul></description></item><item><title>IT Service Operation System Configuration</title><link>https://bpinelab.github.io/ops-handbook/arch/diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/diagram/</guid><description>&lt;h2 id="overall-system-configuration-diagram">Overall System Configuration Diagram&lt;a class="td-heading-self-link" href="#overall-system-configuration-diagram" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Physical/Logical configuration of service provision environment&lt;/li>
+&lt;li>Dependencies between service components&lt;/li>
+&lt;li>Network segments and security boundaries&lt;/li>
+&lt;li>External system integration points&lt;/li>
+&lt;li>High Availability (HA) configuration and failover design&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-component-configuration">Service Component Configuration&lt;a class="td-heading-self-link" href="#service-component-configuration" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Frontend services (Web/API servers)&lt;/li>
+&lt;li>Backend services (Application servers)&lt;/li>
+&lt;li>Database services&lt;/li>
+&lt;li>Cache services&lt;/li>
+&lt;li>Message queue services&lt;/li>
+&lt;li>Search services&lt;/li>
+&lt;li>Storage services&lt;/li>
+&lt;/ul>
+&lt;h2 id="application-architecture">Application Architecture&lt;a class="td-heading-self-link" href="#application-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Microservices/Monolith configuration&lt;/li>
+&lt;li>Containerization/Orchestration configuration&lt;/li>
+&lt;li>CI/CD pipeline configuration&lt;/li>
+&lt;li>Deployment strategy&lt;/li>
+&lt;li>Application configuration management&lt;/li>
+&lt;li>Service discovery configuration&lt;/li>
+&lt;/ul>
+&lt;h2 id="database-architecture">Database Architecture&lt;a class="td-heading-self-link" href="#database-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Database cluster configuration&lt;/li>
+&lt;li>Replication strategy&lt;/li>
+&lt;li>Sharding configuration&lt;/li>
+&lt;li>Backup/Restore design&lt;/li>
+&lt;li>Data persistence strategy&lt;/li>
+&lt;li>Cache strategy&lt;/li>
+&lt;/ul>
+&lt;h2 id="network-architecture">Network Architecture&lt;a class="td-heading-self-link" href="#network-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Service mesh configuration&lt;/li>
+&lt;li>Load balancing design&lt;/li>
+&lt;li>API gateway configuration&lt;/li>
+&lt;li>Security group/ACL settings&lt;/li>
+&lt;li>DNS/Domain management&lt;/li>
+&lt;li>CDN configuration&lt;/li>
+&lt;/ul>
+&lt;h2 id="storage-architecture">Storage Architecture&lt;a class="td-heading-self-link" href="#storage-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Distributed storage configuration&lt;/li>
+&lt;li>Object storage design&lt;/li>
+&lt;li>File storage design&lt;/li>
+&lt;li>Data replication strategy&lt;/li>
+&lt;li>Storage performance optimization&lt;/li>
+&lt;li>Data lifecycle management&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-architecture">Security Architecture&lt;a class="td-heading-self-link" href="#security-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Zero Trust design&lt;/li>
+&lt;li>Identity management&lt;/li>
+&lt;li>Access control design&lt;/li>
+&lt;li>Encryption strategy&lt;/li>
+&lt;li>Security monitoring configuration&lt;/li>
+&lt;li>Incident response design&lt;/li>
+&lt;/ul>
+&lt;h2 id="monitoringobservability">Monitoring/Observability&lt;a class="td-heading-self-link" href="#monitoringobservability" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Metrics collection design&lt;/li>
+&lt;li>Log management architecture&lt;/li>
+&lt;li>Tracing design&lt;/li>
+&lt;li>Alert design&lt;/li>
+&lt;li>Dashboard configuration&lt;/li>
+&lt;li>Incident management flow&lt;/li>
+&lt;/ul>
+&lt;h2 id="backupdisaster-recovery">Backup/Disaster Recovery&lt;a class="td-heading-self-link" href="#backupdisaster-recovery" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-region design&lt;/li>
+&lt;li>Data backup strategy&lt;/li>
+&lt;li>System recovery design&lt;/li>
+&lt;li>Configuration for RTO/RPO achievement&lt;/li>
+&lt;li>Failover design&lt;/li>
+&lt;li>Test plan&lt;/li>
+&lt;/ul>
+&lt;h2 id="operation-automation">Operation Automation&lt;a class="td-heading-self-link" href="#operation-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Infrastructure as Code (IaC)&lt;/li>
+&lt;li>Configuration management&lt;/li>
+&lt;li>Orchestration design&lt;/li>
+&lt;li>Auto-repair design&lt;/li>
+&lt;li>Scaling automation&lt;/li>
+&lt;li>Change management automation&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloud-native-design">Cloud-Native Design&lt;a class="td-heading-self-link" href="#cloud-native-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-cloud/Hybrid design&lt;/li>
+&lt;li>Cloud resource optimization&lt;/li>
+&lt;li>Cost management design&lt;/li>
+&lt;li>Cloud-native service utilization&lt;/li>
+&lt;li>Cloud migration strategy&lt;/li>
+&lt;li>Cloud operation design&lt;/li>
+&lt;/ul>
+&lt;h2 id="compliancegovernance">Compliance/Governance&lt;a class="td-heading-self-link" href="#compliancegovernance" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Compliance requirements management&lt;/li>
+&lt;li>Audit design&lt;/li>
+&lt;li>Governance framework&lt;/li>
+&lt;li>Risk management design&lt;/li>
+&lt;li>Security policy&lt;/li>
+&lt;li>Privacy design&lt;/li>
+&lt;/ul>
+&lt;h2 id="capacityperformance">Capacity/Performance&lt;a class="td-heading-self-link" href="#capacityperformance" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Resource utilization monitoring&lt;/li>
+&lt;li>Scaling design&lt;/li>
+&lt;li>Performance optimization&lt;/li>
+&lt;li>Cost optimization&lt;/li>
+&lt;li>Capacity planning&lt;/li>
+&lt;li>Benchmark design&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-level-management">Service Level Management&lt;a class="td-heading-self-link" href="#service-level-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>SLA/SLO design&lt;/li>
+&lt;li>Service quality monitoring&lt;/li>
+&lt;li>User experience monitoring&lt;/li>
+&lt;li>Incident management design&lt;/li>
+&lt;li>Problem management design&lt;/li>
+&lt;li>Change management design&lt;/li>
+&lt;/ul></description></item><item><title>Markdown</title><link>https://bpinelab.github.io/ops-handbook/knowledge/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/markdown/</guid><description>&lt;h2 id="headings">Headings&lt;a class="td-heading-self-link" href="#headings" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Create headings&lt;/strong>: &lt;code># Heading 1&lt;/code>, &lt;code>## Heading 2&lt;/code>, &lt;code>### Heading 3&lt;/code>&lt;br>
+The number of &lt;code>#&lt;/code> symbols determines the heading level.&lt;/li>
+&lt;/ul>
+&lt;p>Example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000080;font-weight:bold"># Heading 1
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000080;font-weight:bold">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#800080;font-weight:bold">## 見出し 2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#800080;font-weight:bold">## Heading 2
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#800080;font-weight:bold">&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#800080;font-weight:bold">### 見出し 3
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="2-強調">2. 強調&lt;a class="td-heading-self-link" href="#2-%e5%bc%b7%e8%aa%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#800080;font-weight:bold">### Heading 3
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="emphasis">Emphasis&lt;a class="td-heading-self-link" href="#emphasis" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>
-&lt;p>&lt;strong>太字&lt;/strong>: &lt;code>**テキスト**&lt;/code> または &lt;code>__テキスト__&lt;/code>&lt;br>
-テキストを太字にします。&lt;/p>
+&lt;p>&lt;strong>Bold&lt;/strong>: &lt;code>**text**&lt;/code> or &lt;code>__text__&lt;/code>&lt;br>
+Makes the text bold.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>斜体&lt;/strong>: &lt;code>*テキスト*&lt;/code> または &lt;code>_テキスト_&lt;/code>&lt;br>
-テキストを斜体にします。&lt;/p>
+&lt;p>&lt;strong>Italic&lt;/strong>: &lt;code>*text*&lt;/code> or &lt;code>_text_&lt;/code>&lt;br>
+Makes the text italic.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>**太字** 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-style:italic">_斜体_&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="3-リスト">3. リスト&lt;a class="td-heading-self-link" href="#3-%e3%83%aa%e3%82%b9%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;strong>箇条書きリスト&lt;/strong>: &lt;code>-&lt;/code>, &lt;code>*&lt;/code>, または &lt;code>+&lt;/code> を使って箇条書きのリストを作成します
-。&lt;/li>
+&lt;p>Example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>**Bold** 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-style:italic">_Italic_&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="lists">Lists&lt;a class="td-heading-self-link" href="#lists" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Unordered list&lt;/strong>: Use &lt;code>-&lt;/code>, &lt;code>*&lt;/code>, or &lt;code>+&lt;/code> to create bullet point lists.&lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">-&lt;/span> 項目 1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">-&lt;/span> 項目 2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">-&lt;/span> サブ項目 1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">-&lt;/span> サブ項目 2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>&lt;strong>番号付きリスト&lt;/strong>: 数字とピリオドを使って順序付きリストを作成します。&lt;/li>
+&lt;p>Example:&lt;/p></description></item><item><title>Operation Schedule</title><link>https://bpinelab.github.io/ops-handbook/procedure/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/schedule/</guid><description>&lt;h2 id="daily-operation-tasks">Daily Operation Tasks&lt;a class="td-heading-self-link" href="#daily-operation-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>System operation status check (Morning/Afternoon/Evening)&lt;/li>
+&lt;li>Backup success/failure verification&lt;/li>
+&lt;li>Log anomaly check&lt;/li>
+&lt;li>Disk usage check&lt;/li>
+&lt;li>Batch job execution result verification&lt;/li>
+&lt;li>Alert response&lt;/li>
+&lt;li>Incident response and reporting&lt;/li>
+&lt;li>Daily report creation&lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p></description></item><item><title>運用システム構成</title><link>https://bpinelab.github.io/ops-handbook/arch/diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/diagram/</guid><description>&lt;h2 id="全体システム構成図">全体システム構成図&lt;a class="td-heading-self-link" href="#%e5%85%a8%e4%bd%93%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90%e5%9b%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>物理/論理構成の全体像&lt;/li>
-&lt;li>主要コンポーネント間の関係性&lt;/li>
-&lt;li>ネットワークセグメント構成&lt;/li>
-&lt;li>外部接続ポイント&lt;/li>
-&lt;li>冗長化/クラスタ構成&lt;/li>
+&lt;h2 id="weekly-operation-tasks">Weekly Operation Tasks&lt;a class="td-heading-self-link" href="#weekly-operation-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Weekly backup execution and verification&lt;/li>
+&lt;li>Security patch application verification&lt;/li>
+&lt;li>Performance trend analysis&lt;/li>
+&lt;li>Weekly report meeting&lt;/li>
+&lt;li>Change management meeting&lt;/li>
+&lt;li>Incident review&lt;/li>
+&lt;li>Resource usage review&lt;/li>
+&lt;li>Minor maintenance tasks&lt;/li>
 &lt;/ul>
-&lt;h2 id="サーバー構成一覧">サーバー構成一覧&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e6%a7%8b%e6%88%90%e4%b8%80%e8%a6%a7" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ホスト名/IPアドレス&lt;/li>
-&lt;li>OS/バージョン情報&lt;/li>
-&lt;li>役割/機能&lt;/li>
-&lt;li>スペック（CPU/メモリ/ディスク）&lt;/li>
-&lt;li>配置場所（データセンター/ラック位置）&lt;/li>
-&lt;li>仮想/物理の区別&lt;/li>
-&lt;li>クラウドリソース情報（インスタンスタイプ等）&lt;/li>
+&lt;h2 id="monthly-operation-tasks">Monthly Operation Tasks&lt;a class="td-heading-self-link" href="#monthly-operation-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Monthly backup and verification&lt;/li>
+&lt;li>Overall system performance evaluation&lt;/li>
+&lt;li>Capacity review&lt;/li>
+&lt;li>Security inspection&lt;/li>
+&lt;li>Access rights review&lt;/li>
+&lt;li>SLA achievement evaluation&lt;/li>
+&lt;li>Monthly report creation and meeting&lt;/li>
+&lt;li>Planned maintenance implementation&lt;/li>
 &lt;/ul>
-&lt;h2 id="アプリケーション構成">アプリケーション構成&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>搭載アプリケーション一覧&lt;/li>
-&lt;li>バージョン情報&lt;/li>
-&lt;li>依存関係&lt;/li>
-&lt;li>アプリケーション間連携図&lt;/li>
-&lt;li>デプロイ情報&lt;/li>
-&lt;li>アプリケーション設定概要&lt;/li>
+&lt;h2 id="quarterly-tasks">Quarterly Tasks&lt;a class="td-heading-self-link" href="#quarterly-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Large-scale patch application planning&lt;/li>
+&lt;li>Quarterly performance review&lt;/li>
+&lt;li>DR (Disaster Recovery) testing&lt;/li>
+&lt;li>Security audit response&lt;/li>
+&lt;li>System improvement proposals&lt;/li>
+&lt;li>Capacity plan update&lt;/li>
+&lt;li>Training plan implementation&lt;/li>
+&lt;li>Vendor review meeting&lt;/li>
 &lt;/ul>
-&lt;h2 id="データベース構成">データベース構成&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>データベース種類/バージョン&lt;/li>
-&lt;li>インスタンス構成&lt;/li>
-&lt;li>レプリケーション/クラスタ構成&lt;/li>
-&lt;li>バックアップ設定&lt;/li>
-&lt;li>ストレージ構成&lt;/li>
-&lt;li>パフォーマンス設定情報&lt;/li>
+&lt;h2 id="semi-annualannual-tasks">Semi-annual/Annual Tasks&lt;a class="td-heading-self-link" href="#semi-annualannual-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Annual maintenance planning&lt;/li>
+&lt;li>System update planning&lt;/li>
+&lt;li>Major version upgrade&lt;/li>
+&lt;li>BCP training&lt;/li>
+&lt;li>IT asset inventory&lt;/li>
+&lt;li>Security audit (Internal/External)&lt;/li>
+&lt;li>Compliance evaluation&lt;/li>
+&lt;li>Annual operation evaluation and improvement plan&lt;/li>
 &lt;/ul>
-&lt;h2 id="ネットワーク構成">ネットワーク構成&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ネットワークアドレス体系&lt;/li>
-&lt;li>VLAN/サブネット構成&lt;/li>
-&lt;li>ルーティング設定&lt;/li>
-&lt;li>ファイアウォール/セキュリティグループ設定&lt;/li>
-&lt;li>ロードバランサー構成&lt;/li>
-&lt;li>DNSサーバー設定&lt;/li>
-&lt;li>帯域設定&lt;/li>
+&lt;h2 id="event-based-tasks">Event-based Tasks&lt;a class="td-heading-self-link" href="#event-based-tasks" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Release response schedule&lt;/li>
+&lt;li>Incident response flow (chronological)&lt;/li>
+&lt;li>Project response&lt;/li>
+&lt;li>Audit response schedule&lt;/li>
+&lt;li>Temporary maintenance&lt;/li>
 &lt;/ul>
-&lt;h2 id="ストレージ構成">ストレージ構成&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%83%88%e3%83%ac%e3%83%bc%e3%82%b8%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ストレージ種別（SAN/NAS/DAS/クラウドストレージ）&lt;/li>
-&lt;li>ボリューム/共有情報&lt;/li>
-&lt;li>RAID構成&lt;/li>
-&lt;li>容量と拡張性&lt;/li>
-&lt;li>パフォーマンス特性&lt;/li>
-&lt;li>バックアップターゲット構成&lt;/li>
+&lt;h2 id="time-based-operation-structure">Time-based Operation Structure&lt;a class="td-heading-self-link" href="#time-based-operation-structure" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Regular business hours structure&lt;/li>
+&lt;li>Night/weekend on-call structure&lt;/li>
+&lt;li>Escalation path&lt;/li>
+&lt;li>Emergency contact list&lt;/li>
+&lt;li>Shift schedule&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ設備">セキュリティ設備&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ファイアウォール配置&lt;/li>
-&lt;li>IDS/IPS設置状況&lt;/li>
-&lt;li>WAF配置&lt;/li>
-&lt;li>アンチウイルス導入状況&lt;/li>
-&lt;li>SIEM構成&lt;/li>
-&lt;li>認証基盤構成&lt;/li>
+&lt;h2 id="operation-calendar">Operation Calendar&lt;a class="td-heading-self-link" href="#operation-calendar" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Annual schedule calendar&lt;/li>
+&lt;li>System outage scheduled dates&lt;/li>
+&lt;li>Major maintenance dates&lt;/li>
+&lt;li>Peak business periods&lt;/li>
+&lt;li>Avoided task implementation dates&lt;/li>
 &lt;/ul>
-&lt;h2 id="監視システム構成">監視システム構成&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視サーバー配置&lt;/li>
-&lt;li>エージェント配置&lt;/li>
-&lt;li>監視項目一覧&lt;/li>
-&lt;li>アラート設定&lt;/li>
-&lt;li>監視データ保存期間&lt;/li>
-&lt;li>ダッシュボード構成&lt;/li>
+&lt;h2 id="maintenance-windows">Maintenance Windows&lt;a class="td-heading-self-link" href="#maintenance-windows" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Regular maintenance time slots&lt;/li>
+&lt;li>Backup acquisition time slots&lt;/li>
+&lt;li>Batch processing time slots&lt;/li>
+&lt;li>Changeable time slots&lt;/li>
+&lt;li>System outage possible time slots&lt;/li>
 &lt;/ul>
-&lt;h2 id="バックアップリカバリシステム">バックアップ/リカバリシステム&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップサーバー/ストレージ&lt;/li>
-&lt;li>バックアップ経路&lt;/li>
-&lt;li>バックアップスケジュール&lt;/li>
-&lt;li>世代管理設定&lt;/li>
-&lt;li>オフサイト保管構成&lt;/li>
-&lt;li>テープライブラリ構成（使用している場合）&lt;/li>
-&lt;/ul>
-&lt;h2 id="災害対策dr構成">災害対策（DR）構成&lt;a class="td-heading-self-link" href="#%e7%81%bd%e5%ae%b3%e5%af%be%e7%ad%96dr%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>DR拠点詳細&lt;/li>
-&lt;li>レプリケーション構成&lt;/li>
-&lt;li>フェイルオーバー設定&lt;/li>
-&lt;li>RTO/RPO達成のための構成&lt;/li>
-&lt;li>復旧手順概要&lt;/li>
-&lt;/ul>
-&lt;h2 id="運用管理ツール構成">運用管理ツール構成&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e7%ae%a1%e7%90%86%e3%83%84%e3%83%bc%e3%83%ab%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>資産管理ツール&lt;/li>
-&lt;li>構成管理ツール&lt;/li>
-&lt;li>変更管理システム&lt;/li>
-&lt;li>チケット管理システム&lt;/li>
-&lt;li>ログ管理システム&lt;/li>
-&lt;li>自動化ツール&lt;/li>
-&lt;/ul>
-&lt;h2 id="クラウドサービス構成該当する場合">クラウドサービス構成（該当する場合）&lt;a class="td-heading-self-link" href="#%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a7%8b%e6%88%90%e8%a9%b2%e5%bd%93%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>利用クラウドサービス一覧&lt;/li>
-&lt;li>リージョン/アベイラビリティゾーン構成&lt;/li>
-&lt;li>クラウドリソース詳細&lt;/li>
-&lt;li>ハイブリッド接続構成&lt;/li>
-&lt;li>クラウド管理/統合ツール&lt;/li>
-&lt;/ul>
-&lt;h2 id="ライセンス情報">ライセンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ソフトウェアライセンス一覧&lt;/li>
-&lt;li>ライセンス数/使用数&lt;/li>
-&lt;li>ライセンス期限&lt;/li>
-&lt;li>サポート契約状況&lt;/li>
-&lt;/ul>
-&lt;h2 id="キャパシティ情報">キャパシティ情報&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>現在のリソース使用率&lt;/li>
-&lt;li>成長予測&lt;/li>
-&lt;li>拡張計画&lt;/li>
-&lt;li>スケーリングポリシー&lt;/li>
-&lt;/ul>
-&lt;h2 id="メンテナンス情報">メンテナンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>定期メンテナンス対象/スケジュール&lt;/li>
-&lt;li>パッチ適用計画&lt;/li>
-&lt;li>サポート期限情報&lt;/li>
-&lt;/ul></description></item><item><title>運用スケジュール</title><link>https://bpinelab.github.io/ops-handbook/procedure/schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/schedule/</guid><description>&lt;h2 id="日次運用タスク">日次運用タスク&lt;a class="td-heading-self-link" href="#%e6%97%a5%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>システム稼働状況確認（朝/昼/夕）&lt;/li>
-&lt;li>バックアップ成否確認&lt;/li>
-&lt;li>ログ異常有無確認&lt;/li>
-&lt;li>ディスク使用率チェック&lt;/li>
-&lt;li>バッチジョブ実行結果確認&lt;/li>
-&lt;li>アラート対応&lt;/li>
-&lt;li>インシデント対応・報告&lt;/li>
-&lt;li>日次報告作成&lt;/li>
-&lt;/ul>
-&lt;h2 id="週次運用タスク">週次運用タスク&lt;a class="td-heading-self-link" href="#%e9%80%b1%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>週次バックアップ実行・検証&lt;/li>
-&lt;li>セキュリティパッチ適用確認&lt;/li>
-&lt;li>パフォーマンス傾向分析&lt;/li>
-&lt;li>週次報告会実施&lt;/li>
-&lt;li>変更管理会議&lt;/li>
-&lt;li>インシデント振り返り&lt;/li>
-&lt;li>リソース使用率レビュー&lt;/li>
-&lt;li>小規模メンテナンス作業&lt;/li>
-&lt;/ul>
-&lt;h2 id="月次運用タスク">月次運用タスク&lt;a class="td-heading-self-link" href="#%e6%9c%88%e6%ac%a1%e9%81%8b%e7%94%a8%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>月次バックアップ・検証&lt;/li>
-&lt;li>システム全体性能評価&lt;/li>
-&lt;li>キャパシティレビュー&lt;/li>
-&lt;li>セキュリティ点検&lt;/li>
-&lt;li>アクセス権限レビュー&lt;/li>
-&lt;li>SLA達成状況評価&lt;/li>
-&lt;li>月次報告作成・報告会&lt;/li>
-&lt;li>計画メンテナンス実施&lt;/li>
-&lt;/ul>
-&lt;h2 id="四半期タスク">四半期タスク&lt;a class="td-heading-self-link" href="#%e5%9b%9b%e5%8d%8a%e6%9c%9f%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>大規模パッチ適用計画&lt;/li>
-&lt;li>四半期パフォーマンスレビュー&lt;/li>
-&lt;li>DR(災害復旧)テスト&lt;/li>
-&lt;li>セキュリティ監査対応&lt;/li>
-&lt;li>システム改善提案&lt;/li>
-&lt;li>キャパシティ計画更新&lt;/li>
-&lt;li>トレーニング計画実施&lt;/li>
-&lt;li>ベンダーレビュー会議&lt;/li>
-&lt;/ul>
-&lt;h2 id="半期年次タスク">半期/年次タスク&lt;a class="td-heading-self-link" href="#%e5%8d%8a%e6%9c%9f%e5%b9%b4%e6%ac%a1%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>年次メンテナンス計画&lt;/li>
-&lt;li>システム更新計画立案&lt;/li>
-&lt;li>大規模バージョンアップ&lt;/li>
-&lt;li>BCP訓練&lt;/li>
-&lt;li>IT資産棚卸し&lt;/li>
-&lt;li>セキュリティ監査（内部/外部）&lt;/li>
-&lt;li>コンプライアンス評価&lt;/li>
-&lt;li>年間運用評価・改善計画&lt;/li>
-&lt;/ul>
-&lt;h2 id="イベントベースタスク">イベントベースタスク&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%99%e3%83%bc%e3%82%b9%e3%82%bf%e3%82%b9%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リリース対応スケジュール&lt;/li>
-&lt;li>障害対応フロー（時系列）&lt;/li>
-&lt;li>プロジェクト対応&lt;/li>
-&lt;li>監査対応スケジュール&lt;/li>
-&lt;li>臨時メンテナンス&lt;/li>
-&lt;/ul>
-&lt;h2 id="時間帯別運用体制">時間帯別運用体制&lt;a class="td-heading-self-link" href="#%e6%99%82%e9%96%93%e5%b8%af%e5%88%a5%e9%81%8b%e7%94%a8%e4%bd%93%e5%88%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>通常業務時間中の体制&lt;/li>
-&lt;li>夜間・休日の当番体制&lt;/li>
-&lt;li>エスカレーションパス&lt;/li>
-&lt;li>緊急連絡先リスト&lt;/li>
-&lt;li>シフト表&lt;/li>
-&lt;/ul>
-&lt;h2 id="運用カレンダー">運用カレンダー&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e3%82%ab%e3%83%ac%e3%83%b3%e3%83%80%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>年間スケジュールカレンダー&lt;/li>
-&lt;li>システム停止予定日&lt;/li>
-&lt;li>主要メンテナンス日程&lt;/li>
-&lt;li>重要業務繁忙期&lt;/li>
-&lt;li>避けるべき作業実施日&lt;/li>
-&lt;/ul>
-&lt;h2 id="メンテナンスウィンドウ">メンテナンス・ウィンドウ&lt;a class="td-heading-self-link" href="#%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%82%a6%e3%82%a3%e3%83%b3%e3%83%89%e3%82%a6" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>定期メンテナンス時間枠&lt;/li>
-&lt;li>バックアップ取得時間帯&lt;/li>
-&lt;li>バッチ処理時間枠&lt;/li>
-&lt;li>変更可能時間帯&lt;/li>
-&lt;li>システム停止可能時間&lt;/li>
-&lt;/ul>
-&lt;h2 id="報告サイクル">報告サイクル&lt;a class="td-heading-self-link" href="#%e5%a0%b1%e5%91%8a%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>日次報告内容と提出時間&lt;/li>
-&lt;li>週次報告スケジュールと内容&lt;/li>
-&lt;li>月次報告会日程と準備内容&lt;/li>
-&lt;li>四半期/年次レポート提出日&lt;/li>
-&lt;li>経営層向け報告タイミング&lt;/li>
-&lt;/ul></description></item><item><title>運用体制・組織構成</title><link>https://bpinelab.github.io/ops-handbook/framework/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/team/</guid><description>&lt;h2 id="1-組織図と役割分担責任マトリクス">1. 組織図と役割分担（責任マトリクス）&lt;a class="td-heading-self-link" href="#1-%e7%b5%84%e7%b9%94%e5%9b%b3%e3%81%a8%e5%bd%b9%e5%89%b2%e5%88%86%e6%8b%85%e8%b2%ac%e4%bb%bb%e3%83%9e%e3%83%88%e3%83%aa%e3%82%af%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="2-各ロールの職務記述書と権限">2. 各ロールの職務記述書と権限&lt;a class="td-heading-self-link" href="#2-%e5%90%84%e3%83%ad%e3%83%bc%e3%83%ab%e3%81%ae%e8%81%b7%e5%8b%99%e8%a8%98%e8%bf%b0%e6%9b%b8%e3%81%a8%e6%a8%a9%e9%99%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="3-エスカレーションパス">3. エスカレーションパス&lt;a class="td-heading-self-link" href="#3-%e3%82%a8%e3%82%b9%e3%82%ab%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%91%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="4-サポート時間帯とシフト体制">4. サポート時間帯とシフト体制&lt;a class="td-heading-self-link" href="#4-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e6%99%82%e9%96%93%e5%b8%af%e3%81%a8%e3%82%b7%e3%83%95%e3%83%88%e4%bd%93%e5%88%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="5-外部ベンダー連絡先と契約内容概要">5. 外部ベンダー連絡先と契約内容概要&lt;a class="td-heading-self-link" href="#5-%e5%a4%96%e9%83%a8%e3%83%99%e3%83%b3%e3%83%80%e3%83%bc%e9%80%a3%e7%b5%a1%e5%85%88%e3%81%a8%e5%a5%91%e7%b4%84%e5%86%85%e5%ae%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>統制ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/governance/</guid><description>&lt;h2 id="全体システム構成図">全体システム構成図&lt;a class="td-heading-self-link" href="#%e5%85%a8%e4%bd%93%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90%e5%9b%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>物理/論理構成の全体像&lt;/li>
-&lt;li>主要コンポーネント間の関係性&lt;/li>
-&lt;li>ネットワークセグメント構成&lt;/li>
-&lt;li>外部接続ポイント&lt;/li>
-&lt;li>冗長化/クラスタ構成&lt;/li>
-&lt;/ul>
-&lt;h2 id="サーバー構成一覧">サーバー構成一覧&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e6%a7%8b%e6%88%90%e4%b8%80%e8%a6%a7" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ホスト名/IPアドレス&lt;/li>
-&lt;li>OS/バージョン情報&lt;/li>
-&lt;li>役割/機能&lt;/li>
-&lt;li>スペック（CPU/メモリ/ディスク）&lt;/li>
-&lt;li>配置場所（データセンター/ラック位置）&lt;/li>
-&lt;li>仮想/物理の区別&lt;/li>
-&lt;li>クラウドリソース情報（インスタンスタイプ等）&lt;/li>
-&lt;/ul>
-&lt;h2 id="アプリケーション構成">アプリケーション構成&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>搭載アプリケーション一覧&lt;/li>
-&lt;li>バージョン情報&lt;/li>
-&lt;li>依存関係&lt;/li>
-&lt;li>アプリケーション間連携図&lt;/li>
-&lt;li>デプロイ情報&lt;/li>
-&lt;li>アプリケーション設定概要&lt;/li>
-&lt;/ul>
-&lt;h2 id="データベース構成">データベース構成&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>データベース種類/バージョン&lt;/li>
-&lt;li>インスタンス構成&lt;/li>
-&lt;li>レプリケーション/クラスタ構成&lt;/li>
-&lt;li>バックアップ設定&lt;/li>
-&lt;li>ストレージ構成&lt;/li>
-&lt;li>パフォーマンス設定情報&lt;/li>
-&lt;/ul>
-&lt;h2 id="ネットワーク構成">ネットワーク構成&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ネットワークアドレス体系&lt;/li>
-&lt;li>VLAN/サブネット構成&lt;/li>
-&lt;li>ルーティング設定&lt;/li>
-&lt;li>ファイアウォール/セキュリティグループ設定&lt;/li>
-&lt;li>ロードバランサー構成&lt;/li>
-&lt;li>DNSサーバー設定&lt;/li>
-&lt;li>帯域設定&lt;/li>
-&lt;/ul>
-&lt;h2 id="ストレージ構成">ストレージ構成&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%83%88%e3%83%ac%e3%83%bc%e3%82%b8%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ストレージ種別（SAN/NAS/DAS/クラウドストレージ）&lt;/li>
-&lt;li>ボリューム/共有情報&lt;/li>
-&lt;li>RAID構成&lt;/li>
-&lt;li>容量と拡張性&lt;/li>
-&lt;li>パフォーマンス特性&lt;/li>
-&lt;li>バックアップターゲット構成&lt;/li>
-&lt;/ul>
-&lt;h2 id="セキュリティ設備">セキュリティ設備&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ファイアウォール配置&lt;/li>
-&lt;li>IDS/IPS設置状況&lt;/li>
-&lt;li>WAF配置&lt;/li>
-&lt;li>アンチウイルス導入状況&lt;/li>
-&lt;li>SIEM構成&lt;/li>
-&lt;li>認証基盤構成&lt;/li>
-&lt;/ul>
-&lt;h2 id="監視システム構成">監視システム構成&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視サーバー配置&lt;/li>
-&lt;li>エージェント配置&lt;/li>
-&lt;li>監視項目一覧&lt;/li>
-&lt;li>アラート設定&lt;/li>
-&lt;li>監視データ保存期間&lt;/li>
-&lt;li>ダッシュボード構成&lt;/li>
-&lt;/ul>
-&lt;h2 id="バックアップリカバリシステム">バックアップ/リカバリシステム&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップサーバー/ストレージ&lt;/li>
-&lt;li>バックアップ経路&lt;/li>
-&lt;li>バックアップスケジュール&lt;/li>
-&lt;li>世代管理設定&lt;/li>
-&lt;li>オフサイト保管構成&lt;/li>
-&lt;li>テープライブラリ構成（使用している場合）&lt;/li>
-&lt;/ul>
-&lt;h2 id="災害対策dr構成">災害対策（DR）構成&lt;a class="td-heading-self-link" href="#%e7%81%bd%e5%ae%b3%e5%af%be%e7%ad%96dr%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>DR拠点詳細&lt;/li>
-&lt;li>レプリケーション構成&lt;/li>
-&lt;li>フェイルオーバー設定&lt;/li>
-&lt;li>RTO/RPO達成のための構成&lt;/li>
-&lt;li>復旧手順概要&lt;/li>
-&lt;/ul>
-&lt;h2 id="運用管理ツール構成">運用管理ツール構成&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e7%ae%a1%e7%90%86%e3%83%84%e3%83%bc%e3%83%ab%e6%a7%8b%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>資産管理ツール&lt;/li>
-&lt;li>構成管理ツール&lt;/li>
-&lt;li>変更管理システム&lt;/li>
-&lt;li>チケット管理システム&lt;/li>
-&lt;li>ログ管理システム&lt;/li>
-&lt;li>自動化ツール&lt;/li>
-&lt;/ul>
-&lt;h2 id="クラウドサービス構成該当する場合">クラウドサービス構成（該当する場合）&lt;a class="td-heading-self-link" href="#%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e6%a7%8b%e6%88%90%e8%a9%b2%e5%bd%93%e3%81%99%e3%82%8b%e5%a0%b4%e5%90%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>利用クラウドサービス一覧&lt;/li>
-&lt;li>リージョン/アベイラビリティゾーン構成&lt;/li>
-&lt;li>クラウドリソース詳細&lt;/li>
-&lt;li>ハイブリッド接続構成&lt;/li>
-&lt;li>クラウド管理/統合ツール&lt;/li>
-&lt;/ul>
-&lt;h2 id="ライセンス情報">ライセンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ソフトウェアライセンス一覧&lt;/li>
-&lt;li>ライセンス数/使用数&lt;/li>
-&lt;li>ライセンス期限&lt;/li>
-&lt;li>サポート契約状況&lt;/li>
-&lt;/ul>
-&lt;h2 id="キャパシティ情報">キャパシティ情報&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>現在のリソース使用率&lt;/li>
-&lt;li>成長予測&lt;/li>
-&lt;li>拡張計画&lt;/li>
-&lt;li>スケーリングポリシー&lt;/li>
-&lt;/ul>
-&lt;h2 id="メンテナンス情報">メンテナンス情報&lt;a class="td-heading-self-link" href="#%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e6%83%85%e5%a0%b1" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>定期メンテナンス対象/スケジュール&lt;/li>
-&lt;li>パッチ適用計画&lt;/li>
-&lt;li>サポート期限情報&lt;/li>
-&lt;/ul></description></item><item><title>料金</title><link>https://bpinelab.github.io/ops-handbook/service/price/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/price/</guid><description>&lt;h2 id="1-料金概要">1. 料金概要&lt;a class="td-heading-self-link" href="#1-%e6%96%99%e9%87%91%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>当社のマネージドサービス料金は、クライアントのシステム規模、要求されるサポートレベル、利用頻度、作業工数に応じて柔軟に設定されています。料金は、以下の要素に基づいて決定されます。&lt;/p>
+&lt;h2 id="reporting-cycle">Reporting Cycle&lt;a class="td-heading-self-link" href="#reporting-cycle" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Daily report content and submission time&lt;/li>
+&lt;li>Weekly report schedule and content&lt;/li>
+&lt;li>Monthly meeting schedule and preparation content&lt;/li>
+&lt;li>Quarterly/Annual report submission dates&lt;/li>
+&lt;li>Executive reporting timing&lt;/li>
+&lt;/ul></description></item><item><title>Operation Structure and Organization</title><link>https://bpinelab.github.io/ops-handbook/framework/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/team/</guid><description>&lt;h2 id="organization-chart-and-role-assignment-responsibility-matrix">Organization Chart and Role Assignment (Responsibility Matrix)&lt;a class="td-heading-self-link" href="#organization-chart-and-role-assignment-responsibility-matrix" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="job-descriptions-and-authorities-for-each-role">Job Descriptions and Authorities for Each Role&lt;a class="td-heading-self-link" href="#job-descriptions-and-authorities-for-each-role" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="escalation-path">Escalation Path&lt;a class="td-heading-self-link" href="#escalation-path" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="support-hours-and-shift-system">Support Hours and Shift System&lt;a class="td-heading-self-link" href="#support-hours-and-shift-system" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h2 id="external-vendor-contacts-and-contract-overview">External Vendor Contacts and Contract Overview&lt;a class="td-heading-self-link" href="#external-vendor-contacts-and-contract-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Pricing</title><link>https://bpinelab.github.io/ops-handbook/service/price/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/price/</guid><description>&lt;h2 id="pricing-overview">Pricing Overview&lt;a class="td-heading-self-link" href="#pricing-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>Our managed service pricing is flexibly set according to the client’s system scale, required support level, usage frequency, and workload. The price is determined based on the following factors:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>システム規模:&lt;/strong> 管理するサーバー数、ネットワークデバイス数、アプリケーション数に基づく基本料金&lt;/li>
-&lt;li>&lt;strong>サポートレベル:&lt;/strong> SLA（サービスレベルアグリーメント）に基づく対応時間およびサポート体制&lt;/li>
-&lt;li>&lt;strong>定型作業の工数:&lt;/strong> 月間の標準的な運用作業（定期点検、バックアップ管理など）にかかる時間&lt;/li>
-&lt;li>&lt;strong>バグによるアプリケーション修正:&lt;/strong> 月間で発生するアプリケーションの不具合対応工数&lt;/li>
-&lt;li>&lt;strong>ユーザーからの問い合わせ:&lt;/strong> 受付チケット数に応じた料金（ヘルプデスク対応）&lt;/li>
-&lt;li>&lt;strong>追加サービス:&lt;/strong> セキュリティ管理やコンサルティングサービスなどのオプション追加&lt;/li>
+&lt;li>&lt;strong>System Scale&lt;/strong>: Base fee determined by the number of servers, network devices, and applications managed&lt;/li>
+&lt;li>&lt;strong>Support Level&lt;/strong>: Response time and support framework based on SLA (Service Level Agreement)&lt;/li>
+&lt;li>&lt;strong>Standard Operational Workload&lt;/strong>: Time required for routine monthly operations (e.g., inspections, backup management)&lt;/li>
+&lt;li>&lt;strong>Bug Fixing Workload&lt;/strong>: Monthly effort for addressing application defects&lt;/li>
+&lt;li>&lt;strong>User Inquiries&lt;/strong>: Fee based on the number of helpdesk tickets received&lt;/li>
+&lt;li>&lt;strong>Additional Services&lt;/strong>: Optional add-ons such as security management and consulting services&lt;/li>
 &lt;/ul>
-&lt;h2 id="2-基本料金">2. 基本料金&lt;a class="td-heading-self-link" href="#2-%e5%9f%ba%e6%9c%ac%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="21-システム規模に応じた料金">2.1 システム規模に応じた料金&lt;a class="td-heading-self-link" href="#21-%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e8%a6%8f%e6%a8%a1%e3%81%ab%e5%bf%9c%e3%81%98%e3%81%9f%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="base-fees">Base Fees&lt;a class="td-heading-self-link" href="#base-fees" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="fees-based-on-system-scale">Fees Based on System Scale&lt;a class="td-heading-self-link" href="#fees-based-on-system-scale" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>規模&lt;/th>
- &lt;th>サーバー台数&lt;/th>
- &lt;th>ネットワークデバイス数&lt;/th>
- &lt;th>月額料金 (税抜)&lt;/th>
- &lt;th>提供内容&lt;/th>
+ &lt;th>Scale&lt;/th>
+ &lt;th>Number of Servers&lt;/th>
+ &lt;th>Number of Network Devices&lt;/th>
+ &lt;th>Monthly Fee (Excl. Tax)&lt;/th>
+ &lt;th>Included Services&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>小規模&lt;/td>
- &lt;td>1-10 台&lt;/td>
- &lt;td>1-5 台&lt;/td>
- &lt;td>¥1,500,000 ～&lt;/td>
- &lt;td>24 時間 365 日監視、インシデント管理、月次レポート&lt;/td>
+ &lt;td>Small&lt;/td>
+ &lt;td>1–10 servers&lt;/td>
+ &lt;td>1–5 devices&lt;/td>
+ &lt;td>¥1,500,000 and up&lt;/td>
+ &lt;td>24/7 monitoring, incident management, monthly reports&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>中規模&lt;/td>
- &lt;td>11-50 台&lt;/td>
- &lt;td>6-20 台&lt;/td>
- &lt;td>¥3,000,000 ～&lt;/td>
- &lt;td>24 時間 365 日監視、インシデント管理、変更管理、週次レポート&lt;/td>
+ &lt;td>Medium&lt;/td>
+ &lt;td>11–50 servers&lt;/td>
+ &lt;td>6–20 devices&lt;/td>
+ &lt;td>¥3,000,000 and up&lt;/td>
+ &lt;td>24/7 monitoring, incident management, change management, weekly reports&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>大規模&lt;/td>
- &lt;td>50 台以上&lt;/td>
- &lt;td>20 台以上&lt;/td>
- &lt;td>¥6,000,000 ～&lt;/td>
- &lt;td>24 時間 365 日監視、インシデント管理、問題管理、変更管理、日次レポート&lt;/td>
+ &lt;td>Large&lt;/td>
+ &lt;td>50+ servers&lt;/td>
+ &lt;td>20+ devices&lt;/td>
+ &lt;td>¥6,000,000 and up&lt;/td>
+ &lt;td>24/7 monitoring, incident management, problem management, change management, daily reports&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h2 id="3-サポートレベル">3. サポートレベル&lt;a class="td-heading-self-link" href="#3-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%ac%e3%83%99%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="31-slaサービスレベルアグリーメントに基づく料金">3.1 SLA（サービスレベルアグリーメント）に基づく料金&lt;a class="td-heading-self-link" href="#31-sla%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e3%82%a2%e3%82%b0%e3%83%aa%e3%83%bc%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="support-levels">Support Levels&lt;a class="td-heading-self-link" href="#support-levels" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="fees-based-on-sla-service-level-agreement">Fees Based on SLA (Service Level Agreement)&lt;a class="td-heading-self-link" href="#fees-based-on-sla-service-level-agreement" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>サポートレベル&lt;/th>
- &lt;th>月額追加料金&lt;/th>
- &lt;th>応答時間&lt;/th>
- &lt;th>復旧時間&lt;/th>
+ &lt;th>Support Level&lt;/th>
+ &lt;th>Additional Monthly Fee&lt;/th>
+ &lt;th>Response Time&lt;/th>
+ &lt;th>Recovery Time&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>標準サポート&lt;/td>
- &lt;td>月額料金に含まれる&lt;/td>
- &lt;td>4時間以内&lt;/td>
- &lt;td>1営業日以内&lt;/td>
+ &lt;td>Standard Support&lt;/td>
+ &lt;td>Included in base fee&lt;/td>
+ &lt;td>Within 4 hours&lt;/td>
+ &lt;td>Within 1 business day&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>優先サポート&lt;/td>
+ &lt;td>Priority Support&lt;/td>
  &lt;td>+¥1,000,000&lt;/td>
- &lt;td>1時間以内&lt;/td>
- &lt;td>4時間以内&lt;/td>
+ &lt;td>Within 1 hour&lt;/td>
+ &lt;td>Within 4 hours&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>プレミアムサポート&lt;/td>
+ &lt;td>Premium Support&lt;/td>
  &lt;td>+¥2,000,000&lt;/td>
- &lt;td>30分以内&lt;/td>
- &lt;td>2時間以内&lt;/td>
+ &lt;td>Within 30 minutes&lt;/td>
+ &lt;td>Within 2 hours&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h2 id="4-追加料金体系">4. 追加料金体系&lt;a class="td-heading-self-link" href="#4-%e8%bf%bd%e5%8a%a0%e6%96%99%e9%87%91%e4%bd%93%e7%b3%bb" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="41-定型作業の工数に応じた料金">4.1 定型作業の工数に応じた料金&lt;a class="td-heading-self-link" href="#41-%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%b7%a5%e6%95%b0%e3%81%ab%e5%bf%9c%e3%81%98%e3%81%9f%e6%96%99%e9%87%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="additional-pricing-structure">Additional Pricing Structure&lt;a class="td-heading-self-link" href="#additional-pricing-structure" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="fees-based-on-standard-operation-workload">Fees Based on Standard Operation Workload&lt;a class="td-heading-self-link" href="#fees-based-on-standard-operation-workload" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>作業時間 (月間)&lt;/th>
- &lt;th>追加料金&lt;/th>
+ &lt;th>Work Hours (Per Month)&lt;/th>
+ &lt;th>Additional Fee&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>10時間未満&lt;/td>
+ &lt;td>Under 10 hours&lt;/td>
  &lt;td>¥0&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>10-20時間&lt;/td>
+ &lt;td>10–20 hours&lt;/td>
  &lt;td>+¥500,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>20-50時間&lt;/td>
+ &lt;td>20–50 hours&lt;/td>
  &lt;td>+¥1,000,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>50時間以上&lt;/td>
+ &lt;td>Over 50 hours&lt;/td>
  &lt;td>+¥2,000,000&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h3 id="42-バグ修正対応">4.2 バグ修正対応&lt;a class="td-heading-self-link" href="#42-%e3%83%90%e3%82%b0%e4%bf%ae%e6%ad%a3%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h3 id="bug-fixing-fees">Bug Fixing Fees&lt;a class="td-heading-self-link" href="#bug-fixing-fees" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>修正件数 (月間)&lt;/th>
- &lt;th>追加料金&lt;/th>
+ &lt;th>Number of Fixes (Per Month)&lt;/th>
+ &lt;th>Additional Fee&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>5件未満&lt;/td>
+ &lt;td>Less than 5&lt;/td>
  &lt;td>¥0&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>5-10件&lt;/td>
+ &lt;td>5–10&lt;/td>
  &lt;td>+¥500,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>10-20件&lt;/td>
+ &lt;td>10–20&lt;/td>
  &lt;td>+¥100,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>20件以上&lt;/td>
+ &lt;td>Over 20&lt;/td>
  &lt;td>+¥200,000&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h3 id="43-ユーザー問い合わせ対応-チケット数ベース">4.3 ユーザー問い合わせ対応 (チケット数ベース)&lt;a class="td-heading-self-link" href="#43-%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e5%af%be%e5%bf%9c-%e3%83%81%e3%82%b1%e3%83%83%e3%83%88%e6%95%b0%e3%83%99%e3%83%bc%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h3 id="user-inquiry-handling-based-on-ticket-count">User Inquiry Handling (Based on Ticket Count)&lt;a class="td-heading-self-link" href="#user-inquiry-handling-based-on-ticket-count" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>受付チケット数 (月間)&lt;/th>
- &lt;th>追加料金&lt;/th>
+ &lt;th>Number of Tickets (Per Month)&lt;/th>
+ &lt;th>Additional Fee&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>50件未満&lt;/td>
+ &lt;td>Less than 50&lt;/td>
  &lt;td>¥0&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>50-100件&lt;/td>
+ &lt;td>50–100&lt;/td>
  &lt;td>+¥50,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>100-200件&lt;/td>
+ &lt;td>100–200&lt;/td>
  &lt;td>+¥100,000&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>200件以上&lt;/td>
+ &lt;td>Over 200&lt;/td>
  &lt;td>+¥200,000&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h2 id="5-追加オプション">5. 追加オプション&lt;a class="td-heading-self-link" href="#5-%e8%bf%bd%e5%8a%a0%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="51-セキュリティ管理オプション">5.1 セキュリティ管理オプション&lt;a class="td-heading-self-link" href="#51-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%82%aa%e3%83%97%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
+&lt;h2 id="additional-options">Additional Options&lt;a class="td-heading-self-link" href="#additional-options" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="security-management-options">Security Management Options&lt;a class="td-heading-self-link" href="#security-management-options" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>オプション&lt;/th>
- &lt;th>月額料金&lt;/th>
+ &lt;th>Option&lt;/th>
+ &lt;th>Monthly Fee&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>基本セキュリティパッケージ&lt;/td>
+ &lt;td>Basic Security Package&lt;/td>
  &lt;td>¥50,000&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h2 id="6-付録参考資料">6. 付録・参考資料&lt;a class="td-heading-self-link" href="#6-%e4%bb%98%e9%8c%b2%e5%8f%82%e8%80%83%e8%b3%87%e6%96%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>&lt;a href="https://help.sap.com/viewer/product/SAP_S4HANA">SAP S/4HANA公式ドキュメント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/sap/">Azure上のSAP運用ガイド&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>ショートカット</title><link>https://bpinelab.github.io/ops-handbook/knowledge/shortcut/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/shortcut/</guid><description>&lt;h2 id="1-タブ操作">1. タブ操作&lt;a class="td-heading-self-link" href="#1-%e3%82%bf%e3%83%96%e6%93%8d%e4%bd%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;h2 id="appendix--references">Appendix &amp;amp; References&lt;a class="td-heading-self-link" href="#appendix--references" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://www.axelos.com/">ITIL 4: Service Operation Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/">Cloud Operations Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Documentation Management Policy</title><link>https://bpinelab.github.io/ops-handbook/policy/document/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/document/</guid><description>&lt;h2 id="basic-principles-of-documentation-management">Basic Principles of Documentation Management&lt;a class="td-heading-self-link" href="#basic-principles-of-documentation-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Maintain documentation in an up-to-date state at all times&lt;/li>
+&lt;li>Document all important information&lt;/li>
+&lt;li>Implement appropriate management based on access permissions&lt;/li>
+&lt;li>Conduct regular reviews and updates&lt;/li>
+&lt;/ul>
+&lt;h2 id="types-of-documentation-and-management-methods">Types of Documentation and Management Methods&lt;a class="td-heading-self-link" href="#types-of-documentation-and-management-methods" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="technical-documentation">Technical Documentation&lt;a class="td-heading-self-link" href="#technical-documentation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>System design documents&lt;/li>
+&lt;li>Architecture diagrams&lt;/li>
+&lt;li>API specifications&lt;/li>
+&lt;li>Database design documents&lt;/li>
+&lt;li>Infrastructure configuration diagrams&lt;/li>
+&lt;/ul>
+&lt;h3 id="operational-documentation">Operational Documentation&lt;a class="td-heading-self-link" href="#operational-documentation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Operation manuals&lt;/li>
+&lt;li>Incident response procedures&lt;/li>
+&lt;li>Backup procedures&lt;/li>
+&lt;li>Monitoring configuration documents&lt;/li>
+&lt;li>Security policies&lt;/li>
+&lt;/ul>
+&lt;h3 id="process-documentation">Process Documentation&lt;a class="td-heading-self-link" href="#process-documentation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Development processes&lt;/li>
+&lt;li>Deployment procedures&lt;/li>
+&lt;li>Test procedures&lt;/li>
+&lt;li>Release management procedures&lt;/li>
+&lt;li>Change management procedures&lt;/li>
+&lt;/ul>
+&lt;h2 id="documentation-creation-and-update-rules">Documentation Creation and Update Rules&lt;a class="td-heading-self-link" href="#documentation-creation-and-update-rules" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Use templates for new documents&lt;/li>
+&lt;li>Always record update history&lt;/li>
+&lt;li>Clearly specify reviewers&lt;/li>
+&lt;li>Follow approval workflows&lt;/li>
+&lt;li>Strictly implement version control&lt;/li>
+&lt;/ul>
+&lt;h2 id="documentation-storage-locations">Documentation Storage Locations&lt;a class="td-heading-self-link" href="#documentation-storage-locations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Technical Documentation: Internal Wiki&lt;/li>
+&lt;li>Operational Documentation: Internal Wiki&lt;/li>
+&lt;li>Confidential Information: Secure storage&lt;/li>
+&lt;li>Code-related: Version control system&lt;/li>
+&lt;/ul>
+&lt;h2 id="access-control">Access Control&lt;a class="td-heading-self-link" href="#access-control" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Role-based access permission settings&lt;/li>
+&lt;li>Encryption of confidential information&lt;/li>
+&lt;li>Access log recording&lt;/li>
+&lt;li>Regular review of access permissions&lt;/li>
+&lt;/ul>
+&lt;h2 id="backup-and-archive">Backup and Archive&lt;a class="td-heading-self-link" href="#backup-and-archive" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Regular backup implementation&lt;/li>
+&lt;li>Archiving of documents requiring long-term storage&lt;/li>
+&lt;li>Backup verification&lt;/li>
+&lt;li>Documentation of recovery procedures&lt;/li>
+&lt;/ul>
+&lt;h2 id="review-and-update-cycle">Review and Update Cycle&lt;a class="td-heading-self-link" href="#review-and-update-cycle" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Quarterly regular reviews&lt;/li>
+&lt;li>Update related documents during system changes&lt;/li>
+&lt;li>Review after major incidents&lt;/li>
+&lt;li>Response to regulatory changes&lt;/li>
+&lt;/ul>
+&lt;h2 id="documentation-quality-standards">Documentation Quality Standards&lt;a class="td-heading-self-link" href="#documentation-quality-standards" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Clear purpose documentation&lt;/li>
+&lt;li>Accurate information provision&lt;/li>
+&lt;li>Readable structure&lt;/li>
+&lt;li>Attachment of necessary diagrams&lt;/li>
+&lt;li>Unified terminology&lt;/li>
+&lt;/ul>
+&lt;h2 id="compliance">Compliance&lt;a class="td-heading-self-link" href="#compliance" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Personal information protection&lt;/li>
+&lt;li>Adherence to security requirements&lt;/li>
+&lt;li>Preparation for audits&lt;/li>
+&lt;li>Compliance with legal requirements&lt;/li>
+&lt;/ul>
+&lt;h2 id="tools-and-automation">Tools and Automation&lt;a class="td-heading-self-link" href="#tools-and-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Utilization of documentation generation tools&lt;/li>
+&lt;li>Automated update mechanisms&lt;/li>
+&lt;li>Broken link detection&lt;/li>
+&lt;li>Automated version control&lt;/li>
+&lt;/ul>
+&lt;h2 id="education-and-training">Education and Training&lt;a class="td-heading-self-link" href="#education-and-training" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Documentation creation training&lt;/li>
+&lt;li>Tool usage education&lt;/li>
+&lt;li>Best practices sharing&lt;/li>
+&lt;li>Regular skill development&lt;/li>
+&lt;/ul></description></item><item><title>IT Service Operation System High-Level Design</title><link>https://bpinelab.github.io/ops-handbook/arch/hld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/hld/</guid><description>&lt;h2 id="system-overview">System Overview&lt;a class="td-heading-self-link" href="#system-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Purpose and scope of service provision&lt;/li>
+&lt;li>Concept of operation automation&lt;/li>
+&lt;li>Overview of major operational functions&lt;/li>
+&lt;li>Roles and responsibilities of the operations team&lt;/li>
+&lt;li>Definition of Service Level Objectives (SLO)&lt;/li>
+&lt;/ul>
+&lt;h2 id="system-architecture">System Architecture&lt;a class="td-heading-self-link" href="#system-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Service-Oriented Architecture (SOA) design&lt;/li>
+&lt;li>Rationale for microservices/monolith configuration choice&lt;/li>
+&lt;li>Dependencies between components&lt;/li>
+&lt;li>Service discovery design&lt;/li>
+&lt;li>Adoption of event-driven architecture&lt;/li>
+&lt;/ul>
+&lt;h2 id="technology-stack">Technology Stack&lt;a class="td-heading-self-link" href="#technology-stack" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Containerization technology (Docker/Kubernetes)&lt;/li>
+&lt;li>Orchestration tools&lt;/li>
+&lt;li>Monitoring/Observability tools&lt;/li>
+&lt;li>Log management/analysis tools&lt;/li>
+&lt;li>Security tools&lt;/li>
+&lt;li>Automation toolchain&lt;/li>
+&lt;/ul>
+&lt;h2 id="deployment-architecture">Deployment Architecture&lt;a class="td-heading-self-link" href="#deployment-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-cloud/Hybrid design&lt;/li>
+&lt;li>Region/Availability Zone configuration&lt;/li>
+&lt;li>Environment separation strategy (Production/Staging/Development)&lt;/li>
+&lt;li>GitOps-based deployment&lt;/li>
+&lt;li>Blue/Green deployment design&lt;/li>
+&lt;/ul>
+&lt;h2 id="data-architecture">Data Architecture&lt;a class="td-heading-self-link" href="#data-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Distributed database design&lt;/li>
+&lt;li>Data replication strategy&lt;/li>
+&lt;li>Cache strategy&lt;/li>
+&lt;li>Data persistence design&lt;/li>
+&lt;li>Data lifecycle management&lt;/li>
+&lt;li>Backup/Restore design&lt;/li>
+&lt;/ul>
+&lt;h2 id="integration-points">Integration Points&lt;a class="td-heading-self-link" href="#integration-points" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>API gateway design&lt;/li>
+&lt;li>Service mesh configuration&lt;/li>
+&lt;li>Event streaming design&lt;/li>
+&lt;li>Asynchronous communication patterns&lt;/li>
+&lt;li>External system integration design&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-architecture">Security Architecture&lt;a class="td-heading-self-link" href="#security-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Zero Trust design&lt;/li>
+&lt;li>Identity management design&lt;/li>
+&lt;li>Access control design&lt;/li>
+&lt;li>Encryption strategy&lt;/li>
+&lt;li>Security monitoring design&lt;/li>
+&lt;li>Compliance response design&lt;/li>
+&lt;/ul>
+&lt;h2 id="availabilityredundancy-design">Availability/Redundancy Design&lt;a class="td-heading-self-link" href="#availabilityredundancy-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-region design&lt;/li>
+&lt;li>Failover design&lt;/li>
+&lt;li>Auto-repair design&lt;/li>
+&lt;li>Backup/Recovery design&lt;/li>
+&lt;li>Design for SLA achievement&lt;/li>
+&lt;/ul>
+&lt;h2 id="scalability-design">Scalability Design&lt;a class="td-heading-self-link" href="#scalability-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Horizontal scaling design&lt;/li>
+&lt;li>Auto-scaling strategy&lt;/li>
+&lt;li>Capacity planning&lt;/li>
+&lt;li>Performance optimization design&lt;/li>
+&lt;li>Cost optimization design&lt;/li>
+&lt;/ul>
+&lt;h2 id="monitoringoperation-architecture">Monitoring/Operation Architecture&lt;a class="td-heading-self-link" href="#monitoringoperation-architecture" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Metrics collection design&lt;/li>
+&lt;li>Log management design&lt;/li>
+&lt;li>Tracing design&lt;/li>
+&lt;li>Alert design&lt;/li>
+&lt;li>Dashboard design&lt;/li>
+&lt;li>Incident management flow&lt;/li>
+&lt;/ul>
+&lt;h2 id="non-functional-requirements">Non-Functional Requirements&lt;a class="td-heading-self-link" href="#non-functional-requirements" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Availability design (99.9% or higher)&lt;/li>
+&lt;li>Performance design (Response time)&lt;/li>
+&lt;li>Security design (Zero Trust)&lt;/li>
+&lt;li>Operability design (Automation)&lt;/li>
+&lt;li>Extensibility design (Scalability)&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-architectural-decisions">Key Architectural Decisions&lt;a class="td-heading-self-link" href="#key-architectural-decisions" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Rationale for cloud-native adoption&lt;/li>
+&lt;li>Rationale for microservices/monolith choice&lt;/li>
+&lt;li>Rationale for containerization adoption&lt;/li>
+&lt;li>Rationale for automation strategy choice&lt;/li>
+&lt;li>Risks and countermeasures&lt;/li>
+&lt;/ul>
+&lt;h2 id="implementation-guidelines">Implementation Guidelines&lt;a class="td-heading-self-link" href="#implementation-guidelines" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Infrastructure as Code (IaC) standards&lt;/li>
+&lt;li>Containerization guidelines&lt;/li>
+&lt;li>Security implementation standards&lt;/li>
+&lt;li>Monitoring implementation standards&lt;/li>
+&lt;li>Automation implementation standards&lt;/li>
+&lt;/ul>
+&lt;h2 id="migration-strategy-overview">Migration Strategy Overview&lt;a class="td-heading-self-link" href="#migration-strategy-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Migration plan from legacy systems&lt;/li>
+&lt;li>Phased migration approach&lt;/li>
+&lt;li>Risk management during migration&lt;/li>
+&lt;li>Test strategy&lt;/li>
+&lt;li>Rollback plan&lt;/li>
+&lt;/ul>
+&lt;h2 id="roadmap">Roadmap&lt;a class="td-heading-self-link" href="#roadmap" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Phase-based implementation plan&lt;/li>
+&lt;li>Key milestones&lt;/li>
+&lt;li>Automation expansion plan&lt;/li>
+&lt;li>Security enhancement plan&lt;/li>
+&lt;li>Performance optimization plan&lt;/li>
+&lt;/ul></description></item><item><title>Operations</title><link>https://bpinelab.github.io/ops-handbook/framework/task/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/task/</guid><description>&lt;h2 id="incident-management">Incident Management&lt;a class="td-heading-self-link" href="#incident-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Incident classification and priority definition&lt;/li>
+&lt;li>Response flow (from detection to resolution)&lt;/li>
+&lt;li>Escalation criteria&lt;/li>
+&lt;li>Incident report template&lt;/li>
+&lt;li>Knowledge base of past cases and their solutions&lt;/li>
+&lt;/ul>
+&lt;h2 id="change-management">Change Management&lt;a class="td-heading-self-link" href="#change-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change request application and approval flow&lt;/li>
+&lt;li>Risk assessment methods&lt;/li>
+&lt;li>Change implementation plan template&lt;/li>
+&lt;li>Emergency change procedures&lt;/li>
+&lt;li>Post-change review process&lt;/li>
+&lt;/ul>
+&lt;h2 id="problem-management">Problem Management&lt;a class="td-heading-self-link" href="#problem-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Problem identification and root cause analysis methods&lt;/li>
+&lt;li>Known error database&lt;/li>
+&lt;li>Countermeasure planning process&lt;/li>
+&lt;li>Implementation and evaluation of recurrence prevention measures&lt;/li>
+&lt;/ul>
+&lt;h2 id="release-management">Release Management&lt;a class="td-heading-self-link" href="#release-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Release planning and schedule development process&lt;/li>
+&lt;li>Environment-specific deployment procedures (Development→Test→Production)&lt;/li>
+&lt;li>Rollback procedures&lt;/li>
+&lt;li>Post-release monitoring system&lt;/li>
+&lt;/ul>
+&lt;h2 id="availability-management">Availability Management&lt;a class="td-heading-self-link" href="#availability-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>SLA/SLO definition and measurement methods&lt;/li>
+&lt;li>System monitoring settings and thresholds&lt;/li>
+&lt;li>Recovery procedures during failures (DR plan)&lt;/li>
+&lt;li>Planned maintenance implementation process&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-operations">Security Operations&lt;a class="td-heading-self-link" href="#security-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Security policies and procedures&lt;/li>
+&lt;li>Vulnerability management process&lt;/li>
+&lt;li>Access rights management procedures&lt;/li>
+&lt;li>Security incident response procedures&lt;/li>
+&lt;li>Security audit and inspection items&lt;/li>
+&lt;/ul>
+&lt;h2 id="backup-and-recovery">Backup and Recovery&lt;a class="td-heading-self-link" href="#backup-and-recovery" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Backup schedule and methods&lt;/li>
+&lt;li>Data retention policies&lt;/li>
+&lt;li>Restore procedures&lt;/li>
+&lt;li>Recovery test plan&lt;/li>
+&lt;/ul>
+&lt;h2 id="performance-and-capacity-management">Performance and Capacity Management&lt;a class="td-heading-self-link" href="#performance-and-capacity-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Resource monitoring items and thresholds&lt;/li>
+&lt;li>Capacity planning process&lt;/li>
+&lt;li>Performance issue response procedures&lt;/li>
+&lt;li>Expansion plan&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration-management">Configuration Management&lt;a class="td-heading-self-link" href="#configuration-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Configuration Management Database (CMDB) management methods&lt;/li>
+&lt;li>Asset registration, change, and disposal procedures&lt;/li>
+&lt;li>Configuration audit process&lt;/li>
+&lt;/ul>
+&lt;h2 id="operation-tools-guide">Operation Tools Guide&lt;a class="td-heading-self-link" href="#operation-tools-guide" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Monitoring tool usage methods&lt;/li>
+&lt;li>Ticket management system operation procedures&lt;/li>
+&lt;li>Automation tools and execution procedures&lt;/li>
+&lt;li>Reporting and analysis tool usage methods&lt;/li>
+&lt;/ul>
+&lt;h2 id="regular-operations">Regular Operations&lt;a class="td-heading-self-link" href="#regular-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Daily/Weekly/Monthly check items&lt;/li>
+&lt;li>Regular report creation procedures and contents&lt;/li>
+&lt;li>Regular maintenance procedures&lt;/li>
+&lt;li>Regular meeting purposes and facilitation methods&lt;/li>
+&lt;/ul>
+&lt;h2 id="training-and-education">Training and Education&lt;a class="td-heading-self-link" href="#training-and-education" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>New employee onboarding plan&lt;/li>
+&lt;li>Skill map and development plan&lt;/li>
+&lt;li>Required qualifications and certifications list&lt;/li>
+&lt;/ul>
+&lt;h2 id="continuous-improvement">Continuous Improvement&lt;a class="td-heading-self-link" href="#continuous-improvement" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>KPI/metrics definition and measurement methods&lt;/li>
+&lt;li>Improvement proposal process&lt;/li>
+&lt;li>Service review implementation procedures&lt;/li>
+&lt;/ul></description></item><item><title>Shortcuts</title><link>https://bpinelab.github.io/ops-handbook/knowledge/shortcut/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/shortcut/</guid><description>&lt;h2 id="tab-operations">Tab Operations&lt;a class="td-heading-self-link" href="#tab-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>
-&lt;p>&lt;strong>新しいタブを開く&lt;/strong>: &lt;code>Ctrl + T&lt;/code>（Mac では &lt;code>Cmd + T&lt;/code>）&lt;br>
-新しいタブを素早く開いて、別のページを表示します。&lt;/p>
+&lt;p>&lt;strong>Open a new tab&lt;/strong>: &lt;code>Ctrl + T&lt;/code> (on Mac: &lt;code>Cmd + T&lt;/code>)&lt;br>
+Quickly open a new tab to view a different page.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>タブを閉じる&lt;/strong>: &lt;code>Ctrl + W&lt;/code>（Mac では &lt;code>Cmd + W&lt;/code>）&lt;br>
-現在のタブを閉じるのに使います。&lt;/p>
+&lt;p>&lt;strong>Close a tab&lt;/strong>: &lt;code>Ctrl + W&lt;/code> (on Mac: &lt;code>Cmd + W&lt;/code>)&lt;br>
+Use this to close the current tab.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>タブ間を移動する&lt;/strong>: &lt;code>Ctrl + Tab&lt;/code>（Mac では &lt;code>Cmd + Option + 右矢印&lt;/code>）&lt;br>
-複数のタブを開いている場合、タブ間を素早く切り替えることができます。&lt;/p>
+&lt;p>&lt;strong>Switch between tabs&lt;/strong>: &lt;code>Ctrl + Tab&lt;/code> (on Mac: &lt;code>Cmd + Option + Right Arrow&lt;/code>)&lt;br>
+Easily switch between multiple open tabs.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="2-ページ操作">2. ページ操作&lt;a class="td-heading-self-link" href="#2-%e3%83%9a%e3%83%bc%e3%82%b8%e6%93%8d%e4%bd%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;h2 id="page-operations">Page Operations&lt;a class="td-heading-self-link" href="#page-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>
-&lt;p>&lt;strong>ページを更新する&lt;/strong>: &lt;code>Ctrl + R&lt;/code>（Mac では &lt;code>Cmd + R&lt;/code>）&lt;br>
-現在表示しているページを再読み込みします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>前のページに戻る&lt;/strong>: &lt;code>Alt + 左矢印&lt;/code>（Mac では &lt;code>Cmd + 左矢印&lt;/code>）&lt;br>
-閲覧履歴の前のページに戻ります。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>ページを拡大する&lt;/strong>: &lt;code>Ctrl + +&lt;/code>（Mac では &lt;code>Cmd + +&lt;/code>）&lt;br>
-ページをズームインして内容を大きく表示します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>ページを縮小する&lt;/strong>: &lt;code>Ctrl + -&lt;/code>（Mac では &lt;code>Cmd + -&lt;/code>）&lt;br>
-ページをズームアウトして内容を小さく表示します。&lt;/p></description></item><item><title>ドキュメント管理ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/document/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/document/</guid><description>&lt;h2 id="システム概要">システム概要&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>目的と範囲&lt;/li>
-&lt;li>システム全体のコンセプト&lt;/li>
-&lt;li>主要機能の概要&lt;/li>
-&lt;li>対象とするユーザー/運用者&lt;/li>
-&lt;/ul>
-&lt;h2 id="システムアーキテクチャ">システムアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>論理アーキテクチャ図&lt;/li>
-&lt;li>主要コンポーネントとその関係性&lt;/li>
-&lt;li>階層構造（N層アーキテクチャ）&lt;/li>
-&lt;li>マイクロサービス構成（該当する場合）&lt;/li>
-&lt;li>採用するアーキテクチャパターン&lt;/li>
-&lt;/ul>
-&lt;h2 id="技術スタック">技術スタック&lt;a class="td-heading-self-link" href="#%e6%8a%80%e8%a1%93%e3%82%b9%e3%82%bf%e3%83%83%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>使用するプラットフォーム&lt;/li>
-&lt;li>主要言語/フレームワーク&lt;/li>
-&lt;li>ミドルウェア選定&lt;/li>
-&lt;li>データベース技術&lt;/li>
-&lt;li>インフラ技術（仮想化/コンテナ化等）&lt;/li>
-&lt;/ul>
-&lt;h2 id="デプロイメントアーキテクチャ">デプロイメントアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インフラ配置図&lt;/li>
-&lt;li>オンプレミス/クラウド構成&lt;/li>
-&lt;li>地理的分散/リージョン構成&lt;/li>
-&lt;li>環境分離（本番/検証/開発）&lt;/li>
-&lt;li>デプロイメント方式&lt;/li>
-&lt;/ul>
-&lt;h2 id="データアーキテクチャ">データアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>データモデル概要&lt;/li>
-&lt;li>主要エンティティと関係性&lt;/li>
-&lt;li>データフロー図&lt;/li>
-&lt;li>マスターデータ管理方針&lt;/li>
-&lt;li>データ保持・アーカイブ戦略&lt;/li>
-&lt;/ul>
-&lt;h2 id="インテグレーションポイント">インテグレーションポイント&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%86%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>外部システム連携図&lt;/li>
-&lt;li>API設計概要&lt;/li>
-&lt;li>データ連携方式&lt;/li>
-&lt;li>メッセージングパターン&lt;/li>
-&lt;li>ETL処理概要&lt;/li>
-&lt;/ul>
-&lt;h2 id="セキュリティアーキテクチャ">セキュリティアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>認証・認可方式&lt;/li>
-&lt;li>ネットワークセキュリティ設計&lt;/li>
-&lt;li>データ保護方針&lt;/li>
-&lt;li>セキュリティ監視アーキテクチャ&lt;/li>
-&lt;li>コンプライアンス対応設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="可用性冗長性設計">可用性・冗長性設計&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e5%86%97%e9%95%b7%e6%80%a7%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>高可用性アーキテクチャ&lt;/li>
-&lt;li>障害対策設計&lt;/li>
-&lt;li>バックアップ/リカバリ方針&lt;/li>
-&lt;li>DR（災害対策）設計&lt;/li>
-&lt;li>SLA達成のための設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="スケーラビリティ設計">スケーラビリティ設計&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>スケールアウト/スケールアップ戦略&lt;/li>
-&lt;li>負荷分散設計&lt;/li>
-&lt;li>キャパシティプランニング方針&lt;/li>
-&lt;li>性能要件と対応設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="監視運用アーキテクチャ">監視・運用アーキテクチャ&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e9%81%8b%e7%94%a8%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視設計（メトリクス/ログ/トレース）&lt;/li>
-&lt;li>アラート設計&lt;/li>
-&lt;li>運用ダッシュボード概要&lt;/li>
-&lt;li>自動化・オーケストレーション設計&lt;/li>
-&lt;li>イベント管理フロー&lt;/li>
-&lt;/ul>
-&lt;h2 id="非機能要件対応">非機能要件対応&lt;a class="td-heading-self-link" href="#%e9%9d%9e%e6%a9%9f%e8%83%bd%e8%a6%81%e4%bb%b6%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>パフォーマンス設計の考え方&lt;/li>
-&lt;li>セキュリティ設計の考え方&lt;/li>
-&lt;li>運用性への配慮&lt;/li>
-&lt;li>メンテナンス性への対応&lt;/li>
-&lt;li>拡張性確保の方針&lt;/li>
-&lt;/ul>
-&lt;h2 id="アーキテクチャ上の主要決定事項">アーキテクチャ上の主要決定事項&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e4%b8%8a%e3%81%ae%e4%b8%bb%e8%a6%81%e6%b1%ba%e5%ae%9a%e4%ba%8b%e9%a0%85" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>技術選定理由&lt;/li>
-&lt;li>トレードオフの検討&lt;/li>
-&lt;li>代替案の評価&lt;/li>
-&lt;li>アーキテクチャ上のリスクと対策&lt;/li>
-&lt;/ul>
-&lt;h2 id="実装ガイドライン">実装ガイドライン&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e8%a3%85%e3%82%ac%e3%82%a4%e3%83%89%e3%83%a9%e3%82%a4%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>開発標準の概要&lt;/li>
-&lt;li>コーディング規約の考え方&lt;/li>
-&lt;li>命名規則の基本方針&lt;/li>
-&lt;li>実装パターン&lt;/li>
-&lt;/ul>
-&lt;h2 id="移行戦略概要">移行戦略概要&lt;a class="td-heading-self-link" href="#%e7%a7%bb%e8%a1%8c%e6%88%a6%e7%95%a5%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>既存システムからの移行アプローチ&lt;/li>
-&lt;li>段階的実装計画&lt;/li>
-&lt;li>移行におけるリスクと対策&lt;/li>
-&lt;/ul>
-&lt;h2 id="ロードマップ">ロードマップ&lt;a class="td-heading-self-link" href="#%e3%83%ad%e3%83%bc%e3%83%89%e3%83%9e%e3%83%83%e3%83%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>開発・展開フェーズ&lt;/li>
-&lt;li>主要マイルストーン&lt;/li>
-&lt;li>将来的な拡張計画&lt;/li>
-&lt;/ul></description></item><item><title>概要設計</title><link>https://bpinelab.github.io/ops-handbook/arch/hld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/hld/</guid><description>&lt;h2 id="システム概要">システム概要&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>目的と範囲&lt;/li>
-&lt;li>システム全体のコンセプト&lt;/li>
-&lt;li>主要機能の概要&lt;/li>
-&lt;li>対象とするユーザー/運用者&lt;/li>
-&lt;/ul>
-&lt;h2 id="システムアーキテクチャ">システムアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>論理アーキテクチャ図&lt;/li>
-&lt;li>主要コンポーネントとその関係性&lt;/li>
-&lt;li>階層構造（N層アーキテクチャ）&lt;/li>
-&lt;li>マイクロサービス構成（該当する場合）&lt;/li>
-&lt;li>採用するアーキテクチャパターン&lt;/li>
-&lt;/ul>
-&lt;h2 id="技術スタック">技術スタック&lt;a class="td-heading-self-link" href="#%e6%8a%80%e8%a1%93%e3%82%b9%e3%82%bf%e3%83%83%e3%82%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>使用するプラットフォーム&lt;/li>
-&lt;li>主要言語/フレームワーク&lt;/li>
-&lt;li>ミドルウェア選定&lt;/li>
-&lt;li>データベース技術&lt;/li>
-&lt;li>インフラ技術（仮想化/コンテナ化等）&lt;/li>
-&lt;/ul>
-&lt;h2 id="デプロイメントアーキテクチャ">デプロイメントアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インフラ配置図&lt;/li>
-&lt;li>オンプレミス/クラウド構成&lt;/li>
-&lt;li>地理的分散/リージョン構成&lt;/li>
-&lt;li>環境分離（本番/検証/開発）&lt;/li>
-&lt;li>デプロイメント方式&lt;/li>
-&lt;/ul>
-&lt;h2 id="データアーキテクチャ">データアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>データモデル概要&lt;/li>
-&lt;li>主要エンティティと関係性&lt;/li>
-&lt;li>データフロー図&lt;/li>
-&lt;li>マスターデータ管理方針&lt;/li>
-&lt;li>データ保持・アーカイブ戦略&lt;/li>
-&lt;/ul>
-&lt;h2 id="インテグレーションポイント">インテグレーションポイント&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%86%e3%82%b0%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>外部システム連携図&lt;/li>
-&lt;li>API設計概要&lt;/li>
-&lt;li>データ連携方式&lt;/li>
-&lt;li>メッセージングパターン&lt;/li>
-&lt;li>ETL処理概要&lt;/li>
-&lt;/ul>
-&lt;h2 id="セキュリティアーキテクチャ">セキュリティアーキテクチャ&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>認証・認可方式&lt;/li>
-&lt;li>ネットワークセキュリティ設計&lt;/li>
-&lt;li>データ保護方針&lt;/li>
-&lt;li>セキュリティ監視アーキテクチャ&lt;/li>
-&lt;li>コンプライアンス対応設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="可用性冗長性設計">可用性・冗長性設計&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e5%86%97%e9%95%b7%e6%80%a7%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>高可用性アーキテクチャ&lt;/li>
-&lt;li>障害対策設計&lt;/li>
-&lt;li>バックアップ/リカバリ方針&lt;/li>
-&lt;li>DR（災害対策）設計&lt;/li>
-&lt;li>SLA達成のための設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="スケーラビリティ設計">スケーラビリティ設計&lt;a class="td-heading-self-link" href="#%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>スケールアウト/スケールアップ戦略&lt;/li>
-&lt;li>負荷分散設計&lt;/li>
-&lt;li>キャパシティプランニング方針&lt;/li>
-&lt;li>性能要件と対応設計&lt;/li>
-&lt;/ul>
-&lt;h2 id="監視運用アーキテクチャ">監視・運用アーキテクチャ&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e9%81%8b%e7%94%a8%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視設計（メトリクス/ログ/トレース）&lt;/li>
-&lt;li>アラート設計&lt;/li>
-&lt;li>運用ダッシュボード概要&lt;/li>
-&lt;li>自動化・オーケストレーション設計&lt;/li>
-&lt;li>イベント管理フロー&lt;/li>
-&lt;/ul>
-&lt;h2 id="非機能要件対応">非機能要件対応&lt;a class="td-heading-self-link" href="#%e9%9d%9e%e6%a9%9f%e8%83%bd%e8%a6%81%e4%bb%b6%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>パフォーマンス設計の考え方&lt;/li>
-&lt;li>セキュリティ設計の考え方&lt;/li>
-&lt;li>運用性への配慮&lt;/li>
-&lt;li>メンテナンス性への対応&lt;/li>
-&lt;li>拡張性確保の方針&lt;/li>
-&lt;/ul>
-&lt;h2 id="アーキテクチャ上の主要決定事項">アーキテクチャ上の主要決定事項&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%bc%e3%82%ad%e3%83%86%e3%82%af%e3%83%81%e3%83%a3%e4%b8%8a%e3%81%ae%e4%b8%bb%e8%a6%81%e6%b1%ba%e5%ae%9a%e4%ba%8b%e9%a0%85" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>技術選定理由&lt;/li>
-&lt;li>トレードオフの検討&lt;/li>
-&lt;li>代替案の評価&lt;/li>
-&lt;li>アーキテクチャ上のリスクと対策&lt;/li>
-&lt;/ul>
-&lt;h2 id="実装ガイドライン">実装ガイドライン&lt;a class="td-heading-self-link" href="#%e5%ae%9f%e8%a3%85%e3%82%ac%e3%82%a4%e3%83%89%e3%83%a9%e3%82%a4%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>開発標準の概要&lt;/li>
-&lt;li>コーディング規約の考え方&lt;/li>
-&lt;li>命名規則の基本方針&lt;/li>
-&lt;li>実装パターン&lt;/li>
-&lt;/ul>
-&lt;h2 id="移行戦略概要">移行戦略概要&lt;a class="td-heading-self-link" href="#%e7%a7%bb%e8%a1%8c%e6%88%a6%e7%95%a5%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>既存システムからの移行アプローチ&lt;/li>
-&lt;li>段階的実装計画&lt;/li>
-&lt;li>移行におけるリスクと対策&lt;/li>
-&lt;/ul>
-&lt;h2 id="ロードマップ">ロードマップ&lt;a class="td-heading-self-link" href="#%e3%83%ad%e3%83%bc%e3%83%89%e3%83%9e%e3%83%83%e3%83%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>開発・展開フェーズ&lt;/li>
-&lt;li>主要マイルストーン&lt;/li>
-&lt;li>将来的な拡張計画&lt;/li>
-&lt;/ul></description></item><item><title>業務</title><link>https://bpinelab.github.io/ops-handbook/framework/task/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/task/</guid><description>&lt;h2 id="インシデント管理">インシデント管理&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インシデント分類と優先度定義&lt;/li>
-&lt;li>対応フロー（検知から解決まで）&lt;/li>
-&lt;li>エスカレーション基準&lt;/li>
-&lt;li>インシデント報告テンプレート&lt;/li>
-&lt;li>過去事例とその解決策のナレッジベース&lt;/li>
-&lt;/ul>
-&lt;h2 id="変更管理">変更管理&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>変更リクエストの申請・承認フロー&lt;/li>
-&lt;li>リスクアセスメント手法&lt;/li>
-&lt;li>変更実施計画のテンプレート&lt;/li>
-&lt;li>緊急変更の手続き&lt;/li>
-&lt;li>変更後レビュープロセス&lt;/li>
-&lt;/ul>
-&lt;h2 id="問題管理">問題管理&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>問題特定と根本原因分析手法&lt;/li>
-&lt;li>既知のエラーデータベース&lt;/li>
-&lt;li>対策立案プロセス&lt;/li>
-&lt;li>再発防止策の実施と評価&lt;/li>
-&lt;/ul>
-&lt;h2 id="リリース管理">リリース管理&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リリース計画・スケジュール策定プロセス&lt;/li>
-&lt;li>環境別展開手順（開発→テスト→本番）&lt;/li>
-&lt;li>ロールバック手順&lt;/li>
-&lt;li>リリース後の監視体制&lt;/li>
-&lt;/ul>
-&lt;h2 id="可用性管理">可用性管理&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>SLA/SLO定義と測定方法&lt;/li>
-&lt;li>システム監視設定と閾値&lt;/li>
-&lt;li>障害時の復旧手順（DR計画）&lt;/li>
-&lt;li>計画停止の実施プロセス&lt;/li>
-&lt;/ul>
-&lt;h2 id="セキュリティ運用">セキュリティ運用&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e9%81%8b%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>セキュリティポリシーと手順書&lt;/li>
-&lt;li>脆弱性管理プロセス&lt;/li>
-&lt;li>アクセス権限管理手順&lt;/li>
-&lt;li>セキュリティインシデント対応手順&lt;/li>
-&lt;li>セキュリティ監査・点検項目&lt;/li>
-&lt;/ul>
-&lt;h2 id="バックアップリカバリ">バックアップ・リカバリ&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップスケジュールと方式&lt;/li>
-&lt;li>データ保持ポリシー&lt;/li>
-&lt;li>リストア手順&lt;/li>
-&lt;li>リカバリテスト計画&lt;/li>
-&lt;/ul>
-&lt;h2 id="性能キャパシティ管理">性能・キャパシティ管理&lt;a class="td-heading-self-link" href="#%e6%80%a7%e8%83%bd%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リソース監視項目と閾値&lt;/li>
-&lt;li>キャパシティ計画策定プロセス&lt;/li>
-&lt;li>パフォーマンス問題対応手順&lt;/li>
-&lt;li>拡張計画&lt;/li>
-&lt;/ul>
-&lt;h2 id="構成管理">構成管理&lt;a class="td-heading-self-link" href="#%e6%a7%8b%e6%88%90%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>構成管理データベース（CMDB）の管理方法&lt;/li>
-&lt;li>資産登録・変更・廃棄手順&lt;/li>
-&lt;li>構成監査プロセス&lt;/li>
-&lt;/ul>
-&lt;h2 id="運用ツール解説">運用ツール解説&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e3%83%84%e3%83%bc%e3%83%ab%e8%a7%a3%e8%aa%ac" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視ツールの利用方法&lt;/li>
-&lt;li>チケット管理システムの操作方法&lt;/li>
-&lt;li>自動化ツールと実行手順&lt;/li>
-&lt;li>報告・分析ツールの使用法&lt;/li>
-&lt;/ul>
-&lt;h2 id="定例業務">定例業務&lt;a class="td-heading-self-link" href="#%e5%ae%9a%e4%be%8b%e6%a5%ad%e5%8b%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>日次/週次/月次チェック項目&lt;/li>
-&lt;li>定期レポート作成手順と内容&lt;/li>
-&lt;li>定期メンテナンス手順&lt;/li>
-&lt;li>定例会議の目的と進行方法&lt;/li>
-&lt;/ul>
-&lt;h2 id="トレーニング教育">トレーニング・教育&lt;a class="td-heading-self-link" href="#%e3%83%88%e3%83%ac%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e6%95%99%e8%82%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>新任者向けオンボーディング計画&lt;/li>
-&lt;li>スキルマップと育成計画&lt;/li>
-&lt;li>必須資格・認証リスト&lt;/li>
-&lt;/ul>
-&lt;h2 id="継続的改善">継続的改善&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>KPI・メトリクス定義と測定方法&lt;/li>
-&lt;li>改善提案プロセス&lt;/li>
-&lt;li>サービスレビュー実施手順&lt;/li>
-&lt;/ul></description></item><item><title>定型作業</title><link>https://bpinelab.github.io/ops-handbook/procedure/routine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/routine/</guid><description>&lt;h2 id="1-はじめに">1. はじめに&lt;a class="td-heading-self-link" href="#1-%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;p>&lt;strong>Reload the page&lt;/strong>: &lt;code>Ctrl + R&lt;/code> (on Mac: &lt;code>Cmd + R&lt;/code>)&lt;br>
+Reload the currently displayed page.&lt;/p></description></item><item><title>定型作業</title><link>https://bpinelab.github.io/ops-handbook/procedure/routine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/routine/</guid><description>&lt;h2 id="はじめに">はじめに&lt;a class="td-heading-self-link" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>本ドキュメントの目的と対象読者（運用担当者）&lt;/li>
 &lt;li>定型作業の重要性と、本ドキュメントの位置づけ&lt;/li>
 &lt;/ul>
-&lt;h2 id="2-定型作業の概要">2. 定型作業の概要&lt;a class="td-heading-self-link" href="#2-%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="21-作業内容の詳細">2.1. 作業内容の詳細:&lt;a class="td-heading-self-link" href="#21-%e4%bd%9c%e6%a5%ad%e5%86%85%e5%ae%b9%e3%81%ae%e8%a9%b3%e7%b4%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="定型作業の概要">定型作業の概要&lt;a class="td-heading-self-link" href="#%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="作業内容の詳細">作業内容の詳細:&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e6%a5%ad%e5%86%85%e5%ae%b9%e3%81%ae%e8%a9%b3%e7%b4%b0" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業の具体的な手順（ステップバイステップで記述）&lt;/li>
 &lt;li>各ステップにおけるインプット情報とアウトプット情報&lt;/li>
 &lt;li>使用するツール、システム、帳票など&lt;/li>
 &lt;li>作業の頻度と実施タイミング&lt;/li>
 &lt;li>作業時間やリソースに関する目安&lt;/li>
 &lt;/ul>
-&lt;h3 id="22-関連するドキュメント">2.2. 関連するドキュメント:&lt;a class="td-heading-self-link" href="#22-%e9%96%a2%e9%80%a3%e3%81%99%e3%82%8b%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="関連するドキュメント">関連するドキュメント:&lt;a class="td-heading-self-link" href="#%e9%96%a2%e9%80%a3%e3%81%99%e3%82%8b%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業手順書、マニュアル、設計書など、参照すべきドキュメントの一覧と場所&lt;/li>
 &lt;/ul>
-&lt;h3 id="23-担当者と責任">2.3. 担当者と責任:&lt;a class="td-heading-self-link" href="#23-%e6%8b%85%e5%bd%93%e8%80%85%e3%81%a8%e8%b2%ac%e4%bb%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="担当者と責任">担当者と責任:&lt;a class="td-heading-self-link" href="#%e6%8b%85%e5%bd%93%e8%80%85%e3%81%a8%e8%b2%ac%e4%bb%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>各作業における担当者または担当部署&lt;/li>
 &lt;li>責任範囲（作業の実施、品質保証、問題発生時の対応など）&lt;/li>
 &lt;/ul>
-&lt;h2 id="3-作業の準備">3. 作業の準備&lt;a class="td-heading-self-link" href="#3-%e4%bd%9c%e6%a5%ad%e3%81%ae%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="31-事前準備">3.1. 事前準備:&lt;a class="td-heading-self-link" href="#31-%e4%ba%8b%e5%89%8d%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="作業の準備">作業の準備&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e6%a5%ad%e3%81%ae%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="事前準備">事前準備:&lt;a class="td-heading-self-link" href="#%e4%ba%8b%e5%89%8d%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業開始前に必要な準備（例：データの取得、ツールの起動、帳票の準備など）&lt;/li>
 &lt;li>準備に必要な時間や注意点&lt;/li>
 &lt;/ul>
-&lt;h3 id="32-環境の確認">3.2. 環境の確認:&lt;a class="td-heading-self-link" href="#32-%e7%92%b0%e5%a2%83%e3%81%ae%e7%a2%ba%e8%aa%8d" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="環境の確認">環境の確認:&lt;a class="td-heading-self-link" href="#%e7%92%b0%e5%a2%83%e3%81%ae%e7%a2%ba%e8%aa%8d" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業を行う環境（システム、ネットワーク、設備など）の確認方法とチェックリスト&lt;/li>
 &lt;li>環境に関するトラブルシューティング&lt;/li>
 &lt;/ul>
-&lt;h2 id="4-作業の実施">4. 作業の実施&lt;a class="td-heading-self-link" href="#4-%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%9f%e6%96%bd" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="41-基本的な操作手順">4.1. 基本的な操作手順:&lt;a class="td-heading-self-link" href="#41-%e5%9f%ba%e6%9c%ac%e7%9a%84%e3%81%aa%e6%93%8d%e4%bd%9c%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="作業の実施">作業の実施&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%9f%e6%96%bd" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="基本的な操作手順">基本的な操作手順:&lt;a class="td-heading-self-link" href="#%e5%9f%ba%e6%9c%ac%e7%9a%84%e3%81%aa%e6%93%8d%e4%bd%9c%e6%89%8b%e9%a0%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>各ステップの詳細な操作方法（画面ショットや具体的なコマンドを含む）&lt;/li>
 &lt;li>入力規則、選択肢、注意点など&lt;/li>
 &lt;li>エラーが発生しやすい箇所とその回避方法&lt;/li>
 &lt;/ul>
-&lt;h3 id="42-例外処理">4.2. 例外処理:&lt;a class="td-heading-self-link" href="#42-%e4%be%8b%e5%a4%96%e5%87%a6%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="例外処理">例外処理:&lt;a class="td-heading-self-link" href="#%e4%be%8b%e5%a4%96%e5%87%a6%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>通常の処理とは異なる場合の対応手順（エラー発生時、データ不整合時など）&lt;/li>
 &lt;li>判断が必要な場合の基準とエスカレーションルート&lt;/li>
 &lt;/ul>
-&lt;h3 id="43-記録と証跡">4.3. 記録と証跡:&lt;a class="td-heading-self-link" href="#43-%e8%a8%98%e9%8c%b2%e3%81%a8%e8%a8%bc%e8%b7%a1" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="記録と証跡">記録と証跡:&lt;a class="td-heading-self-link" href="#%e8%a8%98%e9%8c%b2%e3%81%a8%e8%a8%bc%e8%b7%a1" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業の実施記録、ログの保存方法、証跡の管理方法&lt;/li>
 &lt;li>記録すべき情報（日時、担当者、処理件数、結果など）&lt;/li>
 &lt;/ul>
-&lt;h2 id="5-作業の完了">5. 作業の完了&lt;a class="td-heading-self-link" href="#5-%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%8c%e4%ba%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="51-完了条件">5.1. 完了条件:&lt;a class="td-heading-self-link" href="#51-%e5%ae%8c%e4%ba%86%e6%9d%a1%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="作業の完了">作業の完了&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%8c%e4%ba%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="完了条件">完了条件:&lt;a class="td-heading-self-link" href="#%e5%ae%8c%e4%ba%86%e6%9d%a1%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業が完了したと判断できる基準&lt;/li>
 &lt;/ul>
-&lt;h3 id="52-完了後の処理">5.2. 完了後の処理:&lt;a class="td-heading-self-link" href="#52-%e5%ae%8c%e4%ba%86%e5%be%8c%e3%81%ae%e5%87%a6%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="完了後の処理">完了後の処理:&lt;a class="td-heading-self-link" href="#%e5%ae%8c%e4%ba%86%e5%be%8c%e3%81%ae%e5%87%a6%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>アウトプットの保存場所、報告先、後続作業への連携方法&lt;/li>
 &lt;li>完了報告の手順と様式&lt;/li>
 &lt;/ul>
-&lt;h2 id="6-トラブルシューティング">6. トラブルシューティング&lt;a class="td-heading-self-link" href="#6-%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="61-よくあるトラブルと対応">6.1. よくあるトラブルと対応:&lt;a class="td-heading-self-link" href="#61-%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%81%a8%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="トラブルシューティング">トラブルシューティング&lt;a class="td-heading-self-link" href="#%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%86%e3%82%a3%e3%83%b3%e3%82%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="よくあるトラブルと対応">よくあるトラブルと対応:&lt;a class="td-heading-self-link" href="#%e3%82%88%e3%81%8f%e3%81%82%e3%82%8b%e3%83%88%e3%83%a9%e3%83%96%e3%83%ab%e3%81%a8%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>過去に発生したトラブルとその解決策&lt;/li>
 &lt;li>問い合わせ先（担当者、部署、連絡方法）&lt;/li>
 &lt;/ul>
-&lt;h3 id="62-緊急時の対応">6.2. 緊急時の対応:&lt;a class="td-heading-self-link" href="#62-%e7%b7%8a%e6%80%a5%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="緊急時の対応">緊急時の対応:&lt;a class="td-heading-self-link" href="#%e7%b7%8a%e6%80%a5%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>システム停止、データ破損など、緊急事態発生時の連絡フローと初期対応&lt;/li>
 &lt;li>バックアップからの復旧手順&lt;/li>
 &lt;/ul>
-&lt;h2 id="7-運用上の注意点">7. 運用上の注意点&lt;a class="td-heading-self-link" href="#7-%e9%81%8b%e7%94%a8%e4%b8%8a%e3%81%ae%e6%b3%a8%e6%84%8f%e7%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="71-セキュリティ">7.1. セキュリティ:&lt;a class="td-heading-self-link" href="#71-%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h2 id="運用上の注意点">運用上の注意点&lt;a class="td-heading-self-link" href="#%e9%81%8b%e7%94%a8%e4%b8%8a%e3%81%ae%e6%b3%a8%e6%84%8f%e7%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="セキュリティ">セキュリティ:&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>アクセス権限、パスワード管理、情報漏洩対策など、セキュリティに関する注意点&lt;/li>
 &lt;/ul>
-&lt;h3 id="72-データ管理">7.2. データ管理:&lt;a class="td-heading-self-link" href="#72-%e3%83%87%e3%83%bc%e3%82%bf%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="データ管理">データ管理:&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>データの取り扱い、保管方法、バックアップに関するルール&lt;/li>
 &lt;/ul>
-&lt;h3 id="73-変更管理">7.3. 変更管理:&lt;a class="td-heading-self-link" href="#73-%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="変更管理">変更管理:&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業手順や使用ツールに変更があった場合の通知方法と適用ルール&lt;/li>
 &lt;/ul>
-&lt;h3 id="74-その他">7.4. その他:&lt;a class="td-heading-self-link" href="#74-%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;h3 id="その他">その他:&lt;a class="td-heading-self-link" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>作業時間に関する制約、遵守すべきルールなど&lt;/li>
 &lt;/ul>
-&lt;h2 id="8-問い合わせ先">8. 問い合わせ先&lt;a class="td-heading-self-link" href="#8-%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e5%85%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;h2 id="問い合わせ先">問い合わせ先&lt;a class="td-heading-self-link" href="#%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e5%85%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>作業に関する質問や不明点がある場合の連絡先（担当者名、部署名、電話番号、メールアドレスなど）&lt;/li>
 &lt;/ul>
-&lt;h2 id="9-付録">9. 付録&lt;a class="td-heading-self-link" href="#9-%e4%bb%98%e9%8c%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;h2 id="付録">付録&lt;a class="td-heading-self-link" href="#%e4%bb%98%e9%8c%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>用語集&lt;/li>
 &lt;li>関連資料へのリンク&lt;/li>
 &lt;li>作業チェックリスト（必要に応じて）&lt;/li>
 &lt;li>変更履歴&lt;/li>
-&lt;/ul></description></item><item><title>KPI</title><link>https://bpinelab.github.io/ops-handbook/framework/kpi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/kpi/</guid><description>&lt;h2 id="可用性信頼性指標">可用性・信頼性指標&lt;a class="td-heading-self-link" href="#%e5%8f%af%e7%94%a8%e6%80%a7%e4%bf%a1%e9%a0%bc%e6%80%a7%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>システム可用性率（Uptime）: システムが稼働している時間の割合（99.9%など）&lt;/li>
-&lt;li>平均故障間隔（MTBF）: 障害発生から次の障害までの平均時間&lt;/li>
-&lt;li>平均復旧時間（MTTR）: 障害発生から復旧までの平均時間&lt;/li>
-&lt;li>計画外ダウンタイム: 予定外のシステム停止時間&lt;/li>
-&lt;li>SLA遵守率: サービスレベル合意の達成率&lt;/li>
+&lt;/ul></description></item><item><title>Ad Hoc Operations</title><link>https://bpinelab.github.io/ops-handbook/procedure/adhoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/adhoc/</guid><description>&lt;h2 id="introduction">Introduction&lt;a class="td-heading-self-link" href="#introduction" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Purpose of this document and target audience (operations staff, team leaders, etc.)&lt;/li>
+&lt;li>Characteristics of ad hoc operations and basic approach to handling them (flexibility, importance of adaptive response, etc.)&lt;/li>
 &lt;/ul>
-&lt;h2 id="インシデント問題管理指標">インシデント・問題管理指標&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%95%8f%e9%a1%8c%e7%ae%a1%e7%90%86%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>インシデント解決時間: 優先度別の平均解決時間&lt;/li>
-&lt;li>初回解決率（FCR）: 一次対応で解決されたインシデントの割合&lt;/li>
-&lt;li>再発インシデント率: 同一原因による再発事象の割合&lt;/li>
-&lt;li>バックログ率: 未解決インシデントの蓄積状況&lt;/li>
-&lt;li>エスカレーション率: 上位層にエスカレーションされた案件の割合&lt;/li>
+&lt;h2 id="definition-and-classification-of-ad-hoc-operations">Definition and Classification of Ad Hoc Operations&lt;a class="td-heading-self-link" href="#definition-and-classification-of-ad-hoc-operations" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="definition-of-ad-hoc-operations">Definition of Ad Hoc Operations:&lt;a class="td-heading-self-link" href="#definition-of-ad-hoc-operations" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Clear distinction from routine operations&lt;/li>
+&lt;li>Explanation of unpredictable elements and tasks requiring case-by-case judgment&lt;/li>
 &lt;/ul>
-&lt;h2 id="変更管理指標">変更管理指標&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e7%ae%a1%e7%90%86%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>変更成功率: 計画通り完了した変更の割合&lt;/li>
-&lt;li>変更に起因するインシデント数: 変更実施後に発生した問題件数&lt;/li>
-&lt;li>緊急変更の割合: 標準変更プロセス外で実施された変更の割合&lt;/li>
-&lt;li>変更のバックログ: 保留中または遅延している変更の数&lt;/li>
-&lt;li>リリース精度: リリース計画通りに完了した割合&lt;/li>
+&lt;h3 id="classification-of-ad-hoc-operations-examples">Classification of Ad Hoc Operations (examples):&lt;a class="td-heading-self-link" href="#classification-of-ad-hoc-operations-examples" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Classification by urgency (emergency response, normal response)&lt;/li>
+&lt;li>Classification by content (investigation, analysis, planning, design, special processing, etc.)&lt;/li>
+&lt;li>Classification by frequency (sudden occurrence, rare occurrence)&lt;/li>
+&lt;li>Explanation of how priority and process differ based on classification&lt;/li>
 &lt;/ul>
-&lt;h2 id="パフォーマンスキャパシティ指標">パフォーマンス・キャパシティ指標&lt;a class="td-heading-self-link" href="#%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>CPU/メモリ/ディスク使用率: リソース使用状況&lt;/li>
-&lt;li>レスポンスタイム: エンドユーザー観点での応答時間&lt;/li>
-&lt;li>スループット: 単位時間あたりの処理量&lt;/li>
-&lt;li>キャパシティ余剰率: ピーク時の余裕度&lt;/li>
-&lt;li>リソース予測精度: 予測と実際の使用量の乖離&lt;/li>
+&lt;h2 id="basic-response-flow">Basic Response Flow&lt;a class="td-heading-self-link" href="#basic-response-flow" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="reception-and-initial-analysis">Reception and Initial Analysis:&lt;a class="td-heading-self-link" href="#reception-and-initial-analysis" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Understanding the request or occurrence context and content&lt;/li>
+&lt;li>Gathering necessary information (methods for confirming missing information)&lt;/li>
+&lt;li>Initial assessment of urgency and impact scope&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ運用指標">セキュリティ運用指標&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e9%81%8b%e7%94%a8%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>セキュリティインシデント発生数: 種類別のセキュリティ事象数&lt;/li>
-&lt;li>脆弱性対応時間: 検出から修正までの平均時間&lt;/li>
-&lt;li>パッチ適用率: 必要なパッチが適用されているシステムの割合&lt;/li>
-&lt;li>セキュリティコンプライアンス準拠率: セキュリティ要件の遵守度&lt;/li>
-&lt;li>不正アクセス検出時間: 不正アクセスの検知までの平均時間&lt;/li>
+&lt;h3 id="decision-and-assignment-of-personnel">Decision and Assignment of Personnel:&lt;a class="td-heading-self-link" href="#decision-and-assignment-of-personnel" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Selection criteria for personnel with required skills and knowledge&lt;/li>
+&lt;li>Methods for assigning personnel and clarifying responsibility scope&lt;/li>
 &lt;/ul>
-&lt;h2 id="サービスデスクサポート指標">サービスデスク・サポート指標&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%87%e3%82%b9%e3%82%af%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>平均応答時間: ユーザーからの問い合わせへの初期対応時間&lt;/li>
-&lt;li>ユーザー満足度（CSAT）: サポート品質に対する利用者評価&lt;/li>
-&lt;li>チケット解決時間: 種類別の平均解決時間&lt;/li>
-&lt;li>再オープン率: 一度クローズされたが再度開かれたチケットの割合&lt;/li>
-&lt;li>サポート負荷分布: チームメンバー間の作業負荷バランス&lt;/li>
+&lt;h3 id="development-of-work-plan">Development of Work Plan:&lt;a class="td-heading-self-link" href="#development-of-work-plan" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Setting objectives (what needs to be achieved)&lt;/li>
+&lt;li>Estimating required resources (time, personnel, tools, etc.)&lt;/li>
+&lt;li>Identifying and prioritizing tasks to be performed&lt;/li>
+&lt;li>Establishing schedule (deadlines, intermediate goals, etc.)&lt;/li>
 &lt;/ul>
-&lt;h2 id="効率性コスト指標">効率性・コスト指標&lt;a class="td-heading-self-link" href="#%e5%8a%b9%e7%8e%87%e6%80%a7%e3%82%b3%e3%82%b9%e3%83%88%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>自動化率: 自動化されたタスクの割合&lt;/li>
-&lt;li>ITコスト対収益比: 収益に対するIT運用コストの割合&lt;/li>
-&lt;li>一人あたり管理サーバー数: 運用担当者一人当たりの管理対象数&lt;/li>
-&lt;li>チケット一件あたりのコスト: 平均対応コスト&lt;/li>
-&lt;li>予防的活動の割合: 事後対応ではなく予防的に実施した活動の割合&lt;/li>
+&lt;h3 id="implementation-of-work">Implementation of Work:&lt;a class="td-heading-self-link" href="#implementation-of-work" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Execution of work based on plan&lt;/li>
+&lt;li>Flexible response according to situation (plan modification, adaptation to new information)&lt;/li>
+&lt;li>Methods for collaboration with related departments&lt;/li>
 &lt;/ul>
-&lt;h2 id="継続的改善指標">継続的改善指標&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e6%8c%87%e6%a8%99" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>プロセス成熟度: 運用プロセスの成熟度評価&lt;/li>
-&lt;li>ナレッジ活用率: ナレッジベース活用によって解決した事案の割合&lt;/li>
-&lt;li>改善施策実施率: 計画された改善施策の実施完了率&lt;/li>
-&lt;li>トレーニング完了率: 必要なトレーニングを完了した担当者の割合&lt;/li>
-&lt;li>顧客フィードバック対応率: 顧客からの改善要望に対応した割合&lt;/li>
-&lt;/ul></description></item><item><title>プロンプト</title><link>https://bpinelab.github.io/ops-handbook/knowledge/prompt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>このマニュアルでは、Markdown ドキュメントを統一したフォーマット
-で効率的に作成するための Prompt の書き方について説明します。チームメンバーが統一
-されたスタイルでドキュメントを作成できるように、基本的なルールやテンプレートを紹
-介します。&lt;/p>
-
-&lt;/div>
-
-&lt;h2 id="1-はじめに">1. はじめに&lt;a class="td-heading-self-link" href="#1-%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>このマニュアルは、Markdown 形式のドキュメントを一貫性を持って作成するための
-Prompt の書き方を説明します。これにより、チーム全体でドキュメントのスタイルが統
-一され、読みやすく管理しやすいドキュメントを作成することができます。&lt;/p>
-&lt;h2 id="2-prompt-作成の基本">2. Prompt 作成の基本&lt;a class="td-heading-self-link" href="#2-prompt-%e4%bd%9c%e6%88%90%e3%81%ae%e5%9f%ba%e6%9c%ac" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>Markdown ドキュメントを作成するための Prompt を書く際には、以下のポイントを押さ
-えてください：&lt;/p>
-&lt;h3 id="21-ドキュメントの目的と構成を明確にする">2.1 ドキュメントの目的と構成を明確にする&lt;a class="td-heading-self-link" href="#21-%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ae%e7%9b%ae%e7%9a%84%e3%81%a8%e6%a7%8b%e6%88%90%e3%82%92%e6%98%8e%e7%a2%ba%e3%81%ab%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>目的を明確に&lt;/strong>: Prompt を書く前に、ドキュメントの目的を明確にしてください。
-伝えるべき内容をしっかり定義することで、ブレないドキュメントを作成できます。&lt;/li>
-&lt;li>&lt;strong>構成を定義する&lt;/strong>: ドキュメントのセクションや見出しを Prompt に明示的に指示し
-ます。&lt;/li>
+&lt;h3 id="reporting-and-confirmation">Reporting and Confirmation:&lt;a class="td-heading-self-link" href="#reporting-and-confirmation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Methods and frequency for reporting progress and results&lt;/li>
+&lt;li>Information sharing with stakeholders&lt;/li>
+&lt;li>Confirmation and approval process for outputs&lt;/li>
 &lt;/ul>
-&lt;h4 id="サンプル-prompt">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt" aria-label="Heading self-link">&lt;/a>&lt;/h4>&lt;pre tabindex="0">&lt;code>「オペレーションプラットフォームの概要を説明するMarkdownドキュメントを作成してください。以下のセクションに従って内容を詳しく記述してください：
-
-1. 概要
-2. 主な機能
- - サービスデスク
- - 自動化
- - 監視とアラート
-3. まとめ
-」
-&lt;/code>&lt;/pre>&lt;h3 id="22-出力フォーマットを指定する">2.2 出力フォーマットを指定する&lt;a class="td-heading-self-link" href="#22-%e5%87%ba%e5%8a%9b%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%83%e3%83%88%e3%82%92%e6%8c%87%e5%ae%9a%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>Markdown 形式の指定&lt;/strong>: Markdown 形式での出力を指示し、正確な見出しやリストの
-フォーマットを要求します。&lt;/li>
+&lt;h3 id="documentation-and-knowledge-management">Documentation and Knowledge Management:&lt;a class="td-heading-self-link" href="#documentation-and-knowledge-management" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Methods for documenting work content, decision process, results, issues, and lessons learned&lt;/li>
+&lt;li>Methods for knowledge sharing (documentation, sharing in meetings, etc.)&lt;/li>
 &lt;/ul>
-&lt;h4 id="サンプル-prompt-1">サンプル Prompt:&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-prompt-1" aria-label="Heading self-link">&lt;/a>&lt;/h4>&lt;pre tabindex="0">&lt;code>「次の構成でMarkdown形式のドキュメントを作成してください。適切なMarkdown記法を使用し、見出しはH2またはH3で出力してください。
-
-1. 概要（H2）
-2. 機能の説明（H2）
- - サービスデスク（H3）
- - 自動化（H3）
-3. まとめ（H2）
-」
-&lt;/code>&lt;/pre>&lt;h3 id="23-テンプレートを活用する">2.3 テンプレートを活用する&lt;a class="td-heading-self-link" href="#23-%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88%e3%82%92%e6%b4%bb%e7%94%a8%e3%81%99%e3%82%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;p>統一感を持たせるために、テンプレートを使用すると効果的です。&lt;/p></description></item><item><title>自動化ポリシー</title><link>https://bpinelab.github.io/ops-handbook/policy/automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/automation/</guid><description>&lt;h2 id="詳細コンポーネント設計">詳細コンポーネント設計&lt;a class="td-heading-self-link" href="#%e8%a9%b3%e7%b4%b0%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>各コンポーネントの内部構造&lt;/li>
-&lt;li>モジュール間の依存関係&lt;/li>
-&lt;li>クラス図/コンポーネント図&lt;/li>
-&lt;li>シーケンス図&lt;/li>
-&lt;li>インターフェース定義&lt;/li>
+&lt;h2 id="important-points-in-response">Important Points in Response&lt;a class="td-heading-self-link" href="#important-points-in-response" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="communication">Communication:&lt;a class="td-heading-self-link" href="#communication" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Importance of smooth communication with stakeholders&lt;/li>
+&lt;li>Thorough implementation of reporting, communication, and consultation&lt;/li>
+&lt;li>Tools and methods for information sharing&lt;/li>
 &lt;/ul>
-&lt;h2 id="データベース詳細設計">データベース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>テーブル定義（全テーブル）&lt;/li>
-&lt;li>カラム定義（名前、型、制約）&lt;/li>
-&lt;li>インデックス情報&lt;/li>
-&lt;li>外部キー関係&lt;/li>
-&lt;li>ストアドプロシージャ/関数一覧&lt;/li>
-&lt;li>トリガー定義&lt;/li>
-&lt;li>パーティション設計&lt;/li>
-&lt;li>クエリ最適化設計&lt;/li>
+&lt;h3 id="judgment-and-problem-solving-skills">Judgment and Problem-Solving Skills:&lt;a class="td-heading-self-link" href="#judgment-and-problem-solving-skills" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Approach for analyzing situations and making appropriate judgments&lt;/li>
+&lt;li>Analysis methods and solution consideration process when problems occur&lt;/li>
 &lt;/ul>
-&lt;h2 id="api詳細設計">API詳細設計&lt;a class="td-heading-self-link" href="#api%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>各APIエンドポイント仕様&lt;/li>
-&lt;li>URL構造&lt;/li>
-&lt;li>パラメータ定義&lt;/li>
-&lt;li>リクエスト/レスポンスフォーマット&lt;/li>
-&lt;li>ステータスコード定義&lt;/li>
-&lt;li>API認証・認可設計&lt;/li>
-&lt;li>レート制限設計&lt;/li>
-&lt;li>エラーハンドリング仕様&lt;/li>
-&lt;li>APIバージョニング方式&lt;/li>
+&lt;h3 id="flexibility-and-adaptability">Flexibility and Adaptability:&lt;a class="td-heading-self-link" href="#flexibility-and-adaptability" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Response methods when plans don&amp;rsquo;t proceed as expected&lt;/li>
+&lt;li>Adaptability to new information and situations&lt;/li>
 &lt;/ul>
-&lt;h2 id="ユーザーインターフェース詳細設計">ユーザーインターフェース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>画面レイアウト詳細&lt;/li>
-&lt;li>UI要素の仕様&lt;/li>
-&lt;li>画面遷移図&lt;/li>
-&lt;li>入力検証ルール&lt;/li>
-&lt;li>エラーメッセージ定義&lt;/li>
-&lt;li>レスポンシブデザイン仕様&lt;/li>
+&lt;h3 id="prioritization">Prioritization:&lt;a class="td-heading-self-link" href="#prioritization" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Criteria for determining priorities when multiple ad hoc operations occur&lt;/li>
+&lt;li>Methods for evaluating urgency and importance&lt;/li>
 &lt;/ul>
-&lt;h2 id="ネットワーク詳細設計">ネットワーク詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>サブネット設計（アドレス範囲）&lt;/li>
-&lt;li>VLANセグメンテーション詳細&lt;/li>
-&lt;li>ファイアウォールルール一覧&lt;/li>
-&lt;li>ルーティングテーブル&lt;/li>
-&lt;li>DNSレコード設定&lt;/li>
-&lt;li>ロードバランサー設定詳細&lt;/li>
-&lt;li>帯域制御設定&lt;/li>
+&lt;h3 id="risk-management">Risk Management:&lt;a class="td-heading-self-link" href="#risk-management" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Predicting and addressing risks such as work delays and quality degradation&lt;/li>
+&lt;li>Escalation criteria and flow&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ詳細設計">セキュリティ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>認証実装詳細&lt;/li>
-&lt;li>アクセス制御マトリクス&lt;/li>
-&lt;li>セキュリティグループ/ACL設定一覧&lt;/li>
-&lt;li>暗号化実装詳細（鍵管理含む）&lt;/li>
-&lt;li>セキュリティ監視ルール&lt;/li>
-&lt;li>脆弱性対策実装方法&lt;/li>
+&lt;h2 id="tools-and-resources">Tools and Resources&lt;a class="td-heading-self-link" href="#tools-and-resources" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="available-tools">Available Tools:&lt;a class="td-heading-self-link" href="#available-tools" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Communication tools, project management tools, information sharing tools, etc.&lt;/li>
+&lt;li>Usage methods and purposes of each tool&lt;/li>
 &lt;/ul>
-&lt;h2 id="監視アラート詳細設計">監視・アラート詳細設計&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視対象メトリクス詳細&lt;/li>
-&lt;li>メトリクス名&lt;/li>
-&lt;li>収集間隔&lt;/li>
-&lt;li>保存期間&lt;/li>
-&lt;li>アラートルール詳細&lt;/li>
-&lt;li>閾値設定&lt;/li>
-&lt;li>アラート条件&lt;/li>
-&lt;li>通知先設定&lt;/li>
-&lt;li>ログ収集設定&lt;/li>
-&lt;li>ログ形式&lt;/li>
-&lt;li>ローテーション設定&lt;/li>
-&lt;li>パース/インデックス設定&lt;/li>
-&lt;li>ダッシュボード詳細レイアウト&lt;/li>
+&lt;h3 id="reference-information-sources">Reference Information Sources:&lt;a class="td-heading-self-link" href="#reference-information-sources" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Past cases, related documents, personnel with specialized knowledge, etc.&lt;/li>
 &lt;/ul>
-&lt;h2 id="バックアップリカバリ詳細設計">バックアップ・リカバリ詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップジョブ詳細設定&lt;/li>
-&lt;li>対象/除外設定&lt;/li>
-&lt;li>スケジュール詳細&lt;/li>
-&lt;li>保持ポリシー&lt;/li>
-&lt;li>リストア手順詳細&lt;/li>
-&lt;li>障害復旧シナリオ詳細&lt;/li>
-&lt;li>テスト手順&lt;/li>
+&lt;h3 id="consultation-points">Consultation Points:&lt;a class="td-heading-self-link" href="#consultation-points" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Points of contact for consultation when judgment is unclear or support is needed&lt;/li>
 &lt;/ul>
-&lt;h2 id="インフラストラクチャ詳細設計">インフラストラクチャ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>サーバー構成詳細&lt;/li>
-&lt;li>スペック定義&lt;/li>
-&lt;li>パーティション設計&lt;/li>
-&lt;li>カーネルパラメータ&lt;/li>
-&lt;li>ストレージ詳細構成&lt;/li>
-&lt;li>LUN/ボリューム設計&lt;/li>
-&lt;li>RAID構成詳細&lt;/li>
-&lt;li>ストレージネットワーク設計&lt;/li>
-&lt;li>仮想化/コンテナ設定詳細&lt;/li>
-&lt;li>リソース割り当て&lt;/li>
-&lt;li>ネットワーク設定&lt;/li>
-&lt;li>ストレージマウント設定&lt;/li>
+&lt;h2 id="knowledge-accumulation-and-utilization">Knowledge Accumulation and Utilization&lt;a class="td-heading-self-link" href="#knowledge-accumulation-and-utilization" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="importance-of-documentation">Importance of Documentation:&lt;a class="td-heading-self-link" href="#importance-of-documentation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Need for detailed documentation to benefit future similar cases&lt;/li>
 &lt;/ul>
-&lt;h2 id="自動化デプロイメント詳細設計">自動化・デプロイメント詳細設計&lt;a class="td-heading-self-link" href="#%e8%87%aa%e5%8b%95%e5%8c%96%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>CI/CDパイプライン詳細&lt;/li>
-&lt;li>インフラストラクチャ・コード詳細&lt;/li>
-&lt;li>構成管理ツール設定&lt;/li>
-&lt;li>デプロイスクリプト仕様&lt;/li>
-&lt;li>ロールバック手順&lt;/li>
+&lt;h3 id="knowledge-sharing-system">Knowledge Sharing System:&lt;a class="td-heading-self-link" href="#knowledge-sharing-system" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Platforms or meeting bodies for sharing documented information&lt;/li>
 &lt;/ul>
-&lt;h2 id="バッチ処理詳細設計">バッチ処理詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%83%81%e5%87%a6%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ジョブ定義&lt;/li>
-&lt;li>ステップ構成&lt;/li>
-&lt;li>パラメータ設定&lt;/li>
-&lt;li>依存関係&lt;/li>
-&lt;li>スケジュール詳細&lt;/li>
-&lt;li>エラーハンドリング&lt;/li>
-&lt;li>リトライ戦略&lt;/li>
-&lt;li>ログ出力仕様&lt;/li>
+&lt;h3 id="extraction-of-best-practices">Extraction of Best Practices:&lt;a class="td-heading-self-link" href="#extraction-of-best-practices" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Approach to learning from success cases and improving response methods&lt;/li>
 &lt;/ul>
-&lt;h2 id="キャパシティ管理詳細設計">キャパシティ管理詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リソース使用量予測モデル&lt;/li>
-&lt;li>スケーリングポリシー詳細&lt;/li>
-&lt;li>オートスケーリング設定&lt;/li>
-&lt;li>負荷テスト計画&lt;/li>
+&lt;h2 id="continuous-improvement">Continuous Improvement&lt;a class="td-heading-self-link" href="#continuous-improvement" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="implementation-of-review">Implementation of Review:&lt;a class="td-heading-self-link" href="#implementation-of-review" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Reviewing response status after work or at regular intervals to identify improvement points&lt;/li>
 &lt;/ul>
-&lt;h2 id="障害対応詳細設計">障害対応詳細設計&lt;a class="td-heading-self-link" href="#%e9%9a%9c%e5%ae%b3%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>障害シナリオ別の復旧手順&lt;/li>
-&lt;li>フェイルオーバー設定詳細&lt;/li>
-&lt;li>サーキットブレーカー実装&lt;/li>
-&lt;li>障害通知フロー詳細&lt;/li>
+&lt;h3 id="collection-of-feedback">Collection of Feedback:&lt;a class="td-heading-self-link" href="#collection-of-feedback" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Actively collecting feedback from stakeholders and utilizing it for improvement&lt;/li>
 &lt;/ul>
-&lt;h2 id="コンプライアンス対応詳細">コンプライアンス対応詳細&lt;a class="td-heading-self-link" href="#%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監査ログ設定&lt;/li>
-&lt;li>証跡保存設計&lt;/li>
-&lt;li>データ保護実装詳細&lt;/li>
-&lt;li>アクセス履歴管理&lt;/li>
+&lt;h3 id="process-review">Process Review:&lt;a class="td-heading-self-link" href="#process-review" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Considering more efficient and effective response methods and updating processes as needed&lt;/li>
+&lt;/ul></description></item><item><title>Automation Policy</title><link>https://bpinelab.github.io/ops-handbook/policy/automation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/policy/automation/</guid><description>&lt;h2 id="basic-principles-of-automation">Basic Principles of Automation&lt;a class="td-heading-self-link" href="#basic-principles-of-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>All routine tasks should be automated by default&lt;/li>
+&lt;li>Manual operations are permitted only in exceptional cases&lt;/li>
+&lt;li>Regular evaluation of automation ROI (Return on Investment)&lt;/li>
+&lt;li>Standardization and unification of automation tools&lt;/li>
+&lt;li>Version control and reusability of automation scripts&lt;/li>
 &lt;/ul>
-&lt;h2 id="テスト仕様">テスト仕様&lt;a class="td-heading-self-link" href="#%e3%83%86%e3%82%b9%e3%83%88%e4%bb%95%e6%a7%98" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ユニットテスト計画&lt;/li>
-&lt;li>統合テスト仕様&lt;/li>
-&lt;li>性能テスト計画&lt;/li>
-&lt;li>セキュリティテスト仕様&lt;/li>
-&lt;li>DR訓練手順&lt;/li>
-&lt;/ul></description></item><item><title>詳細設計</title><link>https://bpinelab.github.io/ops-handbook/arch/lld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/lld/</guid><description>&lt;h2 id="詳細コンポーネント設計">詳細コンポーネント設計&lt;a class="td-heading-self-link" href="#%e8%a9%b3%e7%b4%b0%e3%82%b3%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%8d%e3%83%b3%e3%83%88%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>各コンポーネントの内部構造&lt;/li>
-&lt;li>モジュール間の依存関係&lt;/li>
-&lt;li>クラス図/コンポーネント図&lt;/li>
-&lt;li>シーケンス図&lt;/li>
-&lt;li>インターフェース定義&lt;/li>
+&lt;h2 id="infrastructure-automation">Infrastructure Automation&lt;a class="td-heading-self-link" href="#infrastructure-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>All infrastructure managed as code (IaC)&lt;/li>
+&lt;li>Automated provisioning of cloud resources&lt;/li>
+&lt;li>Consistency ensured through configuration management tools&lt;/li>
+&lt;li>Implementation of auto-scaling&lt;/li>
+&lt;li>Automation of security settings&lt;/li>
+&lt;li>Automation of backup and restore&lt;/li>
 &lt;/ul>
-&lt;h2 id="データベース詳細設計">データベース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>テーブル定義（全テーブル）&lt;/li>
-&lt;li>カラム定義（名前、型、制約）&lt;/li>
-&lt;li>インデックス情報&lt;/li>
-&lt;li>外部キー関係&lt;/li>
-&lt;li>ストアドプロシージャ/関数一覧&lt;/li>
-&lt;li>トリガー定義&lt;/li>
-&lt;li>パーティション設計&lt;/li>
-&lt;li>クエリ最適化設計&lt;/li>
+&lt;h2 id="cicd-automation">CI/CD Automation&lt;a class="td-heading-self-link" href="#cicd-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>All deployments automated&lt;/li>
+&lt;li>Thorough test automation&lt;/li>
+&lt;li>Automated code quality checks&lt;/li>
+&lt;li>Automated security scanning&lt;/li>
+&lt;li>Automated rollback&lt;/li>
+&lt;li>Automated environment setup&lt;/li>
 &lt;/ul>
-&lt;h2 id="api詳細設計">API詳細設計&lt;a class="td-heading-self-link" href="#api%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>各APIエンドポイント仕様&lt;/li>
-&lt;li>URL構造&lt;/li>
-&lt;li>パラメータ定義&lt;/li>
-&lt;li>リクエスト/レスポンスフォーマット&lt;/li>
-&lt;li>ステータスコード定義&lt;/li>
-&lt;li>API認証・認可設計&lt;/li>
-&lt;li>レート制限設計&lt;/li>
-&lt;li>エラーハンドリング仕様&lt;/li>
-&lt;li>APIバージョニング方式&lt;/li>
+&lt;h2 id="monitoring-and-alert-automation">Monitoring and Alert Automation&lt;a class="td-heading-self-link" href="#monitoring-and-alert-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated metrics collection&lt;/li>
+&lt;li>Automated alert rule generation&lt;/li>
+&lt;li>Automated alert classification and prioritization&lt;/li>
+&lt;li>Automated incident response&lt;/li>
+&lt;li>Automated log collection and analysis&lt;/li>
+&lt;li>Automated report generation&lt;/li>
 &lt;/ul>
-&lt;h2 id="ユーザーインターフェース詳細設計">ユーザーインターフェース詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%83%bc%e3%82%b9%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>画面レイアウト詳細&lt;/li>
-&lt;li>UI要素の仕様&lt;/li>
-&lt;li>画面遷移図&lt;/li>
-&lt;li>入力検証ルール&lt;/li>
-&lt;li>エラーメッセージ定義&lt;/li>
-&lt;li>レスポンシブデザイン仕様&lt;/li>
+&lt;h2 id="security-automation">Security Automation&lt;a class="td-heading-self-link" href="#security-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated vulnerability scanning&lt;/li>
+&lt;li>Automated security patch application&lt;/li>
+&lt;li>Automated access control&lt;/li>
+&lt;li>Automated security configuration validation&lt;/li>
+&lt;li>Automated compliance checking&lt;/li>
+&lt;li>Automated security incident response&lt;/li>
 &lt;/ul>
-&lt;h2 id="ネットワーク詳細設計">ネットワーク詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>サブネット設計（アドレス範囲）&lt;/li>
-&lt;li>VLANセグメンテーション詳細&lt;/li>
-&lt;li>ファイアウォールルール一覧&lt;/li>
-&lt;li>ルーティングテーブル&lt;/li>
-&lt;li>DNSレコード設定&lt;/li>
-&lt;li>ロードバランサー設定詳細&lt;/li>
-&lt;li>帯域制御設定&lt;/li>
+&lt;h2 id="backup-and-recovery-automation">Backup and Recovery Automation&lt;a class="td-heading-self-link" href="#backup-and-recovery-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated backup jobs&lt;/li>
+&lt;li>Automated restore testing&lt;/li>
+&lt;li>Automated disaster recovery procedures&lt;/li>
+&lt;li>Automated data integrity checks&lt;/li>
+&lt;li>Automated backup verification&lt;/li>
 &lt;/ul>
-&lt;h2 id="セキュリティ詳細設計">セキュリティ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>認証実装詳細&lt;/li>
-&lt;li>アクセス制御マトリクス&lt;/li>
-&lt;li>セキュリティグループ/ACL設定一覧&lt;/li>
-&lt;li>暗号化実装詳細（鍵管理含む）&lt;/li>
-&lt;li>セキュリティ監視ルール&lt;/li>
-&lt;li>脆弱性対策実装方法&lt;/li>
+&lt;h2 id="capacity-management-automation">Capacity Management Automation&lt;a class="td-heading-self-link" href="#capacity-management-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated resource usage monitoring&lt;/li>
+&lt;li>Automated scaling&lt;/li>
+&lt;li>Automated capacity planning&lt;/li>
+&lt;li>Automated cost optimization&lt;/li>
+&lt;li>Automated resource reservation&lt;/li>
 &lt;/ul>
-&lt;h2 id="監視アラート詳細設計">監視・アラート詳細設計&lt;a class="td-heading-self-link" href="#%e7%9b%a3%e8%a6%96%e3%82%a2%e3%83%a9%e3%83%bc%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監視対象メトリクス詳細&lt;/li>
-&lt;li>メトリクス名&lt;/li>
-&lt;li>収集間隔&lt;/li>
-&lt;li>保存期間&lt;/li>
-&lt;li>アラートルール詳細&lt;/li>
-&lt;li>閾値設定&lt;/li>
-&lt;li>アラート条件&lt;/li>
-&lt;li>通知先設定&lt;/li>
-&lt;li>ログ収集設定&lt;/li>
-&lt;li>ログ形式&lt;/li>
-&lt;li>ローテーション設定&lt;/li>
-&lt;li>パース/インデックス設定&lt;/li>
-&lt;li>ダッシュボード詳細レイアウト&lt;/li>
+&lt;h2 id="documentation-automation">Documentation Automation&lt;a class="td-heading-self-link" href="#documentation-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated configuration management information generation&lt;/li>
+&lt;li>Automated system diagram generation&lt;/li>
+&lt;li>Automated change history recording&lt;/li>
+&lt;li>Automated documentation updates&lt;/li>
+&lt;li>Automated knowledge base updates&lt;/li>
 &lt;/ul>
-&lt;h2 id="バックアップリカバリ詳細設計">バックアップ・リカバリ詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%82%af%e3%82%a2%e3%83%83%e3%83%97%e3%83%aa%e3%82%ab%e3%83%90%e3%83%aa%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>バックアップジョブ詳細設定&lt;/li>
-&lt;li>対象/除外設定&lt;/li>
-&lt;li>スケジュール詳細&lt;/li>
-&lt;li>保持ポリシー&lt;/li>
-&lt;li>リストア手順詳細&lt;/li>
-&lt;li>障害復旧シナリオ詳細&lt;/li>
-&lt;li>テスト手順&lt;/li>
+&lt;h2 id="automation-quality-management">Automation Quality Management&lt;a class="td-heading-self-link" href="#automation-quality-management" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automated testing of automation scripts&lt;/li>
+&lt;li>Audit of automation processes&lt;/li>
+&lt;li>Measurement of automation effectiveness&lt;/li>
+&lt;li>Continuous improvement of automation&lt;/li>
+&lt;li>Standardization and reusability of automation&lt;/li>
 &lt;/ul>
-&lt;h2 id="インフラストラクチャ詳細設計">インフラストラクチャ詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>サーバー構成詳細&lt;/li>
-&lt;li>スペック定義&lt;/li>
-&lt;li>パーティション設計&lt;/li>
-&lt;li>カーネルパラメータ&lt;/li>
-&lt;li>ストレージ詳細構成&lt;/li>
-&lt;li>LUN/ボリューム設計&lt;/li>
-&lt;li>RAID構成詳細&lt;/li>
-&lt;li>ストレージネットワーク設計&lt;/li>
-&lt;li>仮想化/コンテナ設定詳細&lt;/li>
-&lt;li>リソース割り当て&lt;/li>
-&lt;li>ネットワーク設定&lt;/li>
-&lt;li>ストレージマウント設定&lt;/li>
+&lt;h2 id="exception-management-for-automation">Exception Management for Automation&lt;a class="td-heading-self-link" href="#exception-management-for-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Clear criteria for when manual operations are needed&lt;/li>
+&lt;li>Approval process for manual operations&lt;/li>
+&lt;li>Recording and tracking of manual operations&lt;/li>
+&lt;li>Plan for automating manual operations&lt;/li>
+&lt;li>Regular review of exception situations&lt;/li>
 &lt;/ul>
-&lt;h2 id="自動化デプロイメント詳細設計">自動化・デプロイメント詳細設計&lt;a class="td-heading-self-link" href="#%e8%87%aa%e5%8b%95%e5%8c%96%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e3%83%a1%e3%83%b3%e3%83%88%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>CI/CDパイプライン詳細&lt;/li>
-&lt;li>インフラストラクチャ・コード詳細&lt;/li>
-&lt;li>構成管理ツール設定&lt;/li>
-&lt;li>デプロイスクリプト仕様&lt;/li>
-&lt;li>ロールバック手順&lt;/li>
+&lt;h2 id="continuous-improvement-of-automation">Continuous Improvement of Automation&lt;a class="td-heading-self-link" href="#continuous-improvement-of-automation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Measurement and analysis of automation effectiveness&lt;/li>
+&lt;li>Optimization of automation&lt;/li>
+&lt;li>Identification of new automation opportunities&lt;/li>
+&lt;li>Evaluation and update of automation tools&lt;/li>
+&lt;li>Continuous improvement of automation skills&lt;/li>
+&lt;/ul></description></item><item><title>IT Service Operation System Detailed Design</title><link>https://bpinelab.github.io/ops-handbook/arch/lld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/lld/</guid><description>&lt;h2 id="service-component-detailed-design">Service Component Detailed Design&lt;a class="td-heading-self-link" href="#service-component-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Microservices/Monolith configuration details&lt;/li>
+&lt;li>Inter-component communication design&lt;/li>
+&lt;li>Service discovery implementation details&lt;/li>
+&lt;li>Event-driven design details&lt;/li>
+&lt;li>Containerization design details&lt;/li>
+&lt;li>Service mesh configuration&lt;/li>
 &lt;/ul>
-&lt;h2 id="バッチ処理詳細設計">バッチ処理詳細設計&lt;a class="td-heading-self-link" href="#%e3%83%90%e3%83%83%e3%83%81%e5%87%a6%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ジョブ定義&lt;/li>
-&lt;li>ステップ構成&lt;/li>
-&lt;li>パラメータ設定&lt;/li>
-&lt;li>依存関係&lt;/li>
-&lt;li>スケジュール詳細&lt;/li>
-&lt;li>エラーハンドリング&lt;/li>
-&lt;li>リトライ戦略&lt;/li>
-&lt;li>ログ出力仕様&lt;/li>
+&lt;h2 id="database-detailed-design">Database Detailed Design&lt;a class="td-heading-self-link" href="#database-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Distributed database configuration details&lt;/li>
+&lt;li>Sharding design&lt;/li>
+&lt;li>Replication configuration&lt;/li>
+&lt;li>Cache strategy implementation&lt;/li>
+&lt;li>Data persistence design&lt;/li>
+&lt;li>Backup/Restore configuration&lt;/li>
+&lt;li>Performance optimization settings&lt;/li>
+&lt;li>Query optimization design&lt;/li>
 &lt;/ul>
-&lt;h2 id="キャパシティ管理詳細設計">キャパシティ管理詳細設計&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>リソース使用量予測モデル&lt;/li>
-&lt;li>スケーリングポリシー詳細&lt;/li>
-&lt;li>オートスケーリング設定&lt;/li>
-&lt;li>負荷テスト計画&lt;/li>
+&lt;h2 id="api-detailed-design">API Detailed Design&lt;a class="td-heading-self-link" href="#api-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>API gateway configuration details&lt;/li>
+&lt;li>Endpoint specifications&lt;/li>
+&lt;li>Authentication/Authorization implementation&lt;/li>
+&lt;li>Rate limiting configuration&lt;/li>
+&lt;li>Error handling&lt;/li>
+&lt;li>API versioning&lt;/li>
+&lt;li>Documentation auto-generation settings&lt;/li>
+&lt;li>Monitoring configuration&lt;/li>
 &lt;/ul>
-&lt;h2 id="障害対応詳細設計">障害対応詳細設計&lt;a class="td-heading-self-link" href="#%e9%9a%9c%e5%ae%b3%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0%e8%a8%ad%e8%a8%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>障害シナリオ別の復旧手順&lt;/li>
-&lt;li>フェイルオーバー設定詳細&lt;/li>
-&lt;li>サーキットブレーカー実装&lt;/li>
-&lt;li>障害通知フロー詳細&lt;/li>
+&lt;h2 id="cloud-infrastructure-detailed-design">Cloud Infrastructure Detailed Design&lt;a class="td-heading-self-link" href="#cloud-infrastructure-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-cloud configuration details&lt;/li>
+&lt;li>Region/Availability Zone configuration&lt;/li>
+&lt;li>Network design (VPC/VNet)&lt;/li>
+&lt;li>Security group settings&lt;/li>
+&lt;li>Load balancer configuration&lt;/li>
+&lt;li>Auto-scaling settings&lt;/li>
+&lt;li>Storage design&lt;/li>
+&lt;li>Cost optimization settings&lt;/li>
 &lt;/ul>
-&lt;h2 id="コンプライアンス対応詳細">コンプライアンス対応詳細&lt;a class="td-heading-self-link" href="#%e3%82%b3%e3%83%b3%e3%83%97%e3%83%a9%e3%82%a4%e3%82%a2%e3%83%b3%e3%82%b9%e5%af%be%e5%bf%9c%e8%a9%b3%e7%b4%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>監査ログ設定&lt;/li>
-&lt;li>証跡保存設計&lt;/li>
-&lt;li>データ保護実装詳細&lt;/li>
-&lt;li>アクセス履歴管理&lt;/li>
+&lt;h2 id="security-detailed-design">Security Detailed Design&lt;a class="td-heading-self-link" href="#security-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Zero Trust implementation details&lt;/li>
+&lt;li>Identity management configuration&lt;/li>
+&lt;li>Access control implementation&lt;/li>
+&lt;li>Encryption settings (in transit/at rest)&lt;/li>
+&lt;li>Security monitoring configuration&lt;/li>
+&lt;li>Vulnerability management settings&lt;/li>
+&lt;li>Compliance response settings&lt;/li>
+&lt;li>Incident response procedures&lt;/li>
 &lt;/ul>
-&lt;h2 id="テスト仕様">テスト仕様&lt;a class="td-heading-self-link" href="#%e3%83%86%e3%82%b9%e3%83%88%e4%bb%95%e6%a7%98" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>ユニットテスト計画&lt;/li>
-&lt;li>統合テスト仕様&lt;/li>
-&lt;li>性能テスト計画&lt;/li>
-&lt;li>セキュリティテスト仕様&lt;/li>
-&lt;li>DR訓練手順&lt;/li>
-&lt;/ul></description></item><item><title>非定型作業</title><link>https://bpinelab.github.io/ops-handbook/procedure/adhoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/procedure/adhoc/</guid><description>&lt;h2 id="1-はじめに">1. はじめに&lt;a class="td-heading-self-link" href="#1-%e3%81%af%e3%81%98%e3%82%81%e3%81%ab" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>本ドキュメントの目的と対象読者（運用担当者、チームリーダーなど）&lt;/li>
-&lt;li>非定型作業の特性と、対応における基本的な考え方（柔軟性、臨機応変な対応の重要性など）&lt;/li>
-&lt;/ul>
-&lt;h2 id="2-非定型作業の定義と分類">2. 非定型作業の定義と分類&lt;a class="td-heading-self-link" href="#2-%e9%9d%9e%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%9a%e7%be%a9%e3%81%a8%e5%88%86%e9%a1%9e" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="21-非定型作業の定義">2.1. 非定型作業の定義:&lt;a class="td-heading-self-link" href="#21-%e9%9d%9e%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%9a%e7%be%a9" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>定型作業との違いを明確にする&lt;/li>
-&lt;li>予測困難な要素や、都度判断が必要となる作業であることの説明&lt;/li>
-&lt;/ul>
-&lt;h3 id="22-非定型作業の分類例">2.2. 非定型作業の分類（例）：&lt;a class="td-heading-self-link" href="#22-%e9%9d%9e%e5%ae%9a%e5%9e%8b%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%88%86%e9%a1%9e%e4%be%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>緊急度による分類（緊急対応、通常対応）&lt;/li>
-&lt;li>内容による分類（調査、分析、企画、設計、特殊な処理など）&lt;/li>
-&lt;li>発生頻度による分類（突発的、稀に発生）&lt;/li>
-&lt;li>分類に応じて対応の優先度やプロセスが異なる場合の説明&lt;/li>
-&lt;/ul>
-&lt;h2 id="3-対応の基本的な流れ">3. 対応の基本的な流れ&lt;a class="td-heading-self-link" href="#3-%e5%af%be%e5%bf%9c%e3%81%ae%e5%9f%ba%e6%9c%ac%e7%9a%84%e3%81%aa%e6%b5%81%e3%82%8c" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="31-受け付けと-পরথমক分析">3.1. 受け付けと প্রাথমিক分析:&lt;a class="td-heading-self-link" href="#31-%e5%8f%97%e3%81%91%e4%bb%98%e3%81%91%e3%81%a8-%e0%a6%aa%e0%a6%b0%e0%a6%a5%e0%a6%ae%e0%a6%95%e5%88%86%e6%9e%90" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>依頼または発生の経緯、内容の把握&lt;/li>
-&lt;li>必要な情報の収集（不足している情報の確認方法）&lt;/li>
-&lt;li>緊急度、影響範囲の প্রাথমিক評価&lt;/li>
-&lt;/ul>
-&lt;h3 id="32-担当者の決定とアサイン">3.2. 担当者の決定とアサイン:&lt;a class="td-heading-self-link" href="#32-%e6%8b%85%e5%bd%93%e8%80%85%e3%81%ae%e6%b1%ba%e5%ae%9a%e3%81%a8%e3%82%a2%e3%82%b5%e3%82%a4%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>必要なスキルや知識を持つ担当者の選定基準&lt;/li>
-&lt;li>担当者のアサイン方法と責任範囲の明確化&lt;/li>
-&lt;/ul>
-&lt;h3 id="33-作業計画の立案">3.3. 作業計画の立案:&lt;a class="td-heading-self-link" href="#33-%e4%bd%9c%e6%a5%ad%e8%a8%88%e7%94%bb%e3%81%ae%e7%ab%8b%e6%a1%88" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>目標設定（何を達成すべきか）&lt;/li>
-&lt;li>必要なリソースの見積もり（時間、人員、ツールなど）&lt;/li>
-&lt;li>実施すべきタスクの洗い出しと優先順位付け&lt;/li>
-&lt;li>スケジュールの策定（期日、中間目標など）&lt;/li>
-&lt;/ul>
-&lt;h3 id="34-作業の実施">3.4. 作業の実施:&lt;a class="td-heading-self-link" href="#34-%e4%bd%9c%e6%a5%ad%e3%81%ae%e5%ae%9f%e6%96%bd" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>計画に基づいた作業の実行&lt;/li>
-&lt;li>状況に応じた柔軟な対応（計画の修正、新たな情報への適応）&lt;/li>
-&lt;li>関連部署との連携方法&lt;/li>
-&lt;/ul>
-&lt;h3 id="35-報告と確認">3.5. 報告と確認:&lt;a class="td-heading-self-link" href="#35-%e5%a0%b1%e5%91%8a%e3%81%a8%e7%a2%ba%e8%aa%8d" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>作業の進捗状況、結果の報告方法と頻度&lt;/li>
-&lt;li>関係者への情報共有&lt;/li>
-&lt;li>アウトプットの確認と承認プロセス&lt;/li>
-&lt;/ul>
-&lt;h3 id="36-記録とナレッジ化">3.6. 記録とナレッジ化:&lt;a class="td-heading-self-link" href="#36-%e8%a8%98%e9%8c%b2%e3%81%a8%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>作業内容、判断の経緯、結果、課題、反省点などの記録方法&lt;/li>
-&lt;li>ナレッジ共有の方法（ドキュメント化、会議での共有など）&lt;/li>
-&lt;/ul>
-&lt;h2 id="4-対応における重要なポイント">4. 対応における重要なポイント&lt;a class="td-heading-self-link" href="#4-%e5%af%be%e5%bf%9c%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e9%87%8d%e8%a6%81%e3%81%aa%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="41-コミュニケーション">4.1. コミュニケーション:&lt;a class="td-heading-self-link" href="#41-%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>関係者との円滑なコミュニケーションの重要性&lt;/li>
-&lt;li>報連相（報告・連絡・相談）の徹底&lt;/li>
-&lt;li>情報共有のツールと方法&lt;/li>
-&lt;/ul>
-&lt;h3 id="42-判断力と問題解決能力">4.2. 判断力と問題解決能力:&lt;a class="td-heading-self-link" href="#42-%e5%88%a4%e6%96%ad%e5%8a%9b%e3%81%a8%e5%95%8f%e9%a1%8c%e8%a7%a3%e6%b1%ba%e8%83%bd%e5%8a%9b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>状況を分析し、適切な判断を下すための考え方&lt;/li>
-&lt;li>問題発生時の分析手法と解決策の検討プロセス&lt;/li>
-&lt;/ul>
-&lt;h3 id="43-柔軟性と適応力">4.3. 柔軟性と適応力:&lt;a class="td-heading-self-link" href="#43-%e6%9f%94%e8%bb%9f%e6%80%a7%e3%81%a8%e9%81%a9%e5%bf%9c%e5%8a%9b" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>計画通りに進まない場合の対応方法&lt;/li>
-&lt;li>新しい情報や状況への適応力&lt;/li>
-&lt;/ul>
-&lt;h3 id="44-優先順位付け">4.4. 優先順位付け:&lt;a class="td-heading-self-link" href="#44-%e5%84%aa%e5%85%88%e9%a0%86%e4%bd%8d%e4%bb%98%e3%81%91" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>複数の非定型作業が発生した場合の優先順位決定基準&lt;/li>
-&lt;li>緊急度と重要度の評価方法&lt;/li>
-&lt;/ul>
-&lt;h3 id="45-リスク管理">4.5. リスク管理:&lt;a class="td-heading-self-link" href="#45-%e3%83%aa%e3%82%b9%e3%82%af%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>作業遅延、品質低下などのリスクを予測し、対策を講じる&lt;/li>
-&lt;li>エスカレーション基準とフロー&lt;/li>
-&lt;/ul>
-&lt;h2 id="5-ツールとリソース">5. ツールとリソース&lt;a class="td-heading-self-link" href="#5-%e3%83%84%e3%83%bc%e3%83%ab%e3%81%a8%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="51-活用可能なツール">5.1. 活用可能なツール:&lt;a class="td-heading-self-link" href="#51-%e6%b4%bb%e7%94%a8%e5%8f%af%e8%83%bd%e3%81%aa%e3%83%84%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>コミュニケーションツール、プロジェクト管理ツール、情報共有ツールなど&lt;/li>
-&lt;li>各ツールの利用方法と目的&lt;/li>
-&lt;/ul>
-&lt;h3 id="52-参照すべき情報源">5.2. 参照すべき情報源:&lt;a class="td-heading-self-link" href="#52-%e5%8f%82%e7%85%a7%e3%81%99%e3%81%b9%e3%81%8d%e6%83%85%e5%a0%b1%e6%ba%90" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>過去の事例、関連ドキュメント、専門知識を持つ担当者など&lt;/li>
-&lt;/ul>
-&lt;h3 id="53-相談窓口">5.3. 相談窓口:&lt;a class="td-heading-self-link" href="#53-%e7%9b%b8%e8%ab%87%e7%aa%93%e5%8f%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>判断に迷う場合や支援が必要な場合の相談先&lt;/li>
-&lt;/ul>
-&lt;h2 id="6-ナレッジの蓄積と活用">6. ナレッジの蓄積と活用&lt;a class="td-heading-self-link" href="#6-%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e3%81%ae%e8%93%84%e7%a9%8d%e3%81%a8%e6%b4%bb%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="61-記録の重要性">6.1. 記録の重要性:&lt;a class="td-heading-self-link" href="#61-%e8%a8%98%e9%8c%b2%e3%81%ae%e9%87%8d%e8%a6%81%e6%80%a7" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>今後の類似案件に役立てるための詳細な記録の必要性&lt;/li>
-&lt;/ul>
-&lt;h3 id="62-ナレッジ共有の仕組み">6.2. ナレッジ共有の仕組み:&lt;a class="td-heading-self-link" href="#62-%e3%83%8a%e3%83%ac%e3%83%83%e3%82%b8%e5%85%b1%e6%9c%89%e3%81%ae%e4%bb%95%e7%b5%84%e3%81%bf" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>記録された情報を共有するためのプラットフォームや会議体&lt;/li>
-&lt;/ul>
-&lt;h3 id="63-ベストプラクティスの抽出">6.3. ベストプラクティスの抽出:&lt;a class="td-heading-self-link" href="#63-%e3%83%99%e3%82%b9%e3%83%88%e3%83%97%e3%83%a9%e3%82%af%e3%83%86%e3%82%a3%e3%82%b9%e3%81%ae%e6%8a%bd%e5%87%ba" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>成功事例から学び、対応方法を改善していく考え方&lt;/li>
-&lt;/ul>
-&lt;h2 id="7-継続的な改善">7. 継続的な改善&lt;a class="td-heading-self-link" href="#7-%e7%b6%99%e7%b6%9a%e7%9a%84%e3%81%aa%e6%94%b9%e5%96%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="71-振り返りの実施">7.1. 振り返りの実施:&lt;a class="td-heading-self-link" href="#71-%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a%e3%81%ae%e5%ae%9f%e6%96%bd" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>作業後や一定期間ごとに対応状況を振り返り、改善点を見つける&lt;/li>
-&lt;/ul>
-&lt;h3 id="72-フィードバックの収集">7.2. フィードバックの収集:&lt;a class="td-heading-self-link" href="#72-%e3%83%95%e3%82%a3%e3%83%bc%e3%83%89%e3%83%90%e3%83%83%e3%82%af%e3%81%ae%e5%8f%8e%e9%9b%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>関係者からのフィードバックを積極的に収集し、改善に活かす&lt;/li>
-&lt;/ul>
-&lt;h3 id="73-プロセスの見直し">7.3. プロセスの見直し:&lt;a class="td-heading-self-link" href="#73-%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e8%a6%8b%e7%9b%b4%e3%81%97" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>より効率的かつ効果的な対応方法を検討し、必要に応じてプロセスを更新する&lt;/li>
-&lt;/ul></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/ops-handbook/service/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/onboarding/</guid><description>&lt;h2 id="1-オンボーディングプロセス概要">1. オンボーディングプロセス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>本プロセスでは、SAP S/4HANA ERPの運用・保守を適切に実施するために、サービスプロバイダからのシステム・運用情報の移管を行います。&lt;/p>
-&lt;h3 id="11-オンボーディングの目的">1.1 オンボーディングの目的&lt;a class="td-heading-self-link" href="#11-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>運用・保守チームが適切にサービスを引き継ぎ、継続的な運用を実施できるようにする。&lt;/li>
-&lt;li>既存のサービスレベルを維持し、引継ぎ後の障害リスクを最小限に抑える。&lt;/li>
-&lt;li>運用プロセスやツールを明確化し、スムーズな保守業務を実施する。&lt;/li>
-&lt;/ul>
-&lt;h3 id="12-オンボーディング期間">1.2 オンボーディング期間&lt;a class="td-heading-self-link" href="#12-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e6%9c%9f%e9%96%93" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>標準期間&lt;/strong>: 3ヶ月（システム規模や複雑度により変動）&lt;/li>
-&lt;li>&lt;strong>フェーズ別期間&lt;/strong>:
+&lt;h2 id="monitoringobservability-detailed-design">Monitoring/Observability Detailed Design&lt;a class="td-heading-self-link" href="#monitoringobservability-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Metrics collection settings
 &lt;ul>
-&lt;li>フェーズ1: 事前調査（2週間）&lt;/li>
-&lt;li>フェーズ2: 情報受領・環境準備（4週間）&lt;/li>
-&lt;li>フェーズ3: 移管テスト・検証（4週間）&lt;/li>
-&lt;li>フェーズ4: 本番移管（2週間）&lt;/li>
-&lt;li>ハイパーケア期間: &lt;strong>2ヶ月&lt;/strong>&lt;/li>
+&lt;li>Collection item definitions&lt;/li>
+&lt;li>Collection interval settings&lt;/li>
+&lt;li>Retention period settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Log management settings
+&lt;ul>
+&lt;li>Log format definitions&lt;/li>
+&lt;li>Log collection settings&lt;/li>
+&lt;li>Log analysis settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Tracing settings
+&lt;ul>
+&lt;li>Trace item definitions&lt;/li>
+&lt;li>Sampling settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Alert settings
+&lt;ul>
+&lt;li>Threshold settings&lt;/li>
+&lt;li>Notification rules&lt;/li>
+&lt;li>Escalation settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dashboard design
+&lt;ul>
+&lt;li>Layout details&lt;/li>
+&lt;li>Widget settings&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="2-オンボーディングのプロセス">2. オンボーディングのプロセス&lt;a class="td-heading-self-link" href="#2-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="21-フェーズ1-事前調査">2.1 フェーズ1: 事前調査&lt;a class="td-heading-self-link" href="#21-%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba1-%e4%ba%8b%e5%89%8d%e8%aa%bf%e6%9f%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>サービスプロバイダとのキックオフミーティング&lt;/li>
-&lt;li>現行運用フロー、システム構成のヒアリング&lt;/li>
-&lt;li>必要な受領ドキュメントの確認&lt;/li>
+&lt;h2 id="automationdeployment-detailed-design">Automation/Deployment Detailed Design&lt;a class="td-heading-self-link" href="#automationdeployment-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>GitOps implementation details&lt;/li>
+&lt;li>CI/CD pipeline configuration&lt;/li>
+&lt;li>Infrastructure as Code (IaC) implementation&lt;/li>
+&lt;li>Container registry configuration&lt;/li>
+&lt;li>Deployment strategy settings&lt;/li>
+&lt;li>Rollback procedures&lt;/li>
+&lt;li>Test automation settings&lt;/li>
 &lt;/ul>
-&lt;h3 id="22-フェーズ2-情報受領環境準備">2.2 フェーズ2: 情報受領・環境準備&lt;a class="td-heading-self-link" href="#22-%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba2-%e6%83%85%e5%a0%b1%e5%8f%97%e9%a0%98%e7%92%b0%e5%a2%83%e6%ba%96%e5%82%99" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>運用手順書、アーキテクチャ図、権限設定情報の受領&lt;/li>
-&lt;li>監視・アラート設定の確認・構築&lt;/li>
-&lt;li>バックアップ・リカバリテストの実施&lt;/li>
+&lt;h2 id="backupdisaster-recovery-detailed-design">Backup/Disaster Recovery Detailed Design&lt;a class="td-heading-self-link" href="#backupdisaster-recovery-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Multi-region backup configuration&lt;/li>
+&lt;li>Data backup settings
+&lt;ul>
+&lt;li>Schedule settings&lt;/li>
+&lt;li>Retention policies&lt;/li>
+&lt;li>Encryption settings&lt;/li>
 &lt;/ul>
-&lt;h3 id="23-フェーズ3-移管テスト検証">2.3 フェーズ3: 移管テスト・検証&lt;a class="td-heading-self-link" href="#23-%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba3-%e7%a7%bb%e7%ae%a1%e3%83%86%e3%82%b9%e3%83%88%e6%a4%9c%e8%a8%bc" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>&lt;strong>我々のマネージドサービスに従った運用・保守方法をサービスプロバイダに説明し、設計が適正に行われているか確認&lt;/strong>&lt;/li>
-&lt;li>インシデント発生時の対応訓練（模擬テスト）&lt;/li>
-&lt;li>変更管理、リリースプロセスの確認&lt;/li>
-&lt;li>&lt;strong>ITサービスに係る固有の定型運用や定期的な定常運用作業がある場合、ナレッジトランスファー、シャドーイング、リバースシャドーイングを実施&lt;/strong>&lt;/li>
-&lt;li>パフォーマンステストの実施&lt;/li>
+&lt;/li>
+&lt;li>System recovery design
+&lt;ul>
+&lt;li>Recovery procedure details&lt;/li>
+&lt;li>Test procedures&lt;/li>
 &lt;/ul>
-&lt;h3 id="24-フェーズ4-本番移管">2.4 フェーズ4: 本番移管&lt;a class="td-heading-self-link" href="#24-%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba4-%e6%9c%ac%e7%95%aa%e7%a7%bb%e7%ae%a1" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>サービス運用開始&lt;/li>
-&lt;li>移管後の問題対応・フィードバック収集&lt;/li>
-&lt;li>定例会議での運用改善議論&lt;/li>
+&lt;/li>
+&lt;li>Failover configuration
+&lt;ul>
+&lt;li>Automatic/Manual switchover settings&lt;/li>
+&lt;li>Verification procedures&lt;/li>
 &lt;/ul>
-&lt;h3 id="25-ハイパーケア期間">2.5 ハイパーケア期間&lt;a class="td-heading-self-link" href="#25-%e3%83%8f%e3%82%a4%e3%83%91%e3%83%bc%e3%82%b1%e3%82%a2%e6%9c%9f%e9%96%93" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
-&lt;li>運用開始後、&lt;strong>開発チームによるハイパーケアを2ヶ月間実施&lt;/strong>&lt;/li>
-&lt;li>ハイパーケア期間中は、開発チームと運用チームが密に連携し、運用上の課題を解決&lt;/li>
-&lt;li>&lt;strong>ハイパーケア完了基準を満たした場合、正式運用フェーズへ移行しハイパーケア終了&lt;/strong>&lt;/li>
+&lt;/li>
 &lt;/ul>
-&lt;h4 id="ハイパーケア完了基準">ハイパーケア完了基準&lt;a class="td-heading-self-link" href="#%e3%83%8f%e3%82%a4%e3%83%91%e3%83%bc%e3%82%b1%e3%82%a2%e5%ae%8c%e4%ba%86%e5%9f%ba%e6%ba%96" aria-label="Heading self-link">&lt;/a>&lt;/h4>&lt;table>
+&lt;h2 id="scalability-detailed-design">Scalability Detailed Design&lt;a class="td-heading-self-link" href="#scalability-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Horizontal scaling configuration
+&lt;ul>
+&lt;li>Scaling policies&lt;/li>
+&lt;li>Resource limit settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Auto-scaling settings
+&lt;ul>
+&lt;li>Metric definitions&lt;/li>
+&lt;li>Scaling rules&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Capacity planning
+&lt;ul>
+&lt;li>Resource prediction models&lt;/li>
+&lt;li>Expansion plans&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-level-management-detailed-design">Service Level Management Detailed Design&lt;a class="td-heading-self-link" href="#service-level-management-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>SLA/SLO implementation details
+&lt;ul>
+&lt;li>Metric definitions&lt;/li>
+&lt;li>Measurement methods&lt;/li>
+&lt;li>Report settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Incident management configuration
+&lt;ul>
+&lt;li>Classification definitions&lt;/li>
+&lt;li>Response flow&lt;/li>
+&lt;li>Escalation settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Problem management configuration
+&lt;ul>
+&lt;li>Analysis methods&lt;/li>
+&lt;li>Resolution flow&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Change management configuration
+&lt;ul>
+&lt;li>Approval flow&lt;/li>
+&lt;li>Implementation procedures&lt;/li>
+&lt;li>Verification procedures&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="compliancegovernance-detailed-design">Compliance/Governance Detailed Design&lt;a class="td-heading-self-link" href="#compliancegovernance-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Audit log settings
+&lt;ul>
+&lt;li>Collection item definitions&lt;/li>
+&lt;li>Retention period settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Access control settings
+&lt;ul>
+&lt;li>Role definitions&lt;/li>
+&lt;li>Permission settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Data protection settings
+&lt;ul>
+&lt;li>Encryption settings&lt;/li>
+&lt;li>Masking settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Privacy compliance settings
+&lt;ul>
+&lt;li>Personal information management&lt;/li>
+&lt;li>Consent management&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="test-detailed-design">Test Detailed Design&lt;a class="td-heading-self-link" href="#test-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Unit test design
+&lt;ul>
+&lt;li>Test case definitions&lt;/li>
+&lt;li>Coverage goals&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Integration test design
+&lt;ul>
+&lt;li>Test scenarios&lt;/li>
+&lt;li>Environment configuration&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Performance test design
+&lt;ul>
+&lt;li>Load test plans&lt;/li>
+&lt;li>Benchmark settings&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Security test design
+&lt;ul>
+&lt;li>Vulnerability scan settings&lt;/li>
+&lt;li>Penetration test plans&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Disaster recovery test design
+&lt;ul>
+&lt;li>Test scenarios&lt;/li>
+&lt;li>Verification procedures&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>KPI</title><link>https://bpinelab.github.io/ops-handbook/framework/kpi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/framework/kpi/</guid><description>&lt;h2 id="availability-and-reliability-metrics">Availability and Reliability Metrics&lt;a class="td-heading-self-link" href="#availability-and-reliability-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>System Availability Rate (Uptime): Percentage of time the system is operational (e.g., 99.9%)&lt;/li>
+&lt;li>Mean Time Between Failures (MTBF): Average time between failures&lt;/li>
+&lt;li>Mean Time To Recovery (MTTR): Average time to recover from failures&lt;/li>
+&lt;li>Unplanned Downtime: Unscheduled system outage time&lt;/li>
+&lt;li>SLA Compliance Rate: Achievement rate of service level agreements&lt;/li>
+&lt;/ul>
+&lt;h2 id="incident-and-problem-management-metrics">Incident and Problem Management Metrics&lt;a class="td-heading-self-link" href="#incident-and-problem-management-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Incident Resolution Time: Average resolution time by priority&lt;/li>
+&lt;li>First Contact Resolution Rate (FCR): Percentage of incidents resolved at first contact&lt;/li>
+&lt;li>Recurring Incident Rate: Percentage of incidents recurring due to the same cause&lt;/li>
+&lt;li>Backlog Rate: Accumulation status of unresolved incidents&lt;/li>
+&lt;li>Escalation Rate: Percentage of cases escalated to higher levels&lt;/li>
+&lt;/ul>
+&lt;h2 id="change-management-metrics">Change Management Metrics&lt;a class="td-heading-self-link" href="#change-management-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Change Success Rate: Percentage of changes completed as planned&lt;/li>
+&lt;li>Incidents Caused by Changes: Number of issues occurring after change implementation&lt;/li>
+&lt;li>Emergency Change Rate: Percentage of changes implemented outside standard process&lt;/li>
+&lt;li>Change Backlog: Number of pending or delayed changes&lt;/li>
+&lt;li>Release Accuracy: Percentage of releases completed as planned&lt;/li>
+&lt;/ul>
+&lt;h2 id="performance-and-capacity-metrics">Performance and Capacity Metrics&lt;a class="td-heading-self-link" href="#performance-and-capacity-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>CPU/Memory/Disk Usage: Resource utilization status&lt;/li>
+&lt;li>Response Time: End-user perspective response time&lt;/li>
+&lt;li>Throughput: Processing volume per unit time&lt;/li>
+&lt;li>Capacity Surplus Rate: Margin during peak times&lt;/li>
+&lt;li>Resource Prediction Accuracy: Deviation between predicted and actual usage&lt;/li>
+&lt;/ul>
+&lt;h2 id="security-operations-metrics">Security Operations Metrics&lt;a class="td-heading-self-link" href="#security-operations-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Number of Security Incidents: Number of security events by type&lt;/li>
+&lt;li>Vulnerability Response Time: Average time from detection to remediation&lt;/li>
+&lt;li>Patch Application Rate: Percentage of systems with required patches applied&lt;/li>
+&lt;li>Security Compliance Rate: Adherence to security requirements&lt;/li>
+&lt;li>Unauthorized Access Detection Time: Average time to detect unauthorized access&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-desk-and-support-metrics">Service Desk and Support Metrics&lt;a class="td-heading-self-link" href="#service-desk-and-support-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Average Response Time: Initial response time to user inquiries&lt;/li>
+&lt;li>Customer Satisfaction (CSAT): User evaluation of support quality&lt;/li>
+&lt;li>Ticket Resolution Time: Average resolution time by type&lt;/li>
+&lt;li>Reopening Rate: Percentage of tickets reopened after closure&lt;/li>
+&lt;li>Support Load Distribution: Workload balance among team members&lt;/li>
+&lt;/ul>
+&lt;h2 id="efficiency-and-cost-metrics">Efficiency and Cost Metrics&lt;a class="td-heading-self-link" href="#efficiency-and-cost-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Automation Rate: Percentage of automated tasks&lt;/li>
+&lt;li>IT Cost to Revenue Ratio: IT operations cost as a percentage of revenue&lt;/li>
+&lt;li>Servers per Administrator: Number of managed servers per operator&lt;/li>
+&lt;li>Cost per Ticket: Average handling cost per ticket&lt;/li>
+&lt;li>Preventive Activity Rate: Percentage of activities conducted preventively rather than reactively&lt;/li>
+&lt;/ul>
+&lt;h2 id="continuous-improvement-metrics">Continuous Improvement Metrics&lt;a class="td-heading-self-link" href="#continuous-improvement-metrics" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Process Maturity: Evaluation of operational process maturity&lt;/li>
+&lt;li>Knowledge Utilization Rate: Percentage of cases resolved using knowledge base&lt;/li>
+&lt;li>Improvement Implementation Rate: Completion rate of planned improvement measures&lt;/li>
+&lt;li>Training Completion Rate: Percentage of staff completing required training&lt;/li>
+&lt;li>Customer Feedback Response Rate: Percentage of customer improvement requests addressed&lt;/li>
+&lt;/ul></description></item><item><title>Prompt</title><link>https://bpinelab.github.io/ops-handbook/knowledge/prompt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+This manual explains how to write prompts for efficiently creating Markdown documents in a unified format. It introduces basic rules and templates so that team members can produce documentation in a consistent style.
+&lt;/div>
+
+&lt;h2 id="introduction">Introduction&lt;a class="td-heading-self-link" href="#introduction" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>This manual explains how to write prompts to create consistent Markdown documents. This ensures that documents across the team maintain a uniform style, making them easier to read and manage.&lt;/p>
+&lt;h2 id="basics-of-prompt-creation">Basics of Prompt Creation&lt;a class="td-heading-self-link" href="#basics-of-prompt-creation" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>When writing prompts for creating Markdown documents, keep the following points in mind:&lt;/p></description></item><item><title>Onboarding</title><link>https://bpinelab.github.io/ops-handbook/service/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/service/onboarding/</guid><description>&lt;h2 id="overview-of-the-onboarding-process">Overview of the Onboarding Process&lt;a class="td-heading-self-link" href="#overview-of-the-onboarding-process" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>This process involves transferring system and operational information from the service provider to properly execute IT service operations and maintenance.&lt;/p>
+&lt;h3 id="purpose-of-onboarding">Purpose of Onboarding&lt;a class="td-heading-self-link" href="#purpose-of-onboarding" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Ensure the operations and maintenance team properly takes over and continues the service.&lt;/li>
+&lt;li>Maintain existing service levels and minimize risks of failures after handover.&lt;/li>
+&lt;li>Clarify operational processes and tools to enable smooth maintenance tasks.&lt;/li>
+&lt;/ul>
+&lt;h3 id="onboarding-period">Onboarding Period&lt;a class="td-heading-self-link" href="#onboarding-period" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Standard Duration&lt;/strong>: 3 months (subject to system scale and complexity)&lt;/li>
+&lt;li>&lt;strong>Phase Durations&lt;/strong>:
+&lt;ul>
+&lt;li>Phase 1: Preliminary Investigation (2 weeks)&lt;/li>
+&lt;li>Phase 2: Information Transfer &amp;amp; Environment Preparation (4 weeks)&lt;/li>
+&lt;li>Phase 3: Handover Testing &amp;amp; Validation (4 weeks)&lt;/li>
+&lt;li>Phase 4: Production Handover (2 weeks)&lt;/li>
+&lt;li>Hypercare Period: &lt;strong>2 months&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="onboarding-process">Onboarding Process&lt;a class="td-heading-self-link" href="#onboarding-process" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;h3 id="phase-1-preliminary-investigation">Phase 1: Preliminary Investigation&lt;a class="td-heading-self-link" href="#phase-1-preliminary-investigation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Kickoff meeting with the service provider&lt;/li>
+&lt;li>Hearings on current operational flows and system architecture&lt;/li>
+&lt;li>Confirm required handover documents&lt;/li>
+&lt;/ul>
+&lt;h3 id="phase-2-information-transfer--environment-preparation">Phase 2: Information Transfer &amp;amp; Environment Preparation&lt;a class="td-heading-self-link" href="#phase-2-information-transfer--environment-preparation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Receive operation manuals, architecture diagrams, access control information&lt;/li>
+&lt;li>Review and set up monitoring and alert configurations&lt;/li>
+&lt;li>Conduct backup and recovery testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="phase-3-handover-testing--validation">Phase 3: Handover Testing &amp;amp; Validation&lt;a class="td-heading-self-link" href="#phase-3-handover-testing--validation" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Explain our managed service operations to the service provider and confirm appropriate design&lt;/strong>&lt;/li>
+&lt;li>Conduct incident response drills (simulation tests)&lt;/li>
+&lt;li>Review change management and release processes&lt;/li>
+&lt;li>&lt;strong>Perform knowledge transfer, shadowing, and reverse shadowing for routine or periodic operational tasks&lt;/strong>&lt;/li>
+&lt;li>Conduct performance testing&lt;/li>
+&lt;/ul>
+&lt;h3 id="phase-4-production-handover">Phase 4: Production Handover&lt;a class="td-heading-self-link" href="#phase-4-production-handover" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Start of service operations&lt;/li>
+&lt;li>Post-handover issue resolution and feedback gathering&lt;/li>
+&lt;li>Discuss operational improvements during regular meetings&lt;/li>
+&lt;/ul>
+&lt;h3 id="hypercare-period">Hypercare Period&lt;a class="td-heading-self-link" href="#hypercare-period" aria-label="Heading self-link">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Development team supports operations for 2 months after go-live&lt;/strong>&lt;/li>
+&lt;li>Close collaboration between development and operations teams to resolve issues&lt;/li>
+&lt;li>&lt;strong>Transition to formal operation phase upon meeting hypercare exit criteria&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="hypercare-completion-criteria">Hypercare Completion Criteria&lt;a class="td-heading-self-link" href="#hypercare-completion-criteria" aria-label="Heading self-link">&lt;/a>&lt;/h4>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th>項目&lt;/th>
- &lt;th>基準値&lt;/th>
+ &lt;th>Item&lt;/th>
+ &lt;th>Threshold&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>バグ発生件数&lt;/td>
- &lt;td>月間5件未満&lt;/td>
+ &lt;td>Number of Bugs&lt;/td>
+ &lt;td>Less than 5 per month&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>チケット発生件数&lt;/td>
- &lt;td>月間50件未満&lt;/td>
+ &lt;td>Number of Tickets&lt;/td>
+ &lt;td>Less than 50 per month&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>残問題数&lt;/td>
- &lt;td>3件以内&lt;/td>
+ &lt;td>Outstanding Issues&lt;/td>
+ &lt;td>3 or fewer&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ドキュメント引継ぎ率&lt;/td>
+ &lt;td>Documentation Completion Rate&lt;/td>
  &lt;td>100%&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>ナレッジトランスファー完了率&lt;/td>
+ &lt;td>Knowledge Transfer Completion Rate&lt;/td>
  &lt;td>100%&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>シャドーイング完了率&lt;/td>
+ &lt;td>Shadowing Completion Rate&lt;/td>
  &lt;td>100%&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>リバースシャドーイング完了率&lt;/td>
+ &lt;td>Reverse Shadowing Completion Rate&lt;/td>
  &lt;td>100%&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;h2 id="3-受領すべきドキュメント">3. 受領すべきドキュメント&lt;a class="td-heading-self-link" href="#3-%e5%8f%97%e9%a0%98%e3%81%99%e3%81%b9%e3%81%8d%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>オンボーディング時には、以下のドキュメントを受領し、システム・運用情報の整理を行います。&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/ops-handbook/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/search/</guid><description/></item></channel></rss>
+&lt;h2 id="documents-to-be-received">Documents to Be Received&lt;a class="td-heading-self-link" href="#documents-to-be-received" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;p>During onboarding, the following documents should be received and used to organize system and operational information.&lt;/p></description></item><item><title>Search Results</title><link>https://bpinelab.github.io/ops-handbook/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/search/</guid><description/></item></channel></rss>
