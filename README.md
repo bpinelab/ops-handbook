@@ -29,7 +29,7 @@ docker compose up
 ```
 
 3. **Access your site**
-   - Open http://localhost:1313/ops-handbook/ in your browser
+   - Open http://localhost:1313/YOUR_REPO_NAME/ in your browser
    - The site will automatically reload when you make changes
 
 ## Customization
@@ -45,11 +45,11 @@ Edit `config.toml` to customize:
 ### Content Management
 
 1. **Add new pages**
-   - Create Markdown files in `content/ja/`
+   - Create Markdown files in `content/en/` and `content/ja/`
    - Follow the existing content structure
 
 2. **Modify existing content**
-   - Edit files in `content/ja/`
+   - Edit files in `content/en/` and `content/ja/`
    - Use Hugo's front matter for metadata
 
 ### Theme Customization
