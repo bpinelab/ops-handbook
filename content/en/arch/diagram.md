@@ -1,5 +1,5 @@
 ---
-title: IT Service Operation System Configuration
+title: ITOM System Architecture
 description: >
   This document explains the configuration and operation flow of the IT service operation system.
 weight: 1

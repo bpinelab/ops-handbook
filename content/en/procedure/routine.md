@@ -1,77 +1,77 @@
 ---
-title: 定型作業
+title: Routine Tasks
 description: >
-  本ドキュメントは、定型作業の対応方法について説明します。
+  This document explains how to handle routine tasks.
 weight: 2
 ---
 
-## はじめに
-- 本ドキュメントの目的と対象読者（運用担当者）
-- 定型作業の重要性と、本ドキュメントの位置づけ
+## Introduction
+- Purpose of this document and target audience (operations staff)
+- Importance of routine tasks and the role of this document
 
-## 定型作業の概要
-### 作業内容の詳細:
-- 作業の具体的な手順（ステップバイステップで記述）
-- 各ステップにおけるインプット情報とアウトプット情報
-- 使用するツール、システム、帳票など
-- 作業の頻度と実施タイミング
-- 作業時間やリソースに関する目安
-### 関連するドキュメント:
-- 作業手順書、マニュアル、設計書など、参照すべきドキュメントの一覧と場所
-### 担当者と責任:
-- 各作業における担当者または担当部署
-- 責任範囲（作業の実施、品質保証、問題発生時の対応など）
+## Overview of Routine Tasks
+### Task Details:
+- Specific procedures for tasks (described step-by-step)
+- Input and output information for each step
+- Tools, systems, and forms used
+- Frequency and timing of tasks
+- Estimated time and resources required
+### Related Documents:
+- List and locations of documents to be referenced, such as procedures, manuals, and design documents
+### Responsible Personnel and Accountability:
+- Personnel or departments responsible for each task
+- Scope of responsibility (execution, quality assurance, response to issues, etc.)
 
-## 作業の準備
-### 事前準備:
-- 作業開始前に必要な準備（例：データの取得、ツールの起動、帳票の準備など）
-- 準備に必要な時間や注意点
-### 環境の確認:
-- 作業を行う環境（システム、ネットワーク、設備など）の確認方法とチェックリスト
-- 環境に関するトラブルシューティング
+## Preparation for Tasks
+### Pre-Task Preparation:
+- Necessary preparations before starting tasks (e.g., data retrieval, tool startup, form preparation)
+- Time required for preparation and points of caution
+### Environment Check:
+- Methods and checklists for verifying the environment (systems, network, equipment, etc.)
+- Troubleshooting for environmental issues
 
-## 作業の実施
-### 基本的な操作手順:
-- 各ステップの詳細な操作方法（画面ショットや具体的なコマンドを含む）
-- 入力規則、選択肢、注意点など
-- エラーが発生しやすい箇所とその回避方法
-### 例外処理:
-- 通常の処理とは異なる場合の対応手順（エラー発生時、データ不整合時など）
-- 判断が必要な場合の基準とエスカレーションルート
-### 記録と証跡:
-- 作業の実施記録、ログの保存方法、証跡の管理方法
-- 記録すべき情報（日時、担当者、処理件数、結果など）
+## Task Execution
+### Basic Operation Procedures:
+- Detailed operational steps for each procedure (including screenshots and specific commands)
+- Input rules, options, and important notes
+- Common error points and how to avoid them
+### Exception Handling:
+- Procedures for handling deviations from normal operations (errors, data inconsistencies, etc.)
+- Criteria for decision-making and escalation routes
+### Records and Evidence:
+- How to record task execution, save logs, and manage evidence
+- Information to be recorded (date/time, personnel, number of processes, results, etc.)
 
-## 作業の完了
-### 完了条件:
-- 作業が完了したと判断できる基準
-### 完了後の処理:
-- アウトプットの保存場所、報告先、後続作業への連携方法
-- 完了報告の手順と様式
+## Task Completion
+### Completion Criteria:
+- Criteria for determining that tasks are completed
+### Post-Completion Processing:
+- Storage location of outputs, reporting destinations, and linkage to subsequent tasks
+- Procedures and formats for completion reports
 
-## トラブルシューティング
-### よくあるトラブルと対応:
-- 過去に発生したトラブルとその解決策
-- 問い合わせ先（担当者、部署、連絡方法）
-### 緊急時の対応:
-- システム停止、データ破損など、緊急事態発生時の連絡フローと初期対応
-- バックアップからの復旧手順
+## Troubleshooting
+### Common Issues and Solutions:
+- Past issues and how they were resolved
+- Contact information (responsible persons, departments, contact methods)
+### Emergency Response:
+- Response flow and initial actions in emergencies such as system outages or data corruption
+- Recovery procedures from backups
 
-## 運用上の注意点
-### セキュリティ:
-- アクセス権限、パスワード管理、情報漏洩対策など、セキュリティに関する注意点
-### データ管理:
-- データの取り扱い、保管方法、バックアップに関するルール
-### 変更管理:
-- 作業手順や使用ツールに変更があった場合の通知方法と適用ルール
-### その他:
-- 作業時間に関する制約、遵守すべきルールなど
+## Operational Notes
+### Security:
+- Points of caution regarding access rights, password management, and information leakage prevention
+### Data Management:
+- Rules for handling, storing, and backing up data
+### Change Management:
+- Notification methods and rules for applying changes to procedures or tools
+### Others:
+- Time restrictions for tasks and rules to be observed
 
-## 問い合わせ先
-- 作業に関する質問や不明点がある場合の連絡先（担当者名、部署名、電話番号、メールアドレスなど）
+## Contact Information
+- Contact information for questions or uncertainties regarding the tasks (names, departments, phone numbers, email addresses, etc.)
 
-## 付録
-- 用語集
-- 関連資料へのリンク
-- 作業チェックリスト（必要に応じて）
-- 変更履歴
+## Appendix
+- Glossary
+- Links to related materials
+- Task checklist (if needed)
+- Change log

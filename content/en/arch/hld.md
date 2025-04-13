@@ -1,5 +1,5 @@
 ---
-title: IT Service Operation System High-Level Design
+title: High-Level Design
 description: >
   This document explains the high-level design of the IT service operation system.
 weight: 2

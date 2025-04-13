@@ -1,5 +1,5 @@
 ---
-title: IT Service Operation System Detailed Design
+title: Low Level Design
 description: >
   This document explains the detailed design of the IT service operation system.
 weight: 3
