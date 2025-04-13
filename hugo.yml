@@ -5,8 +5,8 @@ title: Ops Handbook
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
 # Language settings
-contentDir: content/ja
-defaultContentLanguage: ja
+contentDir: content/en
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 # Useful when translating.
 enableMissingTranslationPlaceholders: true
@@ -45,13 +45,20 @@ imaging:
 
 # Language configuration
 languages:
-  # en:
-  #   languageName: English
-  #   contentDir: content/en
-  #   title: Ops Handbook
-  #   params:
-  #     description: The DocBase Handbook site
-  # # cSpell:disable
+  en:
+    languageName: English
+    contentDir: content/en
+    title: Ops Handbook
+    params:
+      description: The OpsOps Handbook site
+  # cSpell:disable
+    menu:
+      main:
+        - identifier: 'change-history'
+          name: 'Change Log'
+          url: 'https://github.com/bpinelab/ops-handbook/commits/main'
+          weight: 100
+          pre: "<i class='fas fa-history'></i>"
   ja:
     languageName: 日本語
     contentDir: content/ja
@@ -61,6 +68,13 @@ languages:
       time_format_default: 2006.01.02
       time_format_blog: 2006.01.02
   # cSpell:enable
+    menu:
+      main:
+        - identifier: 'change-history'
+          name: '変更履歴'
+          url: 'https://github.com/bpinelab/ops-handbook/commits/main'
+          weight: 100
+          pre: "<i class='fas fa-history'></i>"
 
 markup:
   goldmark:
@@ -200,10 +214,10 @@ params:
       #   desc: Practical questions and curated answers
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
-      # - name: GitHub
-      #   url: https://github.com/google/docsy
-      #   icon: fab fa-github
-      #   desc: Development takes place here!
+      - name: GitHub
+        url: https://github.com/bpinelab/ops-handbook
+        icon: fab fa-github
+        desc: Development takes place here!
       # - name: Slack
       #   url: https://example.org/slack
       #   icon: fab fa-slack
@@ -214,13 +228,7 @@ params:
       #   desc: Discuss development issues around the project
   terms:
     PJ: 'ops-handbook'
-menu:
-  main:
-    - identifier: 'change-history'
-      name: '変更履歴'
-      url: 'https://github.com/bpinelab/ops-handbook/commits/main'
-      weight: 100
-      pre: "<i class='fas fa-history'></i>"
+
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
