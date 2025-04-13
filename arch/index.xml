@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/arch/</link><description>Recent content in Architecture on Ops Handbook</description><generator>Hugo</generator><language>en</language><atom:link href="https://bpinelab.github.io/ops-handbook/arch/index.xml" rel="self" type="application/rss+xml"/><item><title>IT Service Operation System Configuration</title><link>https://bpinelab.github.io/ops-handbook/arch/diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/diagram/</guid><description>&lt;h2 id="overall-system-configuration-diagram">Overall System Configuration Diagram&lt;a class="td-heading-self-link" href="#overall-system-configuration-diagram" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Ops Handbook</title><link>https://bpinelab.github.io/ops-handbook/arch/</link><description>Recent content in Architecture on Ops Handbook</description><generator>Hugo</generator><language>en</language><atom:link href="https://bpinelab.github.io/ops-handbook/arch/index.xml" rel="self" type="application/rss+xml"/><item><title>ITOM System Architecture</title><link>https://bpinelab.github.io/ops-handbook/arch/diagram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/diagram/</guid><description>&lt;h2 id="overall-system-configuration-diagram">Overall System Configuration Diagram&lt;a class="td-heading-self-link" href="#overall-system-configuration-diagram" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Physical/Logical configuration of service provision environment&lt;/li>
 &lt;li>Dependencies between service components&lt;/li>
 &lt;li>Network segments and security boundaries&lt;/li>
@@ -109,7 +109,7 @@
 &lt;li>Incident management design&lt;/li>
 &lt;li>Problem management design&lt;/li>
 &lt;li>Change management design&lt;/li>
-&lt;/ul></description></item><item><title>IT Service Operation System High-Level Design</title><link>https://bpinelab.github.io/ops-handbook/arch/hld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/hld/</guid><description>&lt;h2 id="system-overview">System Overview&lt;a class="td-heading-self-link" href="#system-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>High-Level Design</title><link>https://bpinelab.github.io/ops-handbook/arch/hld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/hld/</guid><description>&lt;h2 id="system-overview">System Overview&lt;a class="td-heading-self-link" href="#system-overview" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Purpose and scope of service provision&lt;/li>
 &lt;li>Concept of operation automation&lt;/li>
 &lt;li>Overview of major operational functions&lt;/li>
@@ -217,7 +217,7 @@
 &lt;li>Automation expansion plan&lt;/li>
 &lt;li>Security enhancement plan&lt;/li>
 &lt;li>Performance optimization plan&lt;/li>
-&lt;/ul></description></item><item><title>IT Service Operation System Detailed Design</title><link>https://bpinelab.github.io/ops-handbook/arch/lld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/lld/</guid><description>&lt;h2 id="service-component-detailed-design">Service Component Detailed Design&lt;a class="td-heading-self-link" href="#service-component-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
+&lt;/ul></description></item><item><title>Low Level Design</title><link>https://bpinelab.github.io/ops-handbook/arch/lld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/ops-handbook/arch/lld/</guid><description>&lt;h2 id="service-component-detailed-design">Service Component Detailed Design&lt;a class="td-heading-self-link" href="#service-component-detailed-design" aria-label="Heading self-link">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Microservices/Monolith configuration details&lt;/li>
 &lt;li>Inter-component communication design&lt;/li>
 &lt;li>Service discovery implementation details&lt;/li>
